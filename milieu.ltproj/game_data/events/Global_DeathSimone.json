@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathSimone",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Simone'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Simone;FarRight",
+            "s;Simone;I can't go on with these injuries.{w} I'm leaving.",
+            "r;Simone"
+        ],
+        "nid": "Global DeathSimone"
+    }
+]

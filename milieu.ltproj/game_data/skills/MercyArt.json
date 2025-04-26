@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "MercyArt",
+        "name": "Mercy",
+        "desc": "Killing blows leave \nthe target at 1 HP",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            10
+        ],
+        "components": [
+            [
+                "combat_art",
+                "Mercy"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "allowed_weapons",
+                "item_system.weapon_type(unit, item) in ('Axe', 'Sword')"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "House1",
+        "trigger": "Visit",
+        "level_nid": "5",
+        "condition": "region.nid == 'House1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Occurs when a player visits the House1 region",
+            "transition;Close",
+            "change_background;WolfstockHouse",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Colm;FarLeft",
+            "add_portrait;Neimi;MidLeft;mirror",
+            "speak;Colm;Help me!{w}{clear}God, please help me!;;115;;;;;;1",
+            "speak;Neimi;Hold.{w} Still.",
+            "mirror_portrait;Neimi",
+            "speak;Neimi;Uh, ex-CUSE me?{w}{clear}Can't you see I'm a little BUSY?{w}{clear}If you're here to steal something or whatever,{w} just take whatever's on that desk -",
+            "speak;Colm;Please!{w}{clear}You have no idea what this woman is planning!",
+            "speak;Colm;She's -;;;no_block",
+            "wait;500",
+            "mirror_portrait;Neimi",
+            "sound;metalbar",
+            "bop_portrait;Colm;no_block",
+            "remove_portrait;Colm",
+            "mirror_portrait;Neimi",
+            "speak;Neimi;So yeah like I was saying,{w} just take whatever's on the desk,{w} and get out of my -{w} well it's not my house but you know what I mean.",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Neimi",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Tomahawk",
+            "show_layer;house1",
+            "has_attacked;{unit}"
+        ],
+        "nid": "5 House1"
+    }
+]

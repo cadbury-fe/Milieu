@@ -1,0 +1,124 @@
+[
+    {
+        "nid": "Hamsen",
+        "name": "Hamsen",
+        "desc": "Captain of Crucible's royal guard.\nFather of Alice.",
+        "variant": null,
+        "level": 1,
+        "klass": "HamGeneral",
+        "tags": [
+            "Armor"
+        ],
+        "bases": {
+            "HP": 33,
+            "STR": 12,
+            "MAG": 5,
+            "SKL": 20,
+            "SPD": 10,
+            "LCK": 8,
+            "DEF": 14,
+            "RES": 10,
+            "CON": 14,
+            "MOV": 5,
+            "LEAD": 1
+        },
+        "growths": {
+            "HP": 180,
+            "STR": 105,
+            "MAG": 40,
+            "SKL": 100,
+            "SPD": 40,
+            "LCK": 80,
+            "DEF": 90,
+            "RES": 80,
+            "CON": 0,
+            "MOV": 1,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "MOV": 0,
+            "HP": 0,
+            "CON": 0,
+            "STR": 0,
+            "SKL": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPD": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Silver Lance",
+                false
+            ],
+            [
+                "Hand Axe",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "WaryFighter"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71,
+                251
+            ],
+            "Lance": [
+                false,
+                181,
+                251
+            ],
+            "Axe": [
+                false,
+                71,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Hamsen",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

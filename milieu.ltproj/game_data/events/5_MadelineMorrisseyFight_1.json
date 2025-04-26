@@ -1,0 +1,20 @@
+[
+    {
+        "name": "MadelineMorrisseyFight_1",
+        "trigger": "combat_start",
+        "level_nid": "5",
+        "condition": "check_pair('Simone', 'Morrissey')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when Simone faces Morrissey",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Simone;FarRight;Morrissey;FarLeft",
+            "speak;Morrissey;No matter how many times you ask, I'm not going to pay you.",
+            "s;Simone;Keep your money and shove it upwards.",
+            "multi_remove_portrait;Simone;Morrissey"
+        ],
+        "nid": "5 MadelineMorrisseyFight_1"
+    }
+]

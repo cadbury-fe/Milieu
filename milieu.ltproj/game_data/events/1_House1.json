@@ -1,0 +1,36 @@
+[
+    {
+        "name": "House1",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House1'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player visits the region labelled House1",
+            "",
+            "# Pre-scene set-up",
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Villager Man 1;Left",
+            "",
+            "speak;Villager Man 1;I've nothing to give you, unfortunately,{w} but I'm sure if you check - hey, wait!{w}{clear}Don't take that!{w}{clear}Get back here!",
+            "",
+            "# Post-scene clean-up",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Villager Man 1",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};KnightRing",
+            "# Call show_layer to indicate the house is closed",
+            "show_layer;House1",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "1 House1"
+    }
+]

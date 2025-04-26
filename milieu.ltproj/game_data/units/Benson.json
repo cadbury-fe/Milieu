@@ -1,0 +1,120 @@
+[
+    {
+        "nid": "Benson",
+        "name": "Benson",
+        "desc": "A regular farmer.",
+        "variant": null,
+        "level": 1,
+        "klass": "BensonWarrior",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 80,
+            "STR": 30,
+            "MAG": 0,
+            "SKL": 20,
+            "SPD": 18,
+            "LCK": 10,
+            "DEF": 11,
+            "RES": 9,
+            "CON": 16,
+            "MOV": 6,
+            "LEAD": 5
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "MOV": 0,
+            "HP": 0,
+            "CON": 0,
+            "STR": 0,
+            "SKL": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPD": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Brave Bow",
+                false
+            ],
+            [
+                "Battle Axe",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "KeyedRhythm"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                251,
+                251
+            ],
+            "Bow": [
+                false,
+                181,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Benson",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

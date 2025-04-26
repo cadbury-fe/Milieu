@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Stop1",
+        "trigger": "turn_change",
+        "level_nid": "8",
+        "condition": "any_unit_in_region('Point1', team='player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;AboutToStart",
+            "transition;close",
+            "change_background;Bedroom",
+            "multi_add_portrait;Morrissey;Left;Benson;MidRight;Malachy;Right;Farmhand;FarRight",
+            "transition;open;no_block",
+            "speak;Morrissey;I don't know what you want me to do.",
+            "speak;Benson;Surely there's something?",
+            "speak;Morrissey;My forces are depleted.{w} Besides,{w} they're too far away.",
+            "speak;Malachy;She's your own sister and you won't even raise a hand to help her!",
+            "speak;Morrissey;Don't get sanctimonious with me when you don't know the full story.{w}{clear}I won't help them,{w} and that's the end of it,{w} and you can't help them,{w} so just leave.",
+            "speak;Benson;...;;30;;;;;;1",
+            "r;Benson",
+            "r;Malachy",
+            "wait;500",
+            "r;Farmhand",
+            "transition;close;3000",
+            "r;Morrissey",
+            "change_background",
+            "music;PlacesEveryone",
+            "transition;open",
+            "add_weather;rain",
+            ""
+        ],
+        "nid": "8 Stop1"
+    }
+]

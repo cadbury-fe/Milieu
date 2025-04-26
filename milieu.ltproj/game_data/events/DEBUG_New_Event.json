@@ -1,0 +1,36 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "level_start",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "enable_turnwheel;t",
+            "add_portrait;Simone;-54,80;mirror",
+            "speak;Simone;{e:get_units_within_distance(game.get_unit('102').position, 3, None, 'enemy')}",
+            "sound;Map_Step_Mounted1",
+            "wait;30",
+            "sound;Map_Step_Mounted2",
+            "wait;100",
+            "sound;Map_Step_Mounted3",
+            "wait;210",
+            "sound;Map_Step_Mounted1",
+            "wait;30",
+            "sound;Map_Step_Mounted2",
+            "wait;100",
+            "sound;Map_Step_Mounted3",
+            "wait;210",
+            "sound;Map_Step_Mounted1",
+            "wait;30",
+            "sound;Map_Step_Mounted2",
+            "wait;100",
+            "sound;Map_Step_Mounted3",
+            "wait;210",
+            ""
+        ],
+        "nid": "DEBUG New Event"
+    }
+]

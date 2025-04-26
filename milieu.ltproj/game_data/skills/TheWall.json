@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "TheWall",
+        "name": "The Wall",
+        "desc": "If the unit is attacked,\ntarget is stunned",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            3
+        ],
+        "components": [
+            [
+                "event_when_hit",
+                "Global Ability_TheWall"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

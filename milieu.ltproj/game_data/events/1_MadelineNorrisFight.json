@@ -1,0 +1,22 @@
+[
+    {
+        "name": "MadelineNorrisFight",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "check_pair('Madeline', 'Norris')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Dialogue initiated when Norris and Madeline enter a battle.",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Madeline;FarRight;Norris;FarLeft",
+            "speak;Madeline;What is the meaning of this?",
+            "speak;Norris;Far too late to act the innocent now.",
+            "speak;Madeline;Are you seriously going to hurt me?",
+            "speak;Norris;It's for your own good!;;130;;;;;;1",
+            "multi_remove_portrait;Madeline;Norris"
+        ],
+        "nid": "1 MadelineNorrisFight"
+    }
+]

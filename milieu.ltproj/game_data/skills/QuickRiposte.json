@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "QuickRiposte",
+        "name": "Quick Riposte",
+        "desc": "Unit attacks twice when defending",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            2,
+            1
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "attack_speed",
+                9999
+            ],
+            [
+                "combat_condition",
+                "mode == 'defense'"
+            ]
+        ]
+    }
+]

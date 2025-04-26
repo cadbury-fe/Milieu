@@ -1,0 +1,26 @@
+[
+    {
+        "name": "MalachyDefeated",
+        "trigger": "unit_death",
+        "level_nid": "4",
+        "condition": "unit.nid == 'Malachy'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Malachy;FarRight",
+            "s;Malachy;No!;;40;;;;;;1",
+            "wait;500",
+            "expression;Malachy;CloseEyes",
+            "wait;500",
+            "r;Malachy",
+            "wait;200",
+            "if;game.game_vars.get('_current_turnwheel_uses', 0) > 0",
+            "activate_turnwheel",
+            "else",
+            "lose_game",
+            "end"
+        ],
+        "nid": "4 MalachyDefeated"
+    }
+]

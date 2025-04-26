@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathCindy",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Cindy'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Cindy;FarRight",
+            "s;Cindy;Simone!{w} I have to leave!{w} Don't do anything reckless!",
+            "r;Cindy"
+        ],
+        "nid": "Global DeathCindy"
+    }
+]

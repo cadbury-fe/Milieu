@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "PeaceOfMind",
+        "name": "Peace Of Mind",
+        "desc": "Unit's Magic is multiplied by 2 if there\nare no allies within 3 tiles",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            7
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MAG",
+                        2.0
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "len(get_units_within_distance(unit.position, 3, None, 'enemy')) == 1"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

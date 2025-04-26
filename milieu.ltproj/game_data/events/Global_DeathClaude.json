@@ -1,0 +1,30 @@
+[
+    {
+        "name": "DeathClaude",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Claude'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Claude;FarRight",
+            "s;Claude;Oh...{w} Claudia...",
+            "wait;500",
+            "expression;Claude;CloseEyes",
+            "wait;500",
+            "r;Claude",
+            "wait;200",
+            "choice;ActivateTurnwheel;Activate Turnwheel?;Yes,No",
+            "if;game.game_vars.get('_current_turnwheel_uses', 0) > 0 and '{v:ActivateTurnwheel}' == 'Yes'",
+            "activate_turnwheel",
+            "elif;game.game_vars.get('_current_turnwheel_uses', 0) == 0",
+            "alert;You are out of turnwheel charges!",
+            "lose_game",
+            "else",
+            "lose_game",
+            "end"
+        ],
+        "nid": "Global DeathClaude"
+    }
+]

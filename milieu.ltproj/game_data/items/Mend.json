@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Mend",
+        "name": "Mend",
+        "desc": "Restores a moderate amount of HP",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "value",
+                1000
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "exp",
+                25
+            ],
+            [
+                "wexp",
+                12
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "heal",
+                20
+            ]
+        ]
+    }
+]

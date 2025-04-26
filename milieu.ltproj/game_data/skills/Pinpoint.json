@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Pinpoint",
+        "name": "Pinpoint",
+        "desc": "Attacks ignore enemy defense",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            9
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "combat_calcs.defense(unit, target, None, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

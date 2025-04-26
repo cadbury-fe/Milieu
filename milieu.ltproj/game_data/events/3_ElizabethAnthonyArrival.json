@@ -1,0 +1,29 @@
+[
+    {
+        "name": "ElizabethAnthonyArrival",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Occurs at the start of Turn 4",
+            "music;WildPokemonBattle-PokemonRanger",
+            "add_unit;Elizabeth;0,21;immediate;closest;south;no_warn",
+            "move_unit;Elizabeth;5,19;normal;closest;60",
+            "add_unit;Anthony;4,19;fade;push;west;no_warn",
+            "multi_add_portrait;Anthony;OffscreenLeft;Elizabeth;OffscreenLeft",
+            "move_portrait;Anthony;MidLeft;no_block",
+            "move_portrait;Elizabeth;FarLeft",
+            "speak;Anthony;Elizabeth, can you make it to Marcel and Alice?",
+            "move_portrait;Anthony;MidRight;1.0;no_block",
+            "mirror_portrait;Anthony;no_block",
+            "speak;Elizabeth;Will you be alright?;;115;;;;;;1",
+            "speak;Anthony;I'll be fine.;;70;;;;;;1",
+            "multi_remove_portrait;Elizabeth;Anthony",
+            "move_unit;Anthony;3,19;;;60"
+        ],
+        "nid": "3 ElizabethAnthonyArrival"
+    }
+]

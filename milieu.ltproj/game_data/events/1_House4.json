@@ -1,0 +1,34 @@
+[
+    {
+        "name": "House4",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House4'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player visits the region labelled House4",
+            "",
+            "# Set-up",
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Tease;Left",
+            "",
+            "speak;Tease;Apologies,{w} but I'm not set up yet.{w}{clear}Sorry if I got your hopes up.{w}{clear}I know the sign says 'Minigame Emporium',{w} but I haven't actually got started on any of them yet.{w}{clear}There's too much work to do -{w} or rather,{w} there's a moderate amount of work to do,{w} that I don't particularly want to complete.{w}{clear}Sorry for getting your hopes up -{w} well, I'm not really sorry,{w} I don't really care,{w} I'm just saying it to be polite.{w}{clear}Regardless, I do feel a sense of responsibility to leave a good impression,{w} so I will grant you this gift,{w} as a token of rememberance.",
+            "",
+            "# Clean-up",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Tease",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Shine",
+            "show_layer;House4",
+            "has_attacked;{unit}"
+        ],
+        "nid": "1 House4"
+    }
+]

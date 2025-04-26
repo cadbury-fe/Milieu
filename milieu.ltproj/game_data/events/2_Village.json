@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Village",
+        "trigger": "Visit",
+        "level_nid": "2",
+        "condition": "region.nid == 'Village'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player visits the region labelled Village",
+            "transition;Close",
+            "change_background;VillageGate",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Vanessa;Left",
+            "speak;Vanessa;That man outside the village?{w}{clear}He's Snyder.{w}{clear}A complicated personality would be one way of putting it.{w}{clear}Paedophile would be another.{w}{clear}Mind you, he's never been caught doing anything -{w} yet -{w} but trust me,{w} you do not want to see what's inside his house.{w}{clear}Do us all a favour.{w}{clear}This should do the job.",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Vanessa",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Headwrecker",
+            "show_layer;villageclosed",
+            "has_attacked;{unit}"
+        ],
+        "nid": "2 Village"
+    }
+]

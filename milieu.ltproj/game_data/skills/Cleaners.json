@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Cleaners",
+        "name": "Cleaners",
+        "desc": "Multiplies EXP given",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "enemy_exp_multiplier",
+                5.0
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

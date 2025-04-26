@@ -1,0 +1,123 @@
+[
+    {
+        "nid": "Anthony",
+        "name": "Anthony",
+        "desc": "Heir to the throne of Crucible.",
+        "variant": null,
+        "level": 1,
+        "klass": "Anthony_Lord",
+        "tags": [
+            "Lord",
+            "Required",
+            "Convoy",
+            "AdjConvoy"
+        ],
+        "bases": {
+            "HP": 30,
+            "STR": 9,
+            "MAG": 1,
+            "SKL": 7,
+            "SPD": 7,
+            "LCK": 8,
+            "DEF": 7,
+            "RES": 2,
+            "CON": 9,
+            "MOV": 5,
+            "LEAD": 1
+        },
+        "growths": {
+            "HP": 100,
+            "STR": 80,
+            "MAG": 40,
+            "SKL": 70,
+            "SPD": 55,
+            "LCK": 70,
+            "DEF": 55,
+            "RES": 50,
+            "CON": 0,
+            "MOV": 3,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "MOV": 0,
+            "HP": 0,
+            "CON": 0,
+            "STR": 0,
+            "SKL": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPD": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Triplication",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "EqualFooting"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                1,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Anthony",
+        "affinity": "Light",
+        "fields": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "HighRoller",
+        "name": "High Roller",
+        "desc": "Unit's accuracy is halved, but\nwill always critically hit",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            12
+        ],
+        "components": [
+            [
+                "crit",
+                9999
+            ],
+            [
+                "dynamic_accuracy",
+                "-(combat_calcs.accuracy(unit, unit.get_weapon())//2)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SuperiorityComplex",
+        "name": "Superiority Complex",
+        "desc": "Unit's Magic minus target's\nMagic is added to damage",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "game.get_unit(unit.nid).get_stat('MAG') - game.get_unit(target.nid).get_stat('MAG')"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

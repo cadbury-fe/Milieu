@@ -1,0 +1,224 @@
+[
+    {
+        "nid": "Affinity",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Anima",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Axe",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Boosters",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Bow",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Consumable",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Dark",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Lance",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Light",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Neutral",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Skills",
+        "subicon_dict": {
+            "Skills 2, 9": [
+                2,
+                9
+            ],
+            "Skills 6, 0": [
+                6,
+                0
+            ],
+            "Skills 6, 3": [
+                6,
+                3
+            ],
+            "Skills 7, 0": [
+                7,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Staff",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Sword",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Valuable",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "wexp_icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{EldritchA, Indogutsu Tenbuki} (Tactics Ogre) Sword 20",
+        "subicon_dict": {
+            "Propitiation": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Staff_1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Axe_1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Crystal Axe",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{2WB} (Icon Blitz 1) Imperial Axe2",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Batima} Arcfire",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{CamTech075} (Pack 1) icon 011",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{2WB} (Icon Blitz 1) Durandal (Ablaze)",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{2WB} (Icon Blitz 1) Imperial Blade1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Batima} Resire",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (ArchaneaIconProject) tile107",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Celice} Lance10",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{GabrielKnight} (Icon Blitz 3) Lance",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Zelix} icon 050",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Beansy} Blood Mace",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{EldritchA, Indogutsu Tenbuki} (Tactics Ogre) Staff 6",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Batima} Staff of the Saint (FEH)",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{GabrielKnight} (Icon Blitz 3) Lance_1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Zelix} [WEP] FE13-FE14 Pack",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "16x16-icons-free-download_18991",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} {ArchaneaIconProject} 2019",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "tactics_ogre",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Skills_1",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (FE10 Affinity-WLVL) Icon 012",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (FE10 Affinity-WLVL) Icon 013",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (FE10 Affinity-WLVL) Icon 014",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (FE10 Affinity-WLVL) Icon 015",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (FE10 Affinity-WLVL) Icon 031",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (FE10 Affinity-WLVL) Icon 026",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (FE10 Affinity-WLVL) Icon 025",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (FE10 Affinity-WLVL) Icon 027",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{LordGlenn} (FE10 Affinity-WLVL) Icon 033",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{Alice} Fists",
+        "subicon_dict": {}
+    }
+]

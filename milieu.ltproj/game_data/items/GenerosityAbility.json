@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "GenerosityAbility",
+        "name": "GenerosityAbility",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ally_equation_blast_aoe",
+                "GENEROSITY"
+            ]
+        ]
+    }
+]

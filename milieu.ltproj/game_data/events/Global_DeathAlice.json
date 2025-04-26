@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathAlice",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Alice'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Alice;FarRight",
+            "s;Alice;Sorry, I have to withdraw.",
+            "r;Alice"
+        ],
+        "nid": "Global DeathAlice"
+    }
+]

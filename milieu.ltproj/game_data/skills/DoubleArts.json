@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "DoubleArts",
+        "name": "Double Arts",
+        "desc": "Halves damage taken and doubles damage\ndealt when unit is next to Marcel",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            2
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "condition",
+                "any(ally for ally in target_system.get_adj_units(game.get_unit(unit.nid)) if ally.nid == 'Marcel')"
+            ],
+            [
+                "damage_multiplier",
+                2.0
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

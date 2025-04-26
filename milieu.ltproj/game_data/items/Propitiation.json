@@ -1,0 +1,72 @@
+[
+    {
+        "nid": "Propitiation",
+        "name": "Propitiation",
+        "desc": "Prevents enemy counterattacks on player phase.\nUses Magic at long range",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} (Tactics Ogre) Sword 20",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "cannot_be_countered",
+                null
+            ],
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                15
+            ],
+            [
+                "hit",
+                200
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                1
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Marcel"
+                ]
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "locked",
+                null
+            ]
+        ]
+    }
+]

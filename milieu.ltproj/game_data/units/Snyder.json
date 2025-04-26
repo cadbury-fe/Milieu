@@ -1,0 +1,124 @@
+[
+    {
+        "nid": "Snyder",
+        "name": "Snyder",
+        "desc": "Mercenary hired by Malachy.",
+        "variant": null,
+        "level": 1,
+        "klass": "SnyderMage",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 43,
+            "STR": 0,
+            "MAG": 18,
+            "SKL": 8,
+            "SPD": 12,
+            "LCK": 3,
+            "DEF": 8,
+            "RES": 6,
+            "CON": 7,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 110,
+            "STR": 40,
+            "MAG": 45,
+            "SKL": 75,
+            "SPD": 80,
+            "LCK": 90,
+            "DEF": 70,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 1,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "MOV": 0,
+            "HP": 0,
+            "CON": 0,
+            "STR": 0,
+            "SKL": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPD": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Lightning",
+                false
+            ],
+            [
+                "Flux",
+                false
+            ],
+            [
+                "Fire",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "SuperiorityComplex"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                1,
+                251
+            ],
+            "Anima": [
+                false,
+                31,
+                251
+            ],
+            "Dark": [
+                false,
+                121,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Snyder",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

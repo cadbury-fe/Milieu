@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Provoke",
+        "name": "Provoke",
+        "desc": "Enemies are drawn to attacking this unit",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            4,
+            17
+        ],
+        "components": [
+            [
+                "modify_ai_priority",
+                99.0
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

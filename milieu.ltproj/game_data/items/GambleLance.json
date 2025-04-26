@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "GambleLance",
+        "name": "Gamble Lance",
+        "desc": "",
+        "icon_nid": "{LordGlenn} All Icons LordGlenn Pack 1",
+        "icon_index": [
+            22,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                420
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                20
+            ],
+            [
+                "crit",
+                100
+            ],
+            [
+                "weight",
+                4
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ]
+        ]
+    }
+]

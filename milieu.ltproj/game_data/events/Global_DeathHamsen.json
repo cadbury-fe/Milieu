@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathHamsen",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Hamsen'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Hamsen;FarRight",
+            "s;Hamsen;Apologies, I must withdraw.",
+            "r;Hamsen"
+        ],
+        "nid": "Global DeathHamsen"
+    }
+]

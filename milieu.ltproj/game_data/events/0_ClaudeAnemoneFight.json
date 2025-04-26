@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ClaudeAnemoneFight",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Anemone', 'Claude')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Dialogue initiated when Anemone and Claude enter a battle.",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Claude;FarRight;Anemone;FarLeft",
+            "speak;Claude;What are you here for?;;131;;;;;;1",
+            "speak;Anemone;Why do you ask?;;100;;;;;;1",
+            "multi_remove_portrait;Claude;Anemone"
+        ],
+        "nid": "0 ClaudeAnemoneFight"
+    }
+]

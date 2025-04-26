@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Opportunist",
+        "name": "Opportunist",
+        "desc": "Triples damage dealt if the target\ncannot counterattack",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            5
+        ],
+        "components": [
+            [
+                "dynamic_damage_multiplier",
+                "3 if not (combat_calcs.can_counterattack(unit, unit.get_weapon(), target, target.get_weapon())) else 1"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

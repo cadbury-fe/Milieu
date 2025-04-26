@@ -1,0 +1,28 @@
+[
+    {
+        "name": "ElizabethSimoneTalk",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Elizabeth', 'Simone')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when Elizabeth uses the Talk command when next to Simone.",
+            "multi_add_portrait;Elizabeth;OffscreenLeft;Simone;MidRight",
+            "s;Simone;Time to go.;;75;;;;;;1",
+            "mirror_portrait;Simone",
+            "move_portrait;Simone;OffscreenRight;no_block",
+            "r;Simone",
+            "move_unit;Simone;29,5;normal;closest;60",
+            "remove_unit;Simone;immediate",
+            "move_portrait;Elizabeth;MidLeft",
+            "speak;Elizabeth;She dropped something.;;130;;;;;;1",
+            "give_item;Elizabeth;Angelic Robe",
+            "r;Elizabeth",
+            "remove_talk;Elizabeth;Simone",
+            "remove_item;Simone;Angelic Robe;no_banner"
+        ],
+        "nid": "1 ElizabethSimoneTalk"
+    }
+]

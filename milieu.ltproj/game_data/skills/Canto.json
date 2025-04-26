@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Canto",
+        "name": "Canto",
+        "desc": "Can move again after trading,\nusing an item, or visiting a house",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "canto",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Faithchild",
+        "name": "Faith",
+        "desc": "Faith child",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        10
+                    ]
+                ]
+            ]
+        ]
+    }
+]

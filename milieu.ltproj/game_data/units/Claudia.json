@@ -1,0 +1,116 @@
+[
+    {
+        "nid": "Claudia",
+        "name": "Claudia",
+        "desc": "Amateur healer.\nSister of Claude.",
+        "variant": null,
+        "level": 1,
+        "klass": "Claudia_Cleric",
+        "tags": [
+            "Required"
+        ],
+        "bases": {
+            "HP": 18,
+            "STR": 2,
+            "MAG": 2,
+            "SKL": 1,
+            "SPD": 6,
+            "LCK": 18,
+            "DEF": 0,
+            "RES": 12,
+            "CON": 4,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 120,
+            "STR": 100,
+            "MAG": 220,
+            "SKL": 240,
+            "SPD": 80,
+            "LCK": 140,
+            "DEF": 40,
+            "RES": 140,
+            "CON": 0,
+            "MOV": 10,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "MOV": 100,
+            "HP": 0,
+            "CON": 0,
+            "STR": 0,
+            "SKL": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPD": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "ReMove",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Powerstaff"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                1,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Claudia",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

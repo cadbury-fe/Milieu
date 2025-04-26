@@ -1,0 +1,23 @@
+[
+    {
+        "name": "AliceHamsenTalk",
+        "trigger": "on_talk",
+        "level_nid": "6",
+        "condition": "check_pair('Alice', 'Hamsen')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when Alice talks to Hamsen.",
+            "multi_add_portrait;Alice;MidLeft;Hamsen;MidRight",
+            "speak;Alice;Sir -{w} father,{w} who are those two magicians,{w} and how do the two princes know them?",
+            "speak;Hamsen;Claude and Claudia?{w}{clear}Their Father -{w} the twins' father -{w} his name,{w} for some reason,{w} escapes me...{w} anyway, he was an aristocrat,{w} one of the more influential members of the aristocracy,{w} and good friends with King Gustave.{w}{clear}They would visit each other often just out of pleasure,{w} to discuss -{w} well I'm not quite sure. Doubtless something important.{w}{clear}I had just been made head of the Royal Guard,{w} so I was able to witness their first meeting.{w}{clear}In that usual sociable sort of way kids are at that age,{w} they quickly struck up a friendship. And now, they're here.{w}{clear}Though I'm not sure why.{w}{clear}I'll ask Anthony.",
+            "end_skip",
+            "speak;Alice;Don't worry about it.{w}{clear}Thank you.;;115;;;;;;1",
+            "multi_remove_portrait;Alice;Hamsen",
+            "remove_talk;Alice;Hamsen",
+            ""
+        ],
+        "nid": "6 AliceHamsenTalk"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Alacrity",
+        "name": "Alacrity",
+        "desc": "Unit executes all their attacks immediately",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            0,
+            15
+        ],
+        "components": [
+            [
+                "desperation",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

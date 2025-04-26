@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BNC",
+        "name": "BNC",
+        "desc": "Bad News Child.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "upkeep_damage",
+                15
+            ]
+        ]
+    }
+]

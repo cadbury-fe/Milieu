@@ -1,0 +1,16 @@
+[
+    {
+        "name": "DefeatNorris",
+        "trigger": "combat_end",
+        "level_nid": "1",
+        "condition": "game.check_dead(\"Norris\")",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Occurs when Norris is defeated",
+            "win_game"
+        ],
+        "nid": "1 DefeatNorris"
+    }
+]

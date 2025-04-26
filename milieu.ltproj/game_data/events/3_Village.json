@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Village",
+        "trigger": "Visit",
+        "level_nid": "3",
+        "condition": "region.nid == 'Village'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player visits the region marked Village ",
+            "transition;Close",
+            "change_background;Village",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Innes;Left",
+            "",
+            "speak;Innes;Nostalgia for a time of blissful ignorance is a mistaken concept entirely.{w}{clear}The pleasure comes not from your past ignorance,{w} but from your present knowledge,{w} which exceeds that of your ignorant past.{w}{clear}Take this bow.",
+            "",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Innes",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Steel Bow",
+            "show_layer;villageclosed",
+            "has_attacked;{unit}"
+        ],
+        "nid": "3 Village"
+    }
+]

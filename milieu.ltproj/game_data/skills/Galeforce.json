@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Galeforce",
+        "name": "Galeforce",
+        "desc": "Defeat an enemy, gain another action. Works once per turn",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            4
+        ],
+        "components": [
+            [
+                "galeforce",
+                null
+            ],
+            [
+                "charges_per_turn",
+                1
+            ],
+            [
+                "global",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

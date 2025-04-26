@@ -1,0 +1,102 @@
+[
+    {
+        "nid": "Soldier",
+        "name": "Soldier",
+        "desc": "A member of the army of Setanta.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Bandit",
+        "name": "Bandit",
+        "desc": "A member of Malachy's bandit group.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Militiaman",
+        "name": "Militiaman",
+        "desc": "Amateur soldier responsible for protecting their local village.",
+        "icon_nid": "NeutralEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wall",
+        "name": "Wall",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Cultist",
+        "name": "Cultist",
+        "desc": "A member of the cult of Emanon",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Bridge",
+        "name": "Bridge",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Snag",
+        "name": "Snag",
+        "desc": "Schnagg",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Mercenary",
+        "name": "Mercenary",
+        "desc": "A member of the Mercenary Union.",
+        "icon_nid": "EmpireEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Farmer",
+        "name": "Farmer",
+        "desc": "A member of Benson's farming community.",
+        "icon_nid": "ConfederacyEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Thief",
+        "name": "Thief",
+        "desc": "Solitary ruffians who pilfer villages.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    }
+]

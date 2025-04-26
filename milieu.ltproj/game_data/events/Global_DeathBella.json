@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathBella",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Bella'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Bella;FarRight",
+            "s;Bella;Apologies everyone, I have to withdraw.",
+            "r;Bella"
+        ],
+        "nid": "Global DeathBella"
+    }
+]

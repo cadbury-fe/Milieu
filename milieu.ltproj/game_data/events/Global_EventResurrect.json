@@ -1,0 +1,24 @@
+[
+    {
+        "name": "EventResurrect",
+        "trigger": "level_end",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 99,
+        "_source": [
+            "# for post-battle event scripts to work as intended.",
+            "# there is probably a better way to do this",
+            "resurrect;Hamsen;no_warn",
+            "resurrect;James;no_warn",
+            "resurrect;Elizabeth;no_warn",
+            "resurrect;Bella;no_warn",
+            "resurrect;Alice;no_warn",
+            "resurrect;Simone;no_warn",
+            "resurrect;Cindy;no_warn",
+            "resurrect;Brutus;no_warn"
+        ],
+        "nid": "Global EventResurrect"
+    }
+]

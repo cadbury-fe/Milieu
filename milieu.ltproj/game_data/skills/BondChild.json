@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BondChild",
+        "name": "BondChild",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            7
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "upkeep_damage",
+                -20
+            ]
+        ]
+    }
+]

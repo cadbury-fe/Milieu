@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Village",
+        "trigger": "Visit",
+        "level_nid": "4",
+        "condition": "region.nid == 'Village'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player visits the region marked Village",
+            "transition;Close",
+            "change_background;Village",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Garcia;Left",
+            "speak;Garcia;Oh my God.{w}{clear}Look at your feet.{w}{clear}Jesus Christ.{w}{clear}I thought you guys were supposed to be rich!{w}{clear}I swear,{w} I haven't felt this much pity since the time I trampled the neighbour's dog.{w}{clear}That sort of psychological damage is not something a horse can recover from.{w}{clear}For the love of God,{w} please take these boots.{w}{clear}Please!",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Garcia",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Swiftsole",
+            "show_layer;villageclosed",
+            "has_attacked;{unit}"
+        ],
+        "nid": "4 Village"
+    }
+]

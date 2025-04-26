@@ -1,0 +1,22 @@
+[
+    {
+        "name": "IanClaudeFight",
+        "trigger": "combat_start",
+        "level_nid": "7",
+        "condition": "check_pair('Ian', 'Claude')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player fights Ian.",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Ian;FarLeft;Claude;FarRight",
+            "speak;Ian;Oh Jesus.;;65;;;;;;1",
+            "speak;Claude;I'm not Jesus, unfortunately.",
+            "speak;Ian;Would you care for crucifixion?",
+            "speak;Claude;Would you?",
+            "multi_remove_portrait;Ian;Claude"
+        ],
+        "nid": "7 IanClaudeFight"
+    }
+]

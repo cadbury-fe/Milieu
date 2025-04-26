@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn5Reinforcements",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_group;Turn5;26,24;immediate;closest",
+            "move_group;Turn5;Turn5;normal;closest",
+            ""
+        ],
+        "nid": "1 Turn5Reinforcements"
+    }
+]

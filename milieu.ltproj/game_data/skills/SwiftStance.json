@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SwiftStance",
+        "name": "Swift Stance",
+        "desc": "Unit cannot be doubled",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            7
+        ],
+        "components": [
+            [
+                "skill_before_combat",
+                {
+                    "skill": "SwiftStanceReceive",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

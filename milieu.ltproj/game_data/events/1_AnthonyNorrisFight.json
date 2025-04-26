@@ -1,0 +1,22 @@
+[
+    {
+        "name": "AnthonyNorrisFight",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "check_pair('Anthony', 'Norris')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Dialogue initiated when Norris and Anthony enter a battle.",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Anthony;FarRight;Norris;FarLeft",
+            "speak;Anthony;Why are you here?;;110;;;;;;1",
+            "speak;Norris;A battlefield is not the place for conversation, war-mongrel.",
+            "speak;Anthony;\"War-mongrel.\"{w}{clear}That's very clever, Norris.",
+            "speak;Norris;Sh-shut up!;;75;;;;;;1",
+            "multi_remove_portrait;Anthony;Norris"
+        ],
+        "nid": "1 AnthonyNorrisFight"
+    }
+]

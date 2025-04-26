@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathJames",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'James'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;James;FarRight",
+            "s;James;Consider a career in buying lottery tickets.",
+            "r;James"
+        ],
+        "nid": "Global DeathJames"
+    }
+]

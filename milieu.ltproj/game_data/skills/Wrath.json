@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Wrath",
+        "name": "Wrath",
+        "desc": "Unit always critically hits when \nbelow half health",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            6
+        ],
+        "components": [
+            [
+                "condition",
+                "game.get_unit(unit.nid).get_hp() <= (game.get_unit(unit.nid).get_max_hp() // 2)"
+            ],
+            [
+                "crit",
+                999
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

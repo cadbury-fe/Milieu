@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Vantage",
+        "name": "Vantage",
+        "desc": "Unit always attacks first",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            2,
+            15
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "vantage",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "SpiritedDefense",
+        "name": "Spirited Defense",
+        "desc": "For each attack taken, unit counterattacks",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            5,
+            5
+        ],
+        "components": [
+            [
+                "event_when_hit",
+                "Global Ability_CounterGained"
+            ],
+            [
+                "dynamic_multiattacks",
+                "item_funcs.num_stacks(unit, \"CounterNumber\")"
+            ],
+            [
+                "event_after_strike",
+                "Global Ability_CounterLost"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

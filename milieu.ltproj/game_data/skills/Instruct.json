@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Instruct",
+        "name": "Instruct",
+        "desc": "Doubles Magic, Resistance, Skill \nto allies within 3 spaces",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "aura",
+                "Instructchild"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

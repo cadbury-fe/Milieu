@@ -1,0 +1,29 @@
+[
+    {
+        "name": "House2",
+        "trigger": "Visit",
+        "level_nid": "5",
+        "condition": "region.nid == 'House2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Occurs when a player visits the House2 region",
+            "transition;Close",
+            "change_background;WolfstockHouse",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Artur;Left",
+            "speak;Artur;Hello.{w}{clear}You must be one of those Crucibellians I've heard about.{w}{clear}Can't say I speak for everyone,{w} but I don't really see what the big deal is.{w}{clear}You're people like us,{w} just from a different country.{w}{clear}Trite to say so, I know,{w} but it's true.{w}{clear}Here, I have something that could help you.{w}{clear}Remember me by it.",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Artur",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Resire",
+            "show_layer;house2",
+            "has_attacked;{unit}"
+        ],
+        "nid": "5 House2"
+    }
+]

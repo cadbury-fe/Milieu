@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Determination",
+        "name": "Determination",
+        "desc": "Unit survives any attack\nif HP is above 1",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            2
+        ],
+        "components": [
+            [
+                "TrueMiracle",
+                null
+            ],
+            [
+                "condition",
+                "game.get_unit(unit.nid).get_hp() > 1"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

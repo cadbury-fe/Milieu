@@ -1,0 +1,21 @@
+[
+    {
+        "name": "AnthonyMorrisseyFight",
+        "trigger": "combat_start",
+        "level_nid": "5",
+        "condition": "check_pair('Anthony', 'Morrissey')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when Anthony faces Morrissey",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Anthony;FarRight;Morrissey;FarLeft",
+            "speak;Anthony;I've nothing to say to you.",
+            "wait;500",
+            "speak;Morrissey;Then why are you speaking?",
+            "multi_remove_portrait;Anthony;Morrissey"
+        ],
+        "nid": "5 AnthonyMorrisseyFight"
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "nid": "Mulligan",
+        "name": "Mulligan",
+        "desc": "Homemade axe made by Malachy.\nAdds weight",
+        "icon_nid": "{2WB} (Icon Blitz 1) Imperial Axe2",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                87
+            ],
+            [
+                "weight",
+                7
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "weapon_rank",
+                "C"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Horse"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "CON",
+                        20
+                    ]
+                ]
+            ]
+        ]
+    }
+]

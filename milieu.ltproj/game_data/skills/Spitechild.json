@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Spitechild",
+        "name": "Spite",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            3
+        ],
+        "components": [
+            [
+                "avoid",
+                -30
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "LCK",
+                        -10
+                    ]
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

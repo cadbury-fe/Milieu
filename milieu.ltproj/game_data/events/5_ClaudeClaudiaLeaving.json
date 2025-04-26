@@ -1,0 +1,29 @@
+[
+    {
+        "name": "ClaudeClaudiaLeaving",
+        "trigger": "Escape",
+        "level_nid": "5",
+        "condition": "region.nid == 'Escape'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs either at the end of the chapter, or when Claude or Claudia trigger the escape tile",
+            "move_unit;Claude;1,18;normal;closest;60;no_block",
+            "move_unit;Claudia;2,18;normal;closest;60",
+            "multi_add_portrait;Claude;MidLeft;Claudia;MidRight",
+            "speak;Claude;What are you waiting for, Claudia?",
+            "speak;Claudia;But shouldn't we -;;110;;;;;;1",
+            "mirror_portrait;Claude;no_block",
+            "move_portrait;Claude;OffscreenLeft;no_block",
+            "speak;Claude;Come on!;;65;;;;;;1",
+            "move_unit;Claude;0,18;normal;stack;60",
+            "remove_unit;Claude;immediate;west",
+            "multi_remove_portrait;Claude;Claudia",
+            "move_unit;Claudia;0,18;normal;stack;60",
+            "remove_unit;Claude;immediate;west",
+            "remove_unit;Claudia;immediate;west"
+        ],
+        "nid": "5 ClaudeClaudiaLeaving"
+    }
+]

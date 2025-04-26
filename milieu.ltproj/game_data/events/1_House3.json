@@ -1,0 +1,34 @@
+[
+    {
+        "name": "House3",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House3'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player visits the region labelled House3",
+            "",
+            "# Set-up",
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Eirika;Left",
+            "",
+            "speak;Eirika;My boyfriend's so amazing.{w}{clear}He's so stoic and strong.{w}{clear}He eats chamomile tea and drinks pancake syrup.{w}{clear}He is the rock that puts me in a hard place.{w}{clear}So sorry,{w} I won't go out on a date with you,{w} but you can take this as compensation.",
+            "",
+            "# Clean-up",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Eirika",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Elixir",
+            "show_layer;House3",
+            "has_attacked;{unit}"
+        ],
+        "nid": "1 House3"
+    }
+]

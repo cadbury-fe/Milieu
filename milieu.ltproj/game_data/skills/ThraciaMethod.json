@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ThraciaMethod",
+        "name": "Thracia Method",
+        "desc": "Follow-up attacks multiply\ncritical hit chance by 10",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            10
+        ],
+        "components": [
+            [
+                "pcc_static",
+                10.0
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

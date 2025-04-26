@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Instructchild",
+        "name": "Instruct",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            4
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MAG",
+                        2.0
+                    ],
+                    [
+                        "RES",
+                        2.0
+                    ],
+                    [
+                        "SKL",
+                        2.0
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CoverDrive",
+        "name": "Cover Drive",
+        "desc": "Halves damage taken when initiating combat",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            6
+        ],
+        "components": [
+            [
+                "condition",
+                "game.phase.get_current() == unit.team"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ]
+        ]
+    }
+]

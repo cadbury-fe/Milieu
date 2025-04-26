@@ -1,0 +1,22 @@
+[
+    {
+        "name": "AnthonyMarcelTalk",
+        "trigger": "on_talk",
+        "level_nid": "1",
+        "condition": "check_pair('Anthony', 'Marcel')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Dialogue initiated when Anthony or Marcel use the Talk command when next to each other.",
+            "multi_add_portrait;Marcel;MidLeft;Anthony;MidRight",
+            "s;Marcel;Here.;;45;;;;;;1",
+            "s;Anthony;Thanks.;;60;;;;;;1",
+            "give_item;Anthony;Vulnerary",
+            "multi_remove_portrait;Anthony;Marcel",
+            "remove_talk;Marcel;Anthony",
+            "remove_talk;Anthony;Marcel"
+        ],
+        "nid": "1 AnthonyMarcelTalk"
+    }
+]

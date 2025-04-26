@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathCecelia",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Cecelia'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Cecelia;FarRight",
+            "s;Cecelia;Not cool dude!",
+            "r;Cecelia"
+        ],
+        "nid": "Global DeathCecelia"
+    }
+]

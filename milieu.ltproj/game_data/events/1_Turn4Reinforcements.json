@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn4Reinforcements",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_group;Turn4;0,12;immediate;closest",
+            "move_group;Turn4;Turn4;normal;closest",
+            ""
+        ],
+        "nid": "1 Turn4Reinforcements"
+    }
+]

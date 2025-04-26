@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Ability_Patience",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'HasAttacked' in [skill.nid for skill in game.get_unit('{unit}').skills]",
+            "    remove_skill;{unit};HasAttacked;no_banner",
+            "    remove_skill;{unit};PatienceStack;no_banner",
+            "else",
+            "    add_skill;{unit};PatienceStack;;no_banner",
+            "end",
+            ""
+        ],
+        "nid": "Global Ability_Patience"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "SnyderEncounter",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "(unit.nid == 'Snyder' and unit2.team == 'player') or (unit.team == 'player' and unit2.nid == 'Snyder')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player enters a battle against Snyder",
+            "music;DeafToAllButTheSong",
+            "add_portrait;Snyder;Left",
+            "speak;Snyder;Oh no.;;50;;;;;;1",
+            "r;Snyder"
+        ],
+        "nid": "2 SnyderEncounter"
+    }
+]

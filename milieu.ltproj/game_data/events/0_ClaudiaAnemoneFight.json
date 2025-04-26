@@ -1,0 +1,19 @@
+[
+    {
+        "name": "ClaudiaAnemoneFight",
+        "trigger": "combat_start",
+        "level_nid": "0",
+        "condition": "check_pair('Anemone', 'Claudia')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Dialogue initiated when Anemone and Claudia enter a battle.",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Claudia;FarRight;Anemone;FarLeft",
+            "speak;Claudia;Stay away from me!;;115;;;;;;1",
+            "multi_remove_portrait;Claudia;Anemone"
+        ],
+        "nid": "0 ClaudiaAnemoneFight"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "SwiftStanceReceive",
+        "name": "Swift Stance",
+        "desc": "Unit cannot be doubled",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            7
+        ],
+        "components": [
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
+            ]
+        ]
+    }
+]

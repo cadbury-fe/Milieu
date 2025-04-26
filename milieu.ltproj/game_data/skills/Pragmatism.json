@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Pragmatism",
+        "name": "Pragmatism",
+        "desc": "Unit deals an extra 7 damage if\nthe target is not at full health",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            1,
+            17
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.get_hp() != target.get_max_hp()"
+            ],
+            [
+                "damage",
+                7
+            ]
+        ]
+    }
+]

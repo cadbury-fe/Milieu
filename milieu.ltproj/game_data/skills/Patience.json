@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Patience",
+        "name": "Patience",
+        "desc": "If unit has not attacked, gains a boost to Strength, Defense,\nResistance and Luck at the end of their turn. Stacks",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "gain_skill_after_attack",
+                "HasAttacked"
+            ],
+            [
+                "upkeep_event",
+                "Global Ability_Patience"
+            ]
+        ]
+    }
+]

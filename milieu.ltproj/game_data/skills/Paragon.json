@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Paragon",
+        "name": "Paragon",
+        "desc": "Doubles experience gained",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "exp_multiplier",
+                2.0
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

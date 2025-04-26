@@ -1,0 +1,16 @@
+[
+    {
+        "name": "DefeatMalachy",
+        "trigger": "combat_end",
+        "level_nid": "3",
+        "condition": "game.check_dead(\"Malachy\")",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Occurs when Malachy is defeated",
+            "win_game"
+        ],
+        "nid": "3 DefeatMalachy"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CantoPlus",
+        "name": "Canto+",
+        "desc": "Unit can use the remainder of their\nmovement after an action",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            1
+        ],
+        "components": [
+            [
+                "canto_plus",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "unit._movement_left > 0"
+            ]
+        ]
+    }
+]

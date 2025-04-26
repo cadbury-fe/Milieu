@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Generosity",
+        "name": "Generosity",
+        "desc": "Unit spreads healing to nearby allies\nwhen using staves",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            16
+        ],
+        "components": [
+            [
+                "item_override",
+                "GenerosityAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

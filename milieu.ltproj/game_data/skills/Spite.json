@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Spite",
+        "name": "Spite",
+        "desc": "-30 Avoid, -10 Luck to all units within three spaces of this unit",
+        "icon_nid": "Skills",
+        "icon_index": [
+            9,
+            3
+        ],
+        "components": [
+            [
+                "aura",
+                "Spitechild"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "unit"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

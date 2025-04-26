@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Slumber",
+        "name": "Slumber",
+        "desc": "Halves Speed, doubles Defense and\nResistance when unit under attack",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            6
+        ],
+        "components": [
+            [
+                "condition",
+                "game.phase.get_current() != unit.team"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "DEF",
+                        2.0
+                    ],
+                    [
+                        "RES",
+                        2.0
+                    ],
+                    [
+                        "SPD",
+                        0.5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

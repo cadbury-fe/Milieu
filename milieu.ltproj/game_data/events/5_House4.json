@@ -1,0 +1,29 @@
+[
+    {
+        "name": "House4",
+        "trigger": "Visit",
+        "level_nid": "5",
+        "condition": "region.nid == 'House4'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Occurs when a player visits the House4 region",
+            "transition;Close",
+            "change_background;WolfstockHouse",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Kyle;Left",
+            "speak;Kyle;My brother is -{w} uh -{w} quite the interesting character.{w}{clear}He believes he's married and has a wife, but -{w} uh, ha-ha -{w} it's all in his head.{w}{clear}He's been drinking a lot lately,{w} I've been a bit worried about him.{w}{clear}If you have any doctors,{w} could you ask them to treat him using this?{w}{clear}Thanks.{w}{clear}Get out of my house.",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Kyle",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Barrier",
+            "show_layer;house4",
+            "has_attacked;{unit}"
+        ],
+        "nid": "5 House4"
+    }
+]

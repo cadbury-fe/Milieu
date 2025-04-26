@@ -1,0 +1,32 @@
+[
+    {
+        "name": "House",
+        "trigger": "Visit",
+        "level_nid": "6",
+        "condition": "region.nid == 'House'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player visits the region labelled House5",
+            "",
+            "# Set-up",
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Moulder;Left",
+            "",
+            "speak;Moulder;See this cliff here,{w} just ahead of my door-step?{w}{clear}It used to be way out there,{w} out in the distance.{w}{clear}Erosion.{w}{clear}But that's the sort of thing you think would take centuries,{w} to see it in front of your eyes -{w}{clear}I didn't think this house would stand forever,{w} of course,{w} but I at least wanted to see it stand before I died.{w}{clear}To be able to live to see its collapse into the sea...{w}{clear}It's certainly surprising!",
+            "",
+            "# Clean-up",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Moulder",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "has_attacked;{unit}"
+        ],
+        "nid": "6 House"
+    }
+]

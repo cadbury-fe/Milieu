@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Lethality",
+        "name": "Lethality",
+        "desc": "Critical hits from this unit kill instantly",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            8,
+            5
+        ],
+        "components": [
+            [
+                "alternate_critical_multiplier_formula",
+                "LETHALITY"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

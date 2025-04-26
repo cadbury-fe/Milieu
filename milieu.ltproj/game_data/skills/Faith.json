@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Faith",
+        "name": "Faith",
+        "desc": "+10 to Luck to allies\nwithin three spaces",
+        "icon_nid": "Skills",
+        "icon_index": [
+            5,
+            0
+        ],
+        "components": [
+            [
+                "aura",
+                "Faithchild"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

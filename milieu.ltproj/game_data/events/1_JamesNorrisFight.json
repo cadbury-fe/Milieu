@@ -1,0 +1,27 @@
+[
+    {
+        "name": "JamesNorrisFight",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "check_pair('James', 'Norris')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Dialogue initiated when Norris and James enter a battle.",
+            "music;DeafToAllButTheSong;no_warn",
+            "multi_add_portrait;James;FarRight;Norris;FarLeft",
+            "speak;James;Look who it is!;;90;;;;;;1",
+            "speak;Norris;Do I know you?;;90;;;;;;1",
+            "speak;James;Don't be so rude, Norris.{w} Surely you remember me?",
+            "expression;Norris;NormalBlink",
+            "music_clear",
+            "wait;500",
+            "speak;Norris;John?;;55;;;;;;1",
+            "music;DeafToAllButTheSong",
+            "speak;James;James!;;55;;;;;;1",
+            "multi_remove_portrait;James;Norris"
+        ],
+        "nid": "1 JamesNorrisFight"
+    }
+]

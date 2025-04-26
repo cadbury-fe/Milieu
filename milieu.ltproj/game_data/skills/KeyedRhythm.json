@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "KeyedRhythm",
+        "name": "Keyed Rhythm",
+        "desc": "+50 Avoid on odd turns,\n+50 Crit on even turns",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "KeyedRhythmOdd",
+                    "KeyedRhythmEven"
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

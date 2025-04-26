@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "FieryBloodPlus",
+        "name": "Fiery Blood+",
+        "desc": "Adds one point of damage for\neach point of damage taken",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            10
+        ],
+        "components": [
+            [
+                "givebacker",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

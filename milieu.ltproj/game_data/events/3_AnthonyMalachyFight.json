@@ -1,0 +1,20 @@
+[
+    {
+        "name": "AnthonyMalachyFight",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "check_pair('Anthony', 'Malachy')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when a battle between Anthony and Malachy starts",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Anthony;FarRight;Malachy;FarLeft",
+            "speak;Malachy;I'm not scared of you!;;125;;;;;;1",
+            "speak;Anthony;You must not have the best sense of self-preservation.",
+            "multi_remove_portrait;Anthony;Malachy"
+        ],
+        "nid": "3 AnthonyMalachyFight"
+    }
+]

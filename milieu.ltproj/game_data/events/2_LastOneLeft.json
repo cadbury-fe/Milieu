@@ -1,0 +1,21 @@
+[
+    {
+        "name": "LastOneLeft",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "len(game.get_enemy_units()) == 1 and not(is_dead('Snyder'))",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "flicker_cursor;Snyder",
+            "add_portrait;Snyder;Right",
+            "speak;Snyder;Yeah nah.;;65;;;;;;1",
+            "remove_portrait;Snyder",
+            "move_unit;Snyder;19,0;normal;;60",
+            "remove_unit;Snyder;fade;north",
+            "win_game"
+        ],
+        "nid": "2 LastOneLeft"
+    }
+]

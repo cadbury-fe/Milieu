@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathElizabeth",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Elizabeth'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Elizabeth;FarRight",
+            "s;Elizabeth;Bad morning.",
+            "r;Elizabeth"
+        ],
+        "nid": "Global DeathElizabeth"
+    }
+]

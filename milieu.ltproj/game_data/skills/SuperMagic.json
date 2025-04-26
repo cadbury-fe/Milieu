@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "SuperMagic",
+        "name": "Super Magic",
+        "desc": "Perdition effect.",
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        999
+                    ]
+                ]
+            ]
+        ]
+    }
+]

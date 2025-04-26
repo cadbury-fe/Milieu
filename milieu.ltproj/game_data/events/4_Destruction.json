@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Destruction",
+        "trigger": "Destructible",
+        "level_nid": "4",
+        "condition": "region.nid == 'Destructible'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs if the thief unit reaches the region marked Village",
+            "flicker_cursor;{position}",
+            "show_layer;villagedestroyed",
+            "wait;500",
+            "remove_region;Village"
+        ],
+        "nid": "4 Destruction"
+    }
+]

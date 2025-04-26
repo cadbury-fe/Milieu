@@ -1,0 +1,118 @@
+[
+    {
+        "nid": "Brutus",
+        "name": "Brutus",
+        "desc": "Scholar turned farmer.",
+        "variant": null,
+        "level": 6,
+        "klass": "NorrisFighter",
+        "tags": [],
+        "bases": {
+            "HP": 50,
+            "STR": 15,
+            "MAG": 1,
+            "SKL": 7,
+            "SPD": 13,
+            "LCK": 5,
+            "DEF": 8,
+            "RES": 10,
+            "CON": 12,
+            "MOV": 5,
+            "LEAD": 1
+        },
+        "growths": {
+            "HP": 120,
+            "STR": 95,
+            "MAG": 40,
+            "SKL": 65,
+            "SPD": 75,
+            "LCK": 65,
+            "DEF": 40,
+            "RES": 75,
+            "CON": 0,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "MOV": 0,
+            "HP": 0,
+            "CON": 0,
+            "STR": 0,
+            "SKL": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPD": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Killer Axe",
+                false
+            ],
+            [
+                "Swordreaver",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Convince"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                71,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Brutus",
+        "affinity": "Light",
+        "fields": []
+    }
+]

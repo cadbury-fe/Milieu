@@ -1,0 +1,19 @@
+[
+    {
+        "name": "BrutusFight",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == 'Brutus' and unit2.team == 'player') or (unit.team == 'player' and unit2.nid == 'Brutus')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player fights Brutus",
+            "music;DeafToAllButTheSong",
+            "u;Brutus;FarLeft",
+            "speak;Brutus;...;;30;;;;;;1",
+            "r;Brutus"
+        ],
+        "nid": "4 BrutusFight"
+    }
+]

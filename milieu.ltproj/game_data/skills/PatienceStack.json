@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "PatienceStack",
+        "name": "PatienceStack",
+        "desc": "If unit has not attacked, gains a boost to Strength, Defense,\nResistance and Luck at the end of their turn. Stacks",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            4,
+            3
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        1.5
+                    ],
+                    [
+                        "DEF",
+                        1.5
+                    ],
+                    [
+                        "RES",
+                        1.5
+                    ],
+                    [
+                        "LCK",
+                        1.5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

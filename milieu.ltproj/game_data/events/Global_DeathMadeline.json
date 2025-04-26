@@ -1,0 +1,27 @@
+[
+    {
+        "name": "DeathMadeline",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Madeline'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "u;Madeline;FarRight",
+            "s;Madeline;Stop it!{w} Let go of me!{w} Let go!",
+            "r;Madeline",
+            "wait;200",
+            "choice;ActivateTurnwheel;Activate Turnwheel?;Yes,No",
+            "if;game.game_vars.get('_current_turnwheel_uses', 0) > 0 and '{v:ActivateTurnwheel}' == 'Yes'",
+            "activate_turnwheel",
+            "elif;game.game_vars.get('_current_turnwheel_uses', 0) == 0",
+            "alert;You are out of turnwheel charges!",
+            "lose_game",
+            "else",
+            "lose_game",
+            "end"
+        ],
+        "nid": "Global DeathMadeline"
+    }
+]

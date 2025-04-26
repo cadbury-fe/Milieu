@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ClearMind",
+        "name": "Clear Mind",
+        "desc": "Unit is immune to status effects",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            8
+        ],
+        "components": [
+            [
+                "immune_status",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

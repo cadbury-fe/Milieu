@@ -1,0 +1,19 @@
+[
+    {
+        "name": "BensonFight",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == 'Benson' and unit2.team == 'player') or (unit.team == 'player' and unit2.nid == 'Benson')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player fights Benson",
+            "music;DeafToAllButTheSong",
+            "u;Benson;FarLeft",
+            "speak;Benson;Here, now.{w}{clear}Sure you want to be doing this?",
+            "r;Benson"
+        ],
+        "nid": "4 BensonFight"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "KnightRing",
+        "name": "Knight Ring",
+        "desc": "Grants Canto+ while in the unit's inventory",
+        "icon_nid": "{LordGlenn} {ArchaneaIconProject} 2019",
+        "icon_index": [
+            36,
+            4
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "CantoPlus"
+            ]
+        ]
+    }
+]

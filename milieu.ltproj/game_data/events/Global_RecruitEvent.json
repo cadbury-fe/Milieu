@@ -1,0 +1,19 @@
+[
+    {
+        "name": "RecruitEvent",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'Boss' not in target.tags",
+            "    change_team;{unit2};player",
+            "    change_ai;{unit2};None",
+            "    reset;{unit2}",
+            "end"
+        ],
+        "nid": "Global RecruitEvent"
+    }
+]

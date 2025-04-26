@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Samaritan",
+        "name": "Samaritan",
+        "desc": "Gain another action after using a staff when carrying an ally",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "eval_galeforce",
+                "unit.traveler"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "condition",
+                "game.phase.get_current() == unit.team"
+            ]
+        ]
+    }
+]

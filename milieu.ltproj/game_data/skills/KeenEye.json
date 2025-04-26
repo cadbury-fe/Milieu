@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "KeenEye",
+        "name": "Keen Eye",
+        "desc": "Increases the damage of weapons that exploit weaknesses",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            7,
+            15
+        ],
+        "components": [
+            [
+                "item_override",
+                "KeenAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

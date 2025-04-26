@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Turn1Pursue",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;enemy_units;[unit.nid for unit in game.get_enemy_units()]",
+            "    change_ai;{enemy_units};Pursue",
+            "endf",
+            "change_ai;Snyder;Guard"
+        ],
+        "nid": "2 Turn1Pursue"
+    }
+]

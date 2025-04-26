@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "EqualFooting",
+        "name": "Equal Footing",
+        "desc": "Strength, Defense and Resistance are multiplied by 1.3\nif the unit fights on the same terrain as the enemy",
+        "icon_nid": "Skills",
+        "icon_index": [
+            10,
+            9
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        1.3
+                    ],
+                    [
+                        "DEF",
+                        1.3
+                    ],
+                    [
+                        "RES",
+                        1.3
+                    ]
+                ]
+            ],
+            [
+                "combat_condition",
+                "game.tilemap.get_terrain(unit.position) == game.tilemap.get_terrain(target.position)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

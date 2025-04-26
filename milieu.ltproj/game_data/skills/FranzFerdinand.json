@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FranzFerdinand",
+        "name": "Franz Ferdinand",
+        "desc": "Attacking with fire magic doubles the \nuser's Magic until the next attack",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            10
+        ],
+        "components": [
+            [
+                "gain_skill_after_attack",
+                "DoubleMagic"
+            ],
+            [
+                "condition",
+                "'Fire' in item.tags"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

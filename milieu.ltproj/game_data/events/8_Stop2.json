@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Stop2",
+        "trigger": "turn_change",
+        "level_nid": "8",
+        "condition": "any_unit_in_region('Point2', team='player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;Geetah",
+            "transition;close",
+            "change_background;House",
+            "multi_add_portrait;Charles;Left;Eirika;OffscreenRight",
+            "transition;open;no_block",
+            "speak;Eirika;Charles?{w}{clear}What took you so long, Charles?",
+            "speak;Charles;What?{w}{clear}Oh.{w}{clear}Someone dumped a bunch of paper in the centre of town.",
+            "end_skip",
+            "speak;Eirika;Do you have the milk?;;125;;;;;;1",
+            "speak;Charles;Course I do.;;75;;;;;;1",
+            "transition;close",
+            "multi_remove_portrait;Charles;Eirika",
+            "music;PlacesEveryone",
+            "change_background",
+            "add_weather;sunset",
+            ""
+        ],
+        "nid": "8 Stop2"
+    }
+]

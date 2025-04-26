@@ -1,0 +1,17 @@
+[
+    {
+        "name": "SetConvoyAndTurnwheel",
+        "trigger": "on_startup",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Enables convoy and turnwheel",
+            "game_var;_convoy;1",
+            "enable_turnwheel;t"
+        ],
+        "nid": "Global SetConvoyAndTurnwheel"
+    }
+]

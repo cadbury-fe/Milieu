@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "KeyedRhythmEven",
+        "name": "KeyedRhythmEven",
+        "desc": "Even coupled with odd",
+        "icon_nid": "Skills",
+        "icon_index": [
+            8,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "game.turncount % 2 == 0"
+            ],
+            [
+                "crit",
+                50
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

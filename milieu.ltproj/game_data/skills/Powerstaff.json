@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Powerstaff",
+        "name": "Powerstaff",
+        "desc": "Move again after using a staff",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            6
+        ],
+        "components": [
+            [
+                "powerstaff",
+                null
+            ],
+            [
+                "charges_per_turn",
+                1
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

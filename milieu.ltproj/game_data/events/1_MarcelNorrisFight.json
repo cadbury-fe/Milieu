@@ -1,0 +1,21 @@
+[
+    {
+        "name": "MarcelNorrisFight",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "check_pair('Marcel', 'Norris')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Dialogue initiated when Norris and Marcel enter a battle.",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Marcel;FarRight;Norris;FarLeft",
+            "speak;Marcel;Hi.;;40;;;;;;1",
+            "speak;Norris;Some nerve facing me,{w} Marcel Milieu.",
+            "speak;Marcel;Sure.;;45;;;;;;1",
+            "multi_remove_portrait;Marcel;Norris"
+        ],
+        "nid": "1 MarcelNorrisFight"
+    }
+]

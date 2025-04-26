@@ -1,0 +1,16 @@
+[
+    {
+        "name": "MalachyBrutusTalk2",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "any_unit_in_region('MalachyBrutusTalk2', nid='Malachy')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs if Malachy reaches Brutus",
+            "win_game"
+        ],
+        "nid": "4 MalachyBrutusTalk2"
+    }
+]

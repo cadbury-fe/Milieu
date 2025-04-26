@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "Determination",
+        "name": "Determination",
+        "desc": "Brave weapon",
+        "icon_nid": "{GabrielKnight} (Icon Blitz 3) Lance_1",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                25
+            ],
+            [
+                "hit",
+                200
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weight",
+                1
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "value",
+                7200
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "brave",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Simone"
+                ]
+            ],
+            [
+                "locked",
+                null
+            ]
+        ]
+    }
+]

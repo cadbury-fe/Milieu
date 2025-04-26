@@ -1,0 +1,20 @@
+[
+    {
+        "name": "MarcelMorrisseyFight",
+        "trigger": "combat_start",
+        "level_nid": "5",
+        "condition": "check_pair('Marcel', 'Morrissey')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when Marcel faces Morrissey",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Marcel;FarRight;Morrissey;FarLeft",
+            "speak;Marcel;No hard feelings.;;100;;;;;;1",
+            "speak;Morrissey;Sure.;;45;;;;;;1",
+            "multi_remove_portrait;Marcel;Morrissey"
+        ],
+        "nid": "5 MarcelMorrisseyFight"
+    }
+]

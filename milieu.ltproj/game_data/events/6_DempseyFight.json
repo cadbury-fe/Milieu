@@ -1,0 +1,19 @@
+[
+    {
+        "name": "DempseyFight",
+        "trigger": "combat_start",
+        "level_nid": "6",
+        "condition": "(unit.nid == 'Dempsey' and unit2.team == 'player') or (unit.team == 'player' and unit2.nid == 'Dempsey')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player fights Dempsey",
+            "music;DeafToAllButTheSong",
+            "u;Dempsey;FarRight",
+            "speak;Dempsey;Roll over.;;65;;;;;;1",
+            "r;Dempsey"
+        ],
+        "nid": "6 DempseyFight"
+    }
+]

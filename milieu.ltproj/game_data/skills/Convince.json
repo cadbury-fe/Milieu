@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Convince",
+        "name": "Convince",
+        "desc": "Convert an enemy to your side. Works once per chapter.\nDoes not work on bosses",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "ConvinceAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

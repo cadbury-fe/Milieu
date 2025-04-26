@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ThirdCertainty",
+        "name": "Third Certainty",
+        "desc": "Unit's attacks always hit",
+        "icon_nid": "{J-Treecko} {Lex Talionis} All Icons",
+        "icon_index": [
+            6,
+            6
+        ],
+        "components": [
+            [
+                "eval_hit",
+                "9999"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

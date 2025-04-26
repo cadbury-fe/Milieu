@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Mercy",
+        "name": "Mercy",
+        "desc": "Killing blows leave\nthe target at 1 HP",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            10
+        ],
+        "components": [
+            [
+                "skill_before_combat",
+                {
+                    "skill": "MercyMiracle",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ]
+        ]
+    }
+]

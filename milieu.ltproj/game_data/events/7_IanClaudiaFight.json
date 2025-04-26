@@ -1,0 +1,20 @@
+[
+    {
+        "name": "IanClaudiaFight",
+        "trigger": "combat_start",
+        "level_nid": "7",
+        "condition": "check_pair('Ian', 'Claudia')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Occurs when the player fights Ian.",
+            "music;DeafToAllButTheSong",
+            "multi_add_portrait;Ian;FarLeft;Claudia;FarRight",
+            "speak;Claudia;Um.;;40;;;;;;1",
+            "speak;Ian;Finally,{w} a worthy opponent.",
+            "multi_remove_portrait;Ian;Claudia"
+        ],
+        "nid": "7 IanClaudiaFight"
+    }
+]

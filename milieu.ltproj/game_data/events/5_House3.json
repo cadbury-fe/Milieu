@@ -1,0 +1,29 @@
+[
+    {
+        "name": "House3",
+        "trigger": "Visit",
+        "level_nid": "5",
+        "condition": "region.nid == 'House3'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Occurs when a player visits the House3 region",
+            "transition;Close",
+            "change_background;WolfstockHouse",
+            "transition;Open",
+            "add_portrait;{unit};Right;no_block",
+            "add_portrait;Forde;Left;;HalfCloseEyes",
+            "speak;Forde;Oh...{w}{clear}Forgot t'lock deh door...{w}{clear}Doan mine me...{w}{clear}M'jus...{w}wallowin...{w} havennt'd'bessday...{w}{clear}Wife left...{w}{clear}Take this...{w} anduh...{w} kill m'hors...{w} eitherwayummmmmmmmm'doinnoridinha-ha...",
+            "remove_portrait;{unit};no_block",
+            "remove_portrait;Forde",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Horseslayer",
+            "show_layer;house3",
+            "has_attacked;{unit}"
+        ],
+        "nid": "5 House3"
+    }
+]

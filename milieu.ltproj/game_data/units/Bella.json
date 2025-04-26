@@ -1,0 +1,118 @@
+[
+    {
+        "nid": "Bella",
+        "name": "Bella",
+        "desc": "Charlotte's star pupil.",
+        "variant": null,
+        "level": 10,
+        "klass": "RedMage",
+        "tags": [],
+        "bases": {
+            "HP": 45,
+            "STR": 0,
+            "MAG": 10,
+            "SKL": 15,
+            "SPD": 10,
+            "LCK": 20,
+            "DEF": 1,
+            "RES": 10,
+            "CON": 6,
+            "MOV": 5,
+            "LEAD": 1
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 40,
+            "MAG": 40,
+            "SKL": 50,
+            "SPD": 40,
+            "LCK": 40,
+            "DEF": 40,
+            "RES": 60,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "MOV": 0,
+            "HP": 0,
+            "CON": 0,
+            "STR": 0,
+            "SKL": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPD": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Flux",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Refresh"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                71,
+                251
+            ],
+            "Dark": [
+                false,
+                71,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Bella",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

@@ -1,0 +1,118 @@
+[
+    {
+        "nid": "Alice",
+        "name": "Alice",
+        "desc": "Professional archer.\nDaughter of Hamsen.",
+        "variant": null,
+        "level": 1,
+        "klass": "ArcherF",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "STR": 10,
+            "MAG": 5,
+            "SKL": 15,
+            "SPD": 12,
+            "LCK": 9,
+            "DEF": 4,
+            "RES": 6,
+            "CON": 5,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 100,
+            "MAG": 40,
+            "SKL": 85,
+            "SPD": 80,
+            "LCK": 90,
+            "DEF": 40,
+            "RES": 55,
+            "CON": 0,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "RES": 0,
+            "MOV": 0,
+            "HP": 0,
+            "CON": 0,
+            "STR": 0,
+            "SKL": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "MAG": 0,
+            "SPD": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Iron Bow",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Pinpoint"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                71,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Alice",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

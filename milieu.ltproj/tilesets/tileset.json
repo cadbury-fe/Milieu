@@ -1,0 +1,334 @@
+[
+    {
+        "nid": "Chpt1",
+        "terrain_grid": {},
+        "autotiles": {
+            "8,0": 0,
+            "9,0": 1,
+            "9,1": 2,
+            "10,0": 3,
+            "10,1": 4,
+            "10,2": 0,
+            "11,0": 5,
+            "11,1": 6,
+            "11,2": 7,
+            "11,3": 0,
+            "12,0": 8,
+            "12,1": 9,
+            "12,2": 3,
+            "12,3": 5,
+            "13,2": 6,
+            "13,3": 1,
+            "13,4": 10,
+            "14,0": 0,
+            "14,1": 11,
+            "14,2": 4,
+            "14,3": 12
+        }
+    },
+    {
+        "nid": "Prologue",
+        "terrain_grid": {},
+        "autotiles": {
+            "0,2": 0,
+            "2,1": 1,
+            "2,2": 2,
+            "3,1": 3,
+            "4,1": 4,
+            "5,0": 5,
+            "5,1": 2,
+            "6,0": 6
+        }
+    },
+    {
+        "nid": "Chpt2",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "SacredStonesBase",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Chpt3",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "SacredStonesVillage",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "GradoKeep",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Chpt14B",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Chpt4",
+        "terrain_grid": {},
+        "autotiles": {
+            "0,8": 0,
+            "2,8": 0,
+            "2,14": 1,
+            "3,9": 2,
+            "3,13": 3,
+            "3,14": 4,
+            "4,11": 1,
+            "4,13": 4,
+            "5,9": 5,
+            "5,10": 3,
+            "5,11": 4,
+            "6,8": 3,
+            "6,9": 6,
+            "6,10": 4,
+            "8,7": 1,
+            "8,8": 4,
+            "10,8": 2,
+            "11,8": 7,
+            "11,9": 2,
+            "13,10": 0
+        }
+    },
+    {
+        "nid": "Chpt5",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "MagvelWorldMap",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "newcastle4",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Super Fields Compiled Image",
+        "terrain_grid": {},
+        "autotiles": {
+            "20,6": 0,
+            "20,7": 1,
+            "20,8": 2,
+            "20,9": 3,
+            "20,10": 4,
+            "20,17": 5,
+            "21,6": 6,
+            "21,7": 7,
+            "21,8": 8,
+            "21,9": 9,
+            "21,10": 10,
+            "22,6": 11,
+            "22,7": 12,
+            "22,8": 13,
+            "22,9": 14,
+            "23,6": 15,
+            "23,7": 16,
+            "23,8": 17,
+            "23,9": 18,
+            "24,6": 19,
+            "24,7": 20,
+            "24,8": 21,
+            "24,9": 22,
+            "24,10": 23,
+            "25,6": 24,
+            "25,7": 25,
+            "25,8": 26,
+            "25,9": 27,
+            "25,10": 28,
+            "26,8": 29,
+            "26,9": 30,
+            "26,18": 31,
+            "27,8": 32,
+            "27,9": 33,
+            "27,10": 34,
+            "27,11": 35,
+            "27,14": 36,
+            "28,10": 37,
+            "28,11": 38,
+            "28,14": 39,
+            "29,10": 40,
+            "29,11": 23,
+            "29,14": 41,
+            "29,15": 42,
+            "29,19": 43,
+            "29,20": 44,
+            "30,10": 45,
+            "30,11": 46,
+            "30,14": 47,
+            "30,15": 48,
+            "30,18": 49,
+            "30,19": 50,
+            "30,20": 51,
+            "31,14": 52,
+            "31,15": 53,
+            "31,16": 54,
+            "31,17": 55,
+            "31,18": 56,
+            "31,19": 57,
+            "31,20": 49,
+            "31,21": 58
+        }
+    },
+    {
+        "nid": "Super Fields Example Map",
+        "terrain_grid": {
+            "0,6": "1",
+            "0,7": "1",
+            "0,8": "1",
+            "0,9": "1",
+            "0,4": "1",
+            "0,2": "1",
+            "1,2": "1",
+            "0,1": "1",
+            "3,3": null,
+            "3,2": null
+        },
+        "autotiles": {
+            "8,0": 0
+        }
+    },
+    {
+        "nid": "Updated Village Tileset",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Village v2 - Standard Tileset",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "df5f05cb7d199504aa9a4d366baa983e8ec819a1",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "fe8map13b",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Four",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "16x",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Chapter16x",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Chapter11A",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "dessert",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Map5",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "newcastle1",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "70e85cab255ff52dfa84e892046bc74fce1322b1",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "00e0bcbc0c5cf436440aee7c9507edf87743ebe3",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "28a002db44e23b676731bb081e5f73f13af825eb",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "savinge",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "kio",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "koj",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "ntg",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "aji",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Screenshot - Release 03",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "85ad8705699bd242459e7e979bd20e0f5d36344c",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "70e85cab255ff52dfa84e892046bc74fce1322b1_1",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Library by Daybreak 2",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "hongo",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "bfodn",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "budda",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "FF2 Town 2.0 Object - OG",
+        "terrain_grid": {},
+        "autotiles": {}
+    }
+]

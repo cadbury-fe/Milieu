@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Chivalry",
+        "name": "Chivalry",
+        "desc": "Unit gains +7 Strength, +7 Defense in combat\nif the unit and target are at full health",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            8
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "(unit.get_hp() == unit.get_max_hp()) and (target.get_hp() == target.get_max_hp())"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        7
+                    ],
+                    [
+                        "DEF",
+                        7
+                    ]
+                ]
+            ]
+        ]
+    }
+]

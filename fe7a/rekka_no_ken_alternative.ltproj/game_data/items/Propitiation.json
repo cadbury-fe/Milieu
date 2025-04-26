@@ -1,0 +1,72 @@
+[
+    {
+        "nid": "Propitiation",
+        "name": "Propitiation",
+        "desc": "Prevents enemy counterattacks on player phase. Uses magic at range. Deals damage. Is a weapon. Targets enemies. Has a minimum range of 1. Has a maximum range of 1. Has a damage value of 11. Has a hit rate of 111. Adds 1 crit. Weighs 1. Is a Sword. Marcel only. Locked to Marcel",
+        "icon_nid": "{EldritchA, Indogutsu Tenbuki} (Tactics Ogre) Sword 20",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "cannot_be_countered",
+                null
+            ],
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                11
+            ],
+            [
+                "hit",
+                111
+            ],
+            [
+                "crit",
+                1
+            ],
+            [
+                "weight",
+                1
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Marcel"
+                ]
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "locked",
+                null
+            ]
+        ]
+    }
+]

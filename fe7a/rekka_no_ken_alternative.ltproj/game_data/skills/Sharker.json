@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Sharker",
+        "name": "Sharker",
+        "desc": "Unit can teleport to an enemy below 25% HP",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "witch_warp_expression",
+                "(game.get_unit(unit.nid).get_hp() < game.get_unit(unit.nid).get_max_hp() // 4) and unit.team == 'enemy'"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

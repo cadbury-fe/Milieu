@@ -1,0 +1,94 @@
+[
+    {
+        "nid": "Fiora",
+        "name": "Fiora",
+        "desc": "oh 7",
+        "variant": null,
+        "level": 7,
+        "klass": "Pegasus_Knight",
+        "tags": [],
+        "bases": {
+            "HP": 21,
+            "STR": 8,
+            "MAG": 2,
+            "SKL": 11,
+            "SPD": 13,
+            "LCK": 6,
+            "DEF": 6,
+            "RES": 7,
+            "CON": 5,
+            "MOV": 7,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 40,
+            "MAG": 20,
+            "SKL": 65,
+            "SPD": 55,
+            "LCK": 25,
+            "DEF": 30,
+            "RES": 55,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Axereaver",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "CrisisSurge"
+            ],
+            [
+                15,
+                "Reposition"
+            ],
+            [
+                1,
+                "Yell"
+            ],
+            [
+                5,
+                "Encloser"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Fiora",
+        "affinity": null,
+        "fields": []
+    }
+]

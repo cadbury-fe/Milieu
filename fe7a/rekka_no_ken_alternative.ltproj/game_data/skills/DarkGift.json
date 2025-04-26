@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "DarkGift",
+        "name": "Dark Gift",
+        "desc": "Damage against this unit is halved. Cannot be displaced. Immune to status effects.\n",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "grounded",
+                null
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "immune_status",
+                null
+            ]
+        ]
+    }
+]

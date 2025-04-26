@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Turn14",
+        "trigger": "turn_change",
+        "level_nid": "36",
+        "condition": "game.turncount == 14",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#1 Wyvern Lord, in the upper left corner of the map",
+            "# 0,0",
+            "add;wyvernlord_r_3;0,0;immediate;closest",
+            "",
+            "#2 Wyvern Rider, at the sides of the two previous",
+            "# 1,0",
+            "# 0,1",
+            "add;wyvern_r_5;1,0;immediate;closest",
+            "add;wyvern_r_6;0,1;immediate;closest",
+            "",
+            "# 2 Cavaliers, at the ends (one has a lancereaver and other an Axereaver, the Paladin has the two weapons)",
+            "# 24,8",
+            "# 24,10",
+            "add;cav_r_3;24,8;immediate;closest",
+            "add;cav_r_4;24,10;immediate;closest",
+            "",
+            "#1 Paladin, between the two previous",
+            "# 24,9",
+            "add;pal_r_2;24,9;immediate;closest"
+        ],
+        "nid": "36 Turn14"
+    }
+]

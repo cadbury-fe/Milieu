@@ -1,0 +1,16 @@
+[
+    {
+        "name": "DeathNinian",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Ninian'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lose_game",
+            ""
+        ],
+        "nid": "Global DeathNinian"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Mentor_c",
+        "name": "Mentor",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "exp_multiplier",
+                3.0
+            ]
+        ]
+    }
+]

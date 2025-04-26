@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FlowRing",
+        "name": "Flow Ring",
+        "desc": "Grants a skill, which grants +1 Momentum gain",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Flow"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

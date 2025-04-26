@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "29",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;4,2",
+            "add_unit;Mage_HR1;4,2;;closest",
+            "center_cursor;4,15",
+            "add_unit;WyvernRider_HR3;4,15;;closest",
+            "center_cursor;0,2",
+            "add_unit;WyvernRider_HR4;0,2;;closest"
+        ],
+        "nid": "29 Turn4"
+    }
+]

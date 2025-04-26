@@ -1,0 +1,85 @@
+[
+    {
+        "nid": "Nergal",
+        "name": "Nergal",
+        "desc": "The Nerv, The Audacity...",
+        "variant": null,
+        "level": 20,
+        "klass": "DarkDruid",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 120,
+            "STR": 2,
+            "MAG": 30,
+            "SKL": 19,
+            "SPD": 16,
+            "LCK": 20,
+            "DEF": 29,
+            "RES": 30,
+            "CON": 10,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Ereshkigal",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "NullAndVoid"
+            ],
+            [
+                1,
+                "DarkGift"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Dark": [
+                false,
+                251,
+                null
+            ],
+            "Staff": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Nergal Scar Left",
+        "affinity": null,
+        "fields": []
+    }
+]

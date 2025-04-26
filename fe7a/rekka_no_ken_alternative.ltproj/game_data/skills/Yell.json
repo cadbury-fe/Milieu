@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Yell",
+        "name": "<indigo>Yell</>",
+        "desc": "Pushes targets back.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "YellAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

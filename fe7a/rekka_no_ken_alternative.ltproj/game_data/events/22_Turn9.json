@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Turn9",
+        "trigger": "turn_change",
+        "level_nid": "22",
+        "condition": "game.turncount == 9",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,18",
+            "add_unit;Shaman_R5;0,18;immediate;closest",
+            "center_cursor;11,20",
+            "add_unit;PegasusKnight_R11;4,20;immediate;closest",
+            "add_unit;PegasusKnight_R12;8,20;immediate;closest",
+            "add_unit;PegasusKnight_R13;11,20;immediate;closest",
+            "add_unit;PegasusKnight_R14;15,20;immediate;closest",
+            "add_unit;PegasusKnight_R15;18,14;immediate;closest",
+            "center_cursor;10,18",
+            "add_unit;Mercenary_R4;9,18;immediate;closest",
+            "add_unit;Mercenary_R5;10,18;immediate;closest",
+            "add_unit;Shaman_R7;9,20;immediate;closest",
+            "add_unit;Myrmidon_R3;10,20;immediate;closest"
+        ],
+        "nid": "22 Turn9"
+    }
+]

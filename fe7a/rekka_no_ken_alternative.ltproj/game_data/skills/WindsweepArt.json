@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "WindsweepArt",
+        "name": "<red>Windsweep</>",
+        "desc": "Prevents enemy counterattack",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_override",
+                "Dazzle"
+            ],
+            [
+                "cannot_double",
+                null
+            ]
+        ]
+    }
+]

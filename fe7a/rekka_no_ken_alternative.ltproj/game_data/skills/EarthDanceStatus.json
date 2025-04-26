@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "EarthDanceStatus",
+        "name": "Earthed",
+        "desc": "+5 RES due to Earth Dance",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

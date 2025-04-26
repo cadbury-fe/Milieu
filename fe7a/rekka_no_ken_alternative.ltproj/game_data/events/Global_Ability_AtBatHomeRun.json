@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Ability_AtBatHomeRun",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;has_skill(unit, 'ThreeRuns')",
+            "    remove_skill;{unit};ThreeRuns;;no_banner",
+            "    give_skill;{unit};H2;;no_banner",
+            "end",
+            "",
+            "if;has_skill(unit, 'TwoRuns')",
+            "    remove_skill;{unit};TwoRuns;;no_banner",
+            "    give_skill;{unit};ThreeRuns;;no_banner",
+            "end",
+            "",
+            "if;has_skill(unit, 'OneRun')",
+            "    remove_skill;{unit};OneRun;;no_banner",
+            "    give_skill;{unit};TwoRuns;;no_banner",
+            "end",
+            "",
+            "if;has_skill(unit, 'NoRuns')",
+            "    remove_skill;{unit};NoRuns;;no_banner",
+            "    give_skill;{unit};OneRun;;no_banner",
+            "end",
+            "",
+            "",
+            "wait;20",
+            ""
+        ],
+        "nid": "Global Ability_AtBatHomeRun"
+    }
+]

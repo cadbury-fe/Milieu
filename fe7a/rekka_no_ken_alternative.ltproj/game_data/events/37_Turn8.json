@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Turn8",
+        "trigger": "turn_change",
+        "level_nid": "37",
+        "condition": "game.turncount == 8",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#1 Shaman from the stairs below Maxime.",
+            "# 8,11",
+            "add;shaman_r_5;8,11;immediate;closest",
+            "",
+            "#1 Sniper, 1 Archer (green)",
+            "",
+            "# sniper",
+            "# 3,27",
+            "add;sniper_r_3;3,27;immediate;closest",
+            "",
+            "# archer",
+            "# 6,27",
+            "add;archer_r_3;6,27;immediate;closest",
+            "",
+            "#1 Mage, down left corner of the map.",
+            "# 0,27",
+            "add;mage_r_5;0,27;immediate;closest",
+            "",
+            "#1 General, 1 Knight (orange)",
+            "# general",
+            "# 0,26",
+            "add;gen_r_2;0,26;immediate;closest",
+            "",
+            "# knight",
+            "# 9,27",
+            "add;knight_r_2;9,27;immediate;closest"
+        ],
+        "nid": "37 Turn8"
+    }
+]

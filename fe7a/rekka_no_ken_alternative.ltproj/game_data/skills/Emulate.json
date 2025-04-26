@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Emulate",
+        "name": "Emulate",
+        "desc": "Unit copies the target's current HP at the start of battle.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_before_combat",
+                "Global Ability_Emulate"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

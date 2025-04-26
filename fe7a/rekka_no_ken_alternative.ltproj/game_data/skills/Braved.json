@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Braved",
+        "name": "Braved",
+        "desc": "Unit is braving (whatever that means.)",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stack",
+                999
+            ]
+        ]
+    }
+]

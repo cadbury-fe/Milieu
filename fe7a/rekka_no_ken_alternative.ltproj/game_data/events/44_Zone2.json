@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Zone2",
+        "trigger": "unit_wait",
+        "level_nid": "44",
+        "condition": "any_unit_in_region('Zone2', team='player')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#In the white squares... 4 Monk, and 1 Bishop in the middle of them.",
+            "",
+            "# bishop",
+            "#16,13",
+            "add;bishop_r_1;16,13;warp;closest",
+            "",
+            "#monks",
+            "#15,12",
+            "#17,12",
+            "#17,14",
+            "#15,14",
+            "add;monk_r_1;15,12;warp;closest",
+            "add;monk_r_2;17,12;warp;closest",
+            "add;monk_r_3;17,14;warp;closest",
+            "add;monk_r_4;15,14;warp;closest"
+        ],
+        "nid": "44 Zone2"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ability_Scoot",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;nearest_ally;get_closest_allies(unit.position,2)[1][0].nid",
+            "move_unit;{unit};{v:nearest_ally};warp;closest"
+        ],
+        "nid": "Global Ability_Scoot"
+    }
+]

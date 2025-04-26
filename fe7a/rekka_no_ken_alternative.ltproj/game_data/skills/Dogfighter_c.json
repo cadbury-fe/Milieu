@@ -1,0 +1,48 @@
+[
+    {
+        "nid": "Dogfighter_c",
+        "name": "Dogfighter",
+        "desc": "Allied flying units stats are being boosted.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.klass in ('WyvernRiderF','WyvernLordF','SimonePeg','CeceliaPeg','PegasusNurse','Pegasus_Knight','Falcoknight','Wyvern Rider','Wyvern Lord','Wyvern Knight','Mogall','Arch_Mogall','PegHealer','Angel','PegMage','Goose','Harpy','Embodiment','SixWinged','PegSword','PegGodfather','WildBrownPeg','WildWhitePeg','PegLord','Succubus','AngelArcher','Witch')"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "DEF",
+                        3.0
+                    ],
+                    [
+                        "RES",
+                        3.0
+                    ],
+                    [
+                        "LCK",
+                        3.0
+                    ]
+                ]
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Ability_EqualityRemove",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "set_stats;{unit};HP,{v:OriginalStatHP};immediate",
+            "set_stats;{unit};SKL,{v:OriginalStatSKL};immediate",
+            "set_stats;{unit};MAG,{v:OriginalStatMAG};immediate",
+            "set_stats;{unit};SPD,{v:OriginalStatSPD};immediate",
+            "set_stats;{unit};CON,{v:OriginalStatCON};immediate",
+            "set_stats;{unit};LCK,{v:OriginalStatLUK};immediate",
+            "set_stats;{unit};DEF,{v:OriginalStatDEF};immediate",
+            "set_stats;{unit};STR,{v:OriginalStatSTR};immediate",
+            "set_stats;{unit};RES,{v:OriginalStatRES};immediate",
+            "set_stats;{unit};MOV,{v:OriginalStatMOV};immediate",
+            "remove_skill;{unit};Equalized;no_banner"
+        ],
+        "nid": "Global Ability_EqualityRemove"
+    }
+]

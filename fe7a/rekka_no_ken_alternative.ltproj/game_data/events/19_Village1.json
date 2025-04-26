@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Village1",
+        "trigger": "Visit",
+        "level_nid": "19",
+        "condition": "region.nid == 'Village1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};White_Gem",
+            "show_layer;Village1",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "19 Village1"
+    }
+]

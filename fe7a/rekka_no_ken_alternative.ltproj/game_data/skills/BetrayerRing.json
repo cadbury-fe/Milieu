@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BetrayerRing",
+        "name": "Betrayer",
+        "desc": "Allows unit to deal damage to allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ignore_alliances",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

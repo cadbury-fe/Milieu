@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ability_Switchwarp",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;UnitPosition;game.get_unit(unit.nid).position",
+            "move_unit;{unit};{unit2};warp;stack;no_block",
+            "move_unit;{unit2};{v:UnitPosition};warp;stack"
+        ],
+        "nid": "Global Ability_Switchwarp"
+    }
+]

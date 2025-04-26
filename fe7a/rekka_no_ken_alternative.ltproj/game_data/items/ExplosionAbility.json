@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "ExplosionAbility",
+        "name": "<red>Explosion</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
+                "enemy_blast_aoe",
+                5
+            ],
+            [
+                "damage",
+                100
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global Ability_Explosion"
+            ],
+            [
+                "target_unit",
+                null
+            ]
+        ]
+    }
+]

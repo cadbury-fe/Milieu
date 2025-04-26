@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Ability_Teleporter",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_region;Teleporter1",
+            "remove_region;Teleporter2",
+            "remove_map_anim;BlueDot;{v:position_t1}",
+            "remove_map_anim;BlueDot;{v:position_t2}",
+            "add_region;Teleporter1;{eval:unit.position};1,1;event;Warp",
+            "add_region;Teleporter2;{eval:target_pos};1,1;event;Warp",
+            "map_anim;BlueDot;{eval:unit.position};permanent",
+            "map_anim;BlueDot;{eval:target_pos};permanent",
+            "level_var;position_t1;unit.position",
+            "level_var;position_t2;target_pos"
+        ],
+        "nid": "Global Ability_Teleporter"
+    }
+]

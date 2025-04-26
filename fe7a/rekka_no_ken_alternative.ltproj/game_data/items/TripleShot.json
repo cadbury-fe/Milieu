@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "TripleShot",
+        "name": "<red>Triple Shot</>",
+        "desc": "Can target up to three units",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "multi_target",
+                3
+            ],
+            [
+                "allow_same_target",
+                null
+            ]
+        ]
+    }
+]

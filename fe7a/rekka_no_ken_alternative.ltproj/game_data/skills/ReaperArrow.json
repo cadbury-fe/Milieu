@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ReaperArrow",
+        "name": "<red>Reaper Arrow</>",
+        "desc": "An attack that deals double damage and damages enemies adjacent to the target. Unit loses 50% of their max HP afterwards",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "ReaperArrowArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

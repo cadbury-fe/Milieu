@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ability_Magnetize",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;pulled_unit;[unit.nid for unit in get_units_within_distance(unit.position, 5) if not(has_skill(unit, 'Magnetize'))]",
+            "    move_unit;{pulled_unit};{unit};swoosh;closest",
+            "endf"
+        ],
+        "nid": "Global Ability_Magnetize"
+    }
+]

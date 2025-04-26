@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Turn15",
+        "trigger": "turn_change",
+        "level_nid": "44",
+        "condition": "game.turncount == 15",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#In the zone 3; 7 Shaman and 1 Druid (square only with the black borders). All have Nos",
+            "# druid",
+            "# 25,5",
+            "add;druid_r_5;25,5;immediate;closest",
+            "",
+            "# shamans",
+            "#24,6",
+            "#23,5",
+            "#22,6",
+            "#23,7",
+            "#24,8",
+            "#25,7",
+            "#26,6",
+            "add;shaman_r_29;24,6;immediate;closest",
+            "add;shaman_r_30;23,5;immediate;closest",
+            "add;shaman_r_31;22,6;immediate;closest",
+            "add;shaman_r_32;23,7;immediate;closest",
+            "add;shaman_r_33;24,8;immediate;closest",
+            "add;shaman_r_34;25,7;immediate;closest",
+            "add;shaman_r_35;26,6;immediate;closest"
+        ],
+        "nid": "44 Turn15"
+    }
+]

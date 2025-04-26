@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "44",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#1 Brigand, upper right corner of the zone 4 (exactly in the map's border).",
+            "#27,16",
+            "add;brigand_r_3;27,16;immediate;closest",
+            "#1 Brigand upper left corner of the zone 3.",
+            "#16,0",
+            "add;brigand_r_4;16,0;immediate;closest"
+        ],
+        "nid": "44 Turn4"
+    }
+]

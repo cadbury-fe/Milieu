@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BargainRingAbility",
+        "name": "Bargain",
+        "desc": "Discounts shop prices ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "change_buy_price",
+                -0.5
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

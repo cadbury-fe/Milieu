@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "VampArt",
+        "name": "<red>Vamp</>",
+        "desc": "An attack that heals for half of damage dealt",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "lifelink",
+                0.5
+            ],
+            [
+                "cannot_double",
+                null
+            ]
+        ]
+    }
+]

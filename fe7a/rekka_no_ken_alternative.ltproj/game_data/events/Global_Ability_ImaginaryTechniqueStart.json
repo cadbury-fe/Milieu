@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Ability_ImaginaryTechniqueStart",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;skill_random;[skill.nid for skill in DB.skills]",
+            "level_var;random_number;game.get_random(0, len({v:skill_random}))",
+            "give_skill;{unit1};{eval:{v:skill_random}[{v:random_number}]}",
+            "add_skill_component;{unit};{eval:{v:skill_random}[{v:random_number}]};lost_on_end_combat"
+        ],
+        "nid": "Global Ability_ImaginaryTechniqueStart"
+    }
+]

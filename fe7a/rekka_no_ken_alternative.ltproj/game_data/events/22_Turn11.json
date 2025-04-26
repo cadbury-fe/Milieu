@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn11",
+        "trigger": "turn_change",
+        "level_nid": "22",
+        "condition": "game.turncount == 11",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;10,18",
+            "add_unit;Mercenary_R8;9,18;immediate;closest",
+            "add_unit;Mercenary_R9;10,18;immediate;closest",
+            "add_unit;Shaman_R9;9,20;immediate;closest",
+            "add_unit;Myrmidon_R5;10,20;immediate;closest",
+            "change_objective_simple;Survive: last turn!"
+        ],
+        "nid": "22 Turn11"
+    }
+]

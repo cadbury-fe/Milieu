@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Bribe",
+        "name": "<purple>Bribe</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "event_on_hit",
+                "Global Ability_Bribe"
+            ]
+        ]
+    }
+]

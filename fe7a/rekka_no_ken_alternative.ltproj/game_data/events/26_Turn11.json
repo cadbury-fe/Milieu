@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn11",
+        "trigger": "turn_change",
+        "level_nid": "26",
+        "condition": "game.turncount == 11",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,21",
+            "add_unit;PegasusKnight_R4;0,20;immediate;closest",
+            "add_unit;PegasusKnight_R8;0,21;immediate;closest"
+        ],
+        "nid": "26 Turn11"
+    }
+]

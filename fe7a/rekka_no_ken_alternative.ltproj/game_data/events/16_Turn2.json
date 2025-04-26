@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "16",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;1,2",
+            "add_unit;Myrmidon_R2;1,2;immediate;closest",
+            "add_unit;Nomad_R2;0,1;immediate;closest"
+        ],
+        "nid": "16 Turn2"
+    }
+]

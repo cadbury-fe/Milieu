@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Ability_Squadron",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "has_skill(unit, 'Squadron')",
+        "commands": [],
+        "only_once": false,
+        "priority": 30,
+        "_source": [
+            "make_generic;;Cavalier;1;player",
+            "add_unit;{created_unit};{unit};fade;closest",
+            "autolevel_to;{created_unit};{eval:unit.level};hidden",
+            "",
+            "make_generic;;Cavalier;1;player",
+            "add_unit;{created_unit};{unit};fade;closest",
+            "autolevel_to;{created_unit};{eval:unit.level};hidden",
+            "",
+            "make_generic;;Cavalier;1;player",
+            "add_unit;{created_unit};{unit};fade;closest",
+            "autolevel_to;{created_unit};{eval:unit.level};hidden",
+            "",
+            "make_generic;;Cavalier;1;player",
+            "add_unit;{created_unit};{unit};fade;closest",
+            "autolevel_to;{created_unit};{eval:unit.level};hidden",
+            "wait;200"
+        ],
+        "nid": "Global Ability_Squadron"
+    }
+]

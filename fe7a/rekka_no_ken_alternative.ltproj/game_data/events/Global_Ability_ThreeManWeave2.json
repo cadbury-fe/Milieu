@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Ability_ThreeManWeave2",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "load_unit;Claudia;player",
+            "give_skill;Claudia;ThreeManWeave3;no_banner",
+            "add;Claudia;{unit};warp;stack",
+            "remove;{unit};warp"
+        ],
+        "nid": "Global Ability_ThreeManWeave2"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "WindTuneStatus",
+        "name": "Wind Attuned",
+        "desc": "+30 Crit",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "crit",
+                30
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

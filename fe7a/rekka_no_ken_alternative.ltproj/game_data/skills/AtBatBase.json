@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "AtBatBase",
+        "name": "Base",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stack",
+                4
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

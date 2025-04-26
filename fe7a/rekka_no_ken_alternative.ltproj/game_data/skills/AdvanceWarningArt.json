@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "AdvanceWarningArt",
+        "name": "<red>Advance Warning</>",
+        "desc": "Allows the target to attack first, then, launches a critical hit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "disvantage",
+                null
+            ],
+            [
+                "crit",
+                999
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

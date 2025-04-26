@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "PowerSwap",
+        "name": "PowerSwap",
+        "desc": "Flips attack and defense stats. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_on_upkeep",
+                "Global Ability_PowerSwapEquip"
+            ],
+            [
+                "event_on_remove",
+                "Global Ability_PowerSwapRemove"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

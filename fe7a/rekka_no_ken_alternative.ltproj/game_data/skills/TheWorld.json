@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "TheWorld",
+        "name": "<indigo>The World</>",
+        "desc": "Stops time. Usable once per chapter",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "TheWorldAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

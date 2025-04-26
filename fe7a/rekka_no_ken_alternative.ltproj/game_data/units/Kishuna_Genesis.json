@@ -1,0 +1,60 @@
+[
+    {
+        "nid": "Kishuna_Genesis",
+        "name": "Kishuna",
+        "desc": "Me when I'm cold",
+        "variant": null,
+        "level": 15,
+        "klass": "MagicSeal",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 57,
+            "STR": 2,
+            "MAG": 7,
+            "SKL": 4,
+            "SPD": 25,
+            "LCK": 0,
+            "DEF": 13,
+            "RES": 5,
+            "CON": 7,
+            "MOV": 7,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 20,
+            "STR": 20,
+            "MAG": 20,
+            "SKL": 20,
+            "SPD": 20,
+            "LCK": 0,
+            "DEF": 10,
+            "RES": 20,
+            "CON": 1,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "HP": 60,
+            "STR": 28,
+            "MAG": 30,
+            "SKL": 25,
+            "SPD": 20,
+            "LCK": 0,
+            "DEF": 20,
+            "RES": 25,
+            "CON": 20,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {},
+        "alternate_classes": [],
+        "portrait_nid": "Kishuna",
+        "affinity": null,
+        "fields": []
+    }
+]

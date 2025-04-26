@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Charm_c",
+        "name": "Charm",
+        "desc": "+30 Hit, +30 Avoid",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hit",
+                30
+            ],
+            [
+                "avoid",
+                30
+            ]
+        ]
+    }
+]

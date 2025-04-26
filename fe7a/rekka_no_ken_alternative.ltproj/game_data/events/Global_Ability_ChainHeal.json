@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ability_ChainHeal",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;heal_unit;[unit.nid for unit in get_allies_within_distance(unit.position, 1)]",
+            "    set_current_hp;{heal_unit};{eval:unit.get_hp() + 10}",
+            "endf"
+        ],
+        "nid": "Global Ability_ChainHeal"
+    }
+]

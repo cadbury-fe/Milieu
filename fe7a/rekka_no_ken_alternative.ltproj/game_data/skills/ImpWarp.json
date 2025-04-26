@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ImpWarp",
+        "name": "<indigo>Imp Warp</>",
+        "desc": "Teleport to a random location on the map.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "ImpWarpAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

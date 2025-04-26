@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "RivalCrit",
+        "name": "RivalCrit",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
+            ],
+            [
+                "crit",
+                9999
+            ]
+        ]
+    }
+]

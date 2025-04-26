@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ability_BraveGain",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;{unit};BraveStack;no_banner",
+            "give_skill;{unit};Braved;no_banner",
+            "give_skill;{unit};Braving;no_banner"
+        ],
+        "nid": "Global Ability_BraveGain"
+    }
+]

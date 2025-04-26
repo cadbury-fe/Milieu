@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "37",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# A Thief from the stairs below Maxime.",
+            "# 8,11",
+            "add;thief_r_3;8,11;immediate;closest",
+            "",
+            "#below the enemy with the \"B\", in the white and green squares:",
+            "#1 Monk, 1 Sniper, 1 Archer, 1 Shaman",
+            "",
+            "# monk",
+            "# 2,27",
+            "add;monk_r_1;2,27;immediate;closest",
+            "",
+            "# sniper",
+            "# 3,27",
+            "add;sniper_r_1;3,27;immediate;closest",
+            "",
+            "# archer",
+            "# 6,27",
+            "add;archer_r_1;6,27;immediate;closest",
+            "",
+            "# shaman",
+            "# 8,27",
+            "add;shaman_r_1;8,27;immediate;closest"
+        ],
+        "nid": "37 Turn4"
+    }
+]

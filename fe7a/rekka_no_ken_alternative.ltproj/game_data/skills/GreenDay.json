@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "GreenDay",
+        "name": "<green>Green Day</>",
+        "desc": "Makes a unit green. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "GreenDayAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

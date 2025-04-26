@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "TradeRing",
+        "name": "Trade Ring",
+        "desc": "Grants a skill, which allows long-range trading",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Trade"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

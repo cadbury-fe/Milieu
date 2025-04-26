@@ -1,0 +1,40 @@
+[
+    {
+        "nid": "PeaceEnemy",
+        "name": "Peaceful",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -15
+                    ],
+                    [
+                        "MAG",
+                        -15
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

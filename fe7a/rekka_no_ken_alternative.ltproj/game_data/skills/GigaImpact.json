@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "GigaImpact",
+        "name": "Giga Impact",
+        "desc": "An attack with tripled damage. Unit is stunned afterwards",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "GigaImpactArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

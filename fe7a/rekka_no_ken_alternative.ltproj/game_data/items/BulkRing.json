@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "BulkRing",
+        "name": "Bulk Ring",
+        "desc": "Grants a skill, which triples the unit's CON",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Bulk"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

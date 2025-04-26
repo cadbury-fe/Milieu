@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Preps",
+        "trigger": "level_start",
+        "level_nid": "44",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_team;Ninian;player",
+            "prep;t;skateboard_p_instrumental"
+        ],
+        "nid": "44 Preps"
+    }
+]

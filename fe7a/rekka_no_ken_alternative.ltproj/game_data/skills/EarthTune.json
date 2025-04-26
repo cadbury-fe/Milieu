@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "EarthTune",
+        "name": "<indigo>Earth Tune</>",
+        "desc": "Refreshes an ally, and grants them +5 DEF",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "EarthTune"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

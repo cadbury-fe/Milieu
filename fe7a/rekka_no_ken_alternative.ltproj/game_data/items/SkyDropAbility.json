@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "SkyDropAbility",
+        "name": "<red>Sky Drop</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global Ability_SkyDropStart"
+            ]
+        ]
+    }
+]

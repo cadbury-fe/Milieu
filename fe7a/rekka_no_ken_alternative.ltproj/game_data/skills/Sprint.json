@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Sprint",
+        "name": "<indigo>Sprint</>",
+        "desc": "Doubles available movement, but can't attack after moving. Usable if the unit has not yet moved",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "SprintAbility"
+            ],
+            [
+                "condition",
+                "max(0, utils.calculate_distance(unit.position, unit.previous_position)) == 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

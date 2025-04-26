@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "LongRing",
+        "name": "Long Ring",
+        "desc": "Grants a skill, which adds +1 Range",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Long"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

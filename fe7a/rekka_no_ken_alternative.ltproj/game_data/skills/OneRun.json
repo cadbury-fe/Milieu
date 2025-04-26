@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "OneRun",
+        "name": "One Run",
+        "desc": "1.5x damage multiplier",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "has_skill(unit, 'AtBat')"
+            ],
+            [
+                "damage_multiplier",
+                1.5
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

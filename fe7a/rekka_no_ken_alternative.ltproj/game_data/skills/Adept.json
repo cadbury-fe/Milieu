@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Adept",
+        "name": "Adept",
+        "desc": "Grants an extra attack every fourth attack. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_after_strike",
+                "Global Ability_AdeptStackGain"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

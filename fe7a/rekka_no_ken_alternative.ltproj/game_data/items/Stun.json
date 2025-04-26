@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Stun",
+        "name": "Stun",
+        "desc": "Enemy cannot move or attack.",
+        "icon_nid": "{Ereshkigal} Staff 11",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                35
+            ],
+            [
+                "value",
+                1500
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Stunned"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "max_range",
+                3
+            ]
+        ]
+    }
+]

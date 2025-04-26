@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Turn11",
+        "trigger": "turn_change",
+        "level_nid": "27",
+        "condition": "game.turncount == 11",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;23,0",
+            "add_unit;PegasusKnight_R5;23,0;;closest",
+            "center_cursor;22,14",
+            "add_unit;PegasusKnight_R6;22,14;;closest",
+            "center_cursor;19,0",
+            "add_unit;WyvernRider_R17;19,0;;closest",
+            "center_cursor;20,14",
+            "add_unit;WyvernRider_R18;20,14;;closest",
+            "center_cursor;22,0",
+            "add_unit;WyvernRider_R17;22,0;;closest",
+            "center_cursor;23,14",
+            "add_unit;WyvernRider_R18;23,14;;closest"
+        ],
+        "nid": "27 Turn11"
+    }
+]

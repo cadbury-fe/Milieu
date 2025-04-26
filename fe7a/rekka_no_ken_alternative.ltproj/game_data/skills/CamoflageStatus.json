@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "CamoflageStatus",
+        "name": "Camoflage",
+        "desc": "Unit turns invisible, and is ignored by enemies. Wears off after the unit performs an action",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "modify_ai_priority",
+                0.0
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": true,
+                    "lost_on_ally": true,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": true
+                }
+            ],
+            [
+                "unit_tint",
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Turn7",
+        "trigger": "turn_change",
+        "level_nid": "20",
+        "condition": "game.turncount == 7",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;15,8",
+            "flicker_cursor;15,8",
+            "give_item;Lucius;Lightning",
+            "give_item;Lucius;Vulnerary",
+            "",
+            "give_item;CaelinSoldier_1;Steel_Lance;no_banner",
+            "give_item;CaelinSoldier_1;Vulnerary;no_banner",
+            "give_item;CaelinSoldier_2;Javelin;no_banner",
+            "give_item;CaelinSoldier_2;Vulnerary;no_banner",
+            "give_item;CaelinSoldier_3;Steel_Lance;no_banner",
+            "give_item;CaelinSoldier_3;Vulnerary;no_banner",
+            "move_unit;CaelinSoldier_2;14,9;normal;closest",
+            "sound;Unlock",
+            "show_layer;Door2",
+            "center_cursor;0,26",
+            "add_unit;Cavalier_R1;0,26;immediate;closest",
+            "add_unit;Nomad_R1;0,27;immediate;closest",
+            "center_cursor;Eliwood"
+        ],
+        "nid": "20 Turn7"
+    }
+]

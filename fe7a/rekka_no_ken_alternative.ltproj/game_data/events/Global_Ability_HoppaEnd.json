@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Ability_HoppaEnd",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:hoppa_turn} + 1 == game.turncount",
+            "    for;x;[i for i in range(len({v:hoppa_pos}))]",
+            "        add_unit;{e:{v:hoppa_unit}[{x}]};{e:{v:hoppa_pos}[{x}]};swoosh;closest",
+            "    endf",
+            "    add_unit;{v:hoppa_source_unit};{v:hoppa_source_pos};swoosh;closest",
+            "end",
+            "#hoppa_pos"
+        ],
+        "nid": "Global Ability_HoppaEnd"
+    }
+]

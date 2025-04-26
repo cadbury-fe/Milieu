@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ImpWarpAbility",
+        "name": "<purple>Imp Warp</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global Ability_ImpWarp"
+            ]
+        ]
+    }
+]

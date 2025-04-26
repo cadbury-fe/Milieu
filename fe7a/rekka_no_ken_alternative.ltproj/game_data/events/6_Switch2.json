@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Switch2",
+        "trigger": "Activate",
+        "level_nid": "6",
+        "condition": "region.nid == 'switch2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "inc_level_var;switch2",
+            "",
+            "if;{v:switch1} == 1 and {v:switch3} == 1",
+            "    add_unit;Cindy;{unit};swoosh;closest",
+            "end"
+        ],
+        "nid": "6 Switch2"
+    }
+]

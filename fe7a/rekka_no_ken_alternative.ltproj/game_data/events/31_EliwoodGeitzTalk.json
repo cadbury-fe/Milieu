@@ -1,0 +1,16 @@
+[
+    {
+        "name": "EliwoodGeitzTalk",
+        "trigger": "on_talk",
+        "level_nid": "31",
+        "condition": "check_pair('Eliwood','Geitz')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_team;Geitz;player",
+            "remove_talk;Eliwood;Geitz"
+        ],
+        "nid": "31 EliwoodGeitzTalk"
+    }
+]

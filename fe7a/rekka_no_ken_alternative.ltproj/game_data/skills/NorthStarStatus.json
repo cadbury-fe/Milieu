@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "NorthStarStatus",
+        "name": "North Star",
+        "desc": "Magic is reduced by half",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MAG",
+                        0.5
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                6
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

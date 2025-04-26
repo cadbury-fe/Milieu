@@ -1,0 +1,24 @@
+[
+    {
+        "nid": "Guts",
+        "name": "Guts",
+        "desc": "Reduces one point of damage for every three points of missing HP",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "Guts_hp"
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

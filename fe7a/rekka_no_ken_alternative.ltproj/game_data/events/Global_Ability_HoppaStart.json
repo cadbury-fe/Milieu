@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Ability_HoppaStart",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;hoppa_unit;[unit.nid for unit in get_units_within_distance(unit.position, 5)]",
+            "level_var;hoppa_pos;[unit.position for unit in get_units_within_distance(unit.position, 5)]",
+            "level_var;hoppa_source_pos;unit.position",
+            "level_var;hoppa_source_unit;unit.nid",
+            "level_var;hoppa_turn;game.turncount",
+            "",
+            "for;hopped;[unit.nid for unit in get_units_within_distance(unit.position, 5)]",
+            "    remove_unit;{hopped};swoosh",
+            "endf",
+            "remove_unit;{unit};swoosh"
+        ],
+        "nid": "Global Ability_HoppaStart"
+    }
+]

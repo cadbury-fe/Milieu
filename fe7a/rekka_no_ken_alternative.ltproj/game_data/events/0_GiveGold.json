@@ -1,0 +1,15 @@
+[
+    {
+        "name": "GiveGold",
+        "trigger": "level_start",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_money;5000;Lyns;no_banner"
+        ],
+        "nid": "0 GiveGold"
+    }
+]

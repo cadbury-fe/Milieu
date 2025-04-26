@@ -1,0 +1,41 @@
+[
+    {
+        "nid": "Rewarp",
+        "name": "Rewarp",
+        "desc": "Move yourself to another square.",
+        "icon_nid": "{Ereshkigal} Staff 17",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "sequence_item",
+                [
+                    "Rewarp1",
+                    "Rewarp2"
+                ]
+            ],
+            [
+                "no_ai",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ]
+        ]
+    }
+]

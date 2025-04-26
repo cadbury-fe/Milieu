@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Turret",
+        "name": "Turret",
+        "desc": "Unit can act forever before moving",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "eval_galeforce",
+                "max(0, utils.calculate_distance(unit.position, unit.previous_position)) == 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

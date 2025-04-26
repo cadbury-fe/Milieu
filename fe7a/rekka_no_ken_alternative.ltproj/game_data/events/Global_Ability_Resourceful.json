@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Ability_Resourceful",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;1 == item_funcs.num_stacks(unit, unit.get_accessory().status_on_equip.value)",
+            "    level_var;copy_skill;unit.get_accessory().status_on_equip.value",
+            "    add_skill_component;{unit};{v:copy_skill};stax;2;stack",
+            "    give_skill;{unit};{v:copy_skill};;no_banner",
+            "end"
+        ],
+        "nid": "Global Ability_Resourceful"
+    }
+]

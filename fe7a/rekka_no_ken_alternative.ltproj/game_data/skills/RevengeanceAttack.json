@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "RevengeanceAttack",
+        "name": "RevengeanceAttack",
+        "desc": "Vengeance Ring: Initiated attacks can\u2019t critical hit, but counterattacks always crit",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "mode == 'attack'"
+            ],
+            [
+                "crit",
+                -999
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

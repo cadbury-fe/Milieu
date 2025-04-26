@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "WaveDance",
+        "name": "<indigo>Wave Dance</>",
+        "desc": "Refreshes an ally, and gives +5 MAG",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "WaveDance"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Ability_TheWorld",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;we;{eval:game.board.bounds[2]+1}",
+            "level_var;wo;{eval:game.board.bounds[3]+1}",
+            "add_region;TimeLock;0,0;{v:we},{v:wo};status;TheWorldEndsWithYouStatus",
+            "game_var;TimeLockCountdown;1",
+            "level_var;TimeLockLocationX;unit.position[0]",
+            "level_var;TimeLockLocationY;unit.position[1]",
+            "",
+            "#{eval:','.join([str(game.board.bounds[2]+1), str(game.board.bounds[3]+1)])}"
+        ],
+        "nid": "Global Ability_TheWorld"
+    }
+]

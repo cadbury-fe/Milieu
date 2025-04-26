@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "KapalaStorage",
+        "name": "<indigo>Kapala Storage</>",
+        "desc": "Sacrifice 20 HP to gain a stack of Blood.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "KapalaStore"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Turn6",
+        "trigger": "turn_change",
+        "level_nid": "36",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#2 Falco Knights, next to where others already start",
+            "# 24,21",
+            "# 24,23",
+            "add;falco_r_1;24,21;immediate;closest",
+            "add;falco_r_2;24,23;immediate;closest"
+        ],
+        "nid": "36 Turn6"
+    }
+]

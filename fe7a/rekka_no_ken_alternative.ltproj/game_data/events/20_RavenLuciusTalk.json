@@ -1,0 +1,16 @@
+[
+    {
+        "name": "RavenLuciusTalk",
+        "trigger": "on_talk",
+        "level_nid": "20",
+        "condition": "check_pair('Raven','Lucius')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_team;Lucius;player",
+            "remove_talk;Raven;Lucius"
+        ],
+        "nid": "20 RavenLuciusTalk"
+    }
+]

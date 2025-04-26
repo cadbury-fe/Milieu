@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SugarcaneArt",
+        "name": "<red>Sugarcane</>",
+        "desc": "Tech gains a+1 permanent damage increase each time it is used. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "item_funcs.num_stacks(unit, \"SugarcaneStack\")"
+            ],
+            [
+                "event_after_initiated_combat",
+                "Global Ability_SugarcaneStack"
+            ]
+        ]
+    }
+]

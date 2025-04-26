@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CombatArtist",
+        "name": "Combat Artist",
+        "desc": "Gain another action after using a combat art.\n",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "charges_per_turn",
+                1
+            ],
+            [
+                "combat_artist",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Preps",
+        "trigger": "level_start",
+        "level_nid": "46",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;Gate",
+            "level_var;lloyd;0",
+            "level_var;linus;0",
+            "level_var;ursula;0",
+            "level_var;uhai;0",
+            "level_var;kenneth;0",
+            "level_var;jerme;0",
+            "level_var;darin;0",
+            "level_var;brendan;0",
+            "",
+            "level_var;blood;0",
+            "level_var;shadow;0",
+            "level_var;sea;0",
+            "",
+            "prep;t;skateboard_p_instrumental",
+            "level_var;one;[unit.nid for unit in get_units_in_region('one')]",
+            "level_var;two;[unit.nid for unit in get_units_in_region('two')]",
+            "level_var;three;[unit.nid for unit in get_units_in_region('three')]",
+            "level_var;four;[unit.nid for unit in get_units_in_region('four')]",
+            "level_var;five;[unit.nid for unit in get_units_in_region('five')]",
+            "level_var;six;[unit.nid for unit in get_units_in_region('six')]",
+            "level_var;seven;[unit.nid for unit in get_units_in_region('seven')]"
+        ],
+        "nid": "46 Preps"
+    }
+]

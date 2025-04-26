@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "SwapAbility",
+        "name": "<purple>Swap</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "swap",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ]
+        ]
+    }
+]

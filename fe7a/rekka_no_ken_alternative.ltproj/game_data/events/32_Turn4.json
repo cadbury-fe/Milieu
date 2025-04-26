@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "32",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,1",
+            "add_unit;WyvernRider_HR1;0,1;immediate;closest",
+            "add_unit;WyvernRider_HR2;1,0;immediate;closest",
+            "center_cursor;6,15",
+            "add_unit;Monk_HR1;6,15;immediate;closest",
+            "add_unit;Monk_HR2;7,16;immediate;closest",
+            "center_cursor;7,2",
+            "add_unit;Myrmidon_R1;7,2;immediate;stack",
+            "add_unit;Myrmidon_R2;7,2;immediate;stack",
+            "move_unit;Myrmidon_R1;7,4;;closest;no_block;no_follow",
+            "move_unit;Myrmidon_R2;8,4;;closest;no_follow",
+            "center_cursor;4,0",
+            "add_unit;Brigand_R1;4,0;immediate;closest"
+        ],
+        "nid": "32 Turn4"
+    }
+]

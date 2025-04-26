@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Librarian",
+        "name": "Librarian Aura",
+        "desc": "Be quiet.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "aura",
+                "Silence"
+            ],
+            [
+                "aura_range",
+                10
+            ],
+            [
+                "aura_target",
+                "unit"
+            ]
+        ]
+    }
+]

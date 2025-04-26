@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Ability_ExaggerationPost",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "set_stats;{unit2};SKL,{v:targetStatSKL};immediate",
+            "set_stats;{unit2};MAG,{v:targetStatMAG};immediate",
+            "set_stats;{unit2};SPD,{v:targetStatSPD};immediate",
+            "set_stats;{unit2};CON,{v:targetStatCON};immediate",
+            "set_stats;{unit2};LCK,{v:targetStatLUK};immediate",
+            "set_stats;{unit2};DEF,{v:targetStatDEF};immediate",
+            "set_stats;{unit2};STR,{v:targetStatSTR};immediate",
+            "set_stats;{unit2};RES,{v:targetStatRES};immediate"
+        ],
+        "nid": "Global Ability_ExaggerationPost"
+    }
+]

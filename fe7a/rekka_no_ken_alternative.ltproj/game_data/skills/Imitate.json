@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Imitate",
+        "name": "<indigo>Imitate</>",
+        "desc": "Transforms unit into the target.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "ImitateAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

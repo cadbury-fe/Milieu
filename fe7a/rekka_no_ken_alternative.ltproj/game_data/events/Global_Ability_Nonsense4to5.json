@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Ability_Nonsense4to5",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;{unit};TheNineVolumesOfNonsense5;no_banner"
+        ],
+        "nid": "Global Ability_Nonsense4to5"
+    }
+]

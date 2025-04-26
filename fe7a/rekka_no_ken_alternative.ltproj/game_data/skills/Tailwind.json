@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Tailwind",
+        "name": "<indigo>Tailwind</>",
+        "desc": "Doubles allies and unit's SPD",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "TailwindAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

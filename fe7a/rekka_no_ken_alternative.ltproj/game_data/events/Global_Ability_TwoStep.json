@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ability_TwoStep",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;{unit};{unit2};normal;closest",
+            "has_attacked;{unit}"
+        ],
+        "nid": "Global Ability_TwoStep"
+    }
+]

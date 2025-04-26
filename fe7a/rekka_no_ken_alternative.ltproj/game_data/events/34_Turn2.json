@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "34",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 4 Wyvern Riders, from the left of the map",
+            "# 0,2",
+            "# 2,0",
+            "# 0,25",
+            "# 2,26",
+            "add_unit;wyvern_r1;0,2;immediate;closest",
+            "add_unit;wyvern_r2;2,0;immediate;closest",
+            "add_unit;wyvern_r3;0,25;immediate;closest",
+            "add_unit;wyvern_r4;2,26;immediate;closest"
+        ],
+        "nid": "34 Turn2"
+    }
+]

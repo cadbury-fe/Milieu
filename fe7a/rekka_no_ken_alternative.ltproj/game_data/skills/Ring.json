@@ -1,0 +1,20 @@
+[
+    {
+        "nid": "Ring",
+        "name": "Ring",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "Ring_1"
+                ]
+            ]
+        ]
+    }
+]

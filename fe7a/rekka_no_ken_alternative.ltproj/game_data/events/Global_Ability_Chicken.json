@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ability_Chicken",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#change_class;{unit};Chicken;silent",
+            "#give_item;{unit};Lex Talon"
+        ],
+        "nid": "Global Ability_Chicken"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "EnemyTurn4",
+        "trigger": "enemy_turn_change",
+        "level_nid": "17",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_ai;Cavalier_3;Pursue",
+            "change_ai;Cavalier_4;Pursue",
+            "change_ai;Cavalier_5;Pursue",
+            "change_ai;Cavalier_6;Pursue",
+            "change_ai;Cavalier_7;Pursue",
+            "change_ai;Nomad_1;Pursue",
+            "change_ai;Soldier_1;Pursue",
+            "change_ai;Soldier_2;Pursue",
+            "change_ai;Soldier_7;Pursue",
+            "change_ai;Soldier_8;Pursue",
+            "change_ai;Knight_1;Pursue",
+            ""
+        ],
+        "nid": "17 EnemyTurn4"
+    }
+]

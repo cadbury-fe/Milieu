@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "FireMagDebuff",
+        "name": "Fire Magic Debuff",
+        "desc": "Debuffs STR by 3. Can be applied up to three times",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -3
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "stack",
+                3
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

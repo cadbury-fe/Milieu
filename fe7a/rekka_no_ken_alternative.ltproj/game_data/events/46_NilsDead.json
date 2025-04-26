@@ -1,0 +1,21 @@
+[
+    {
+        "name": "NilsDead",
+        "trigger": "combat_end",
+        "level_nid": "46",
+        "condition": "game.check_dead(\"Nils\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "center_cursor;FIRE",
+            "flicker_cursor;FIRE",
+            "map_anim;CritSpark;FIRE",
+            "sound;RedTruth",
+            "wait;1000",
+            "remove_skill;FIRE;NilsTune;no_banner",
+            "center_cursor;Eliwood"
+        ],
+        "nid": "46 NilsDead"
+    }
+]

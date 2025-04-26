@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "VanityRing",
+        "name": "Vanity Ring",
+        "desc": "Grants a skill, where the unit has extra damage at long range.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Vanity"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

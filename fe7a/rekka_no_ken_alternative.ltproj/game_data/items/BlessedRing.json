@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "BlessedRing",
+        "name": "Blessed Ring",
+        "desc": "Grants a skill, where weapons don\u2019t lose durability in this unit's hands",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Blessed"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

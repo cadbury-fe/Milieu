@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "CanterRing",
+        "name": "Canter Ring",
+        "desc": "Grants a skill, where the unit can move 4 spaces after acting.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Canter"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

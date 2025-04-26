@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SkyDrop",
+        "name": "<red>Sky Drop</>",
+        "desc": "Picks up unit, drops them next turn",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "SkyDropAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

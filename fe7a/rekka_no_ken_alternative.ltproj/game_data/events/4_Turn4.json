@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_unit;Brigand_R2;11,13;fade;closest",
+            "add_unit;Brigand_R2;10,13;fade;closest"
+        ],
+        "nid": "4 Turn4"
+    }
+]

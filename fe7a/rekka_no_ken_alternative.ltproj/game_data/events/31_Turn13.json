@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn13",
+        "trigger": "turn_change",
+        "level_nid": "31",
+        "condition": "game.turncount == 13",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;25,12",
+            "add_unit;WyvernRider_HR15;25,11;immediate;closest",
+            "add_unit;WyvernRider_HR16;25,12;immediate;closest"
+        ],
+        "nid": "31 Turn13"
+    }
+]

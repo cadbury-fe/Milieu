@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ExhaustiveStrikeArt",
+        "name": "<red>Exhaustive Strike</>",
+        "desc": "Takes all of the equipped weapon\u2019s remaining durability and adds that value to damage. Weapon breaks afterwards",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "unit.get_weapon().data.get('uses')"
+            ],
+            [
+                "event_after_hit",
+                "Global Ability_ExhaustiveStrike"
+            ]
+        ]
+    }
+]

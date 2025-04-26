@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Howl",
+        "name": "<indigo>Howl</>",
+        "desc": "Boosts unit and adjacent units attack by 4. Decays over time.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "HowlAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

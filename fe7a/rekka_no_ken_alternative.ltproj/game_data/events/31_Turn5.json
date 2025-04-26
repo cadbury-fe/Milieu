@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "31",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;25,7",
+            "add_unit;Pirate_R1;25,6;immediate;closest",
+            "add_unit;Pirate_R2;25,7;immediate;closest",
+            "add_unit;Pirate_R3;25,8;immediate;closest",
+            "center_cursor;25,1",
+            "add_unit;WyvernRider_HR3;25,1;immediate;closest",
+            "add_unit;WyvernRider_HR4;25,3;immediate;closest",
+            "center_cursor;11,0",
+            "add_unit;Mercenary_HR1;8,0;immediate;closest",
+            "add_unit;Mercenary_HR2;9,0;immediate;closest",
+            "add_unit;Mercenary_HR3;13,0;immediate;closest",
+            "add_unit;Mercenary_HR4;14,0;immediate;closest"
+        ],
+        "nid": "31 Turn5"
+    }
+]

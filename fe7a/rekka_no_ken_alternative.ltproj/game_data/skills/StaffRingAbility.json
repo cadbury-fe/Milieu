@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "StaffRingAbility",
+        "name": "Staffable",
+        "desc": "Allows the unit to use staves. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "wexp_usable_skill",
+                "Staff"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

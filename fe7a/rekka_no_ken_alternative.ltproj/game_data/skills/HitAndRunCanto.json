@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "HitAndRunCanto",
+        "name": "HitAndRunCanto",
+        "desc": "Move after attacking",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "canto_plus",
+                null
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

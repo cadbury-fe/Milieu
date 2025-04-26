@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "OneOuts",
+        "name": "One Outs",
+        "desc": "Nobody wins, but I!",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

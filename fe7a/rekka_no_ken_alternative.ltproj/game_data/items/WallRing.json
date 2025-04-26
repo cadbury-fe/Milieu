@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "WallRing",
+        "name": "Wall Ring",
+        "desc": "Grants a skill, which reduces MOV by 4, and increases defenses.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "WallRingAbility"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

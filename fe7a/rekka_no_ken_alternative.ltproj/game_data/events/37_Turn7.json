@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Turn7",
+        "trigger": "turn_change",
+        "level_nid": "37",
+        "condition": "game.turncount == 7",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#1 Shaman from the stairs below Maxime.",
+            "# 8,11",
+            "add;shaman_r_4;8,11;immediate;closest",
+            "#1 Sniper, 1 Archer (green)",
+            "",
+            "# sniper",
+            "# 3,27",
+            "add;sniper_r_2;3,27;immediate;closest",
+            "",
+            "# archer",
+            "# 6,27",
+            "add;archer_r_2;6,27;immediate;closest",
+            "",
+            "#1 Mage, down left corner of the map.",
+            "# 0,27",
+            "add;mage_r_4;0,27;immediate;closest",
+            "",
+            "#1 General, 1 Knight (orange)",
+            "# general",
+            "# 0,26",
+            "add;gen_r_1;0,26;immediate;closest",
+            "",
+            "# knight",
+            "# 9,27",
+            "add;knight_r_1;9,27;immediate;closest",
+            "",
+            "change_ai;Ursula;Pursue"
+        ],
+        "nid": "37 Turn7"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Donuts",
+        "name": "<indigo>Donuts</>",
+        "desc": "Unit lays a magic beat that refreshes the targeted ally once every odd turn",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "DonutsAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

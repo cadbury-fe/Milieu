@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Rival_a",
+        "name": "Rival",
+        "desc": "If a nearby ally crits, unit\u2019s next attack will crit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "aura",
+                "Rival_c"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

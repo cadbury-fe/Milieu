@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "KapalaUnburden",
+        "name": "<red>Kapala Unburden</>",
+        "desc": "Damage is multipled by the number of Blood Store stacks",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "has_skill(unit, 'KapalaStack')"
+            ],
+            [
+                "combat_art",
+                "KapalaUnburdenArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

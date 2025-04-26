@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Teleporter",
+        "name": "<indigo>Teleporter</>",
+        "desc": "Unit sets up two magic circles. Standing on one allows a unit to teleport to the other.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "TeleporterAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

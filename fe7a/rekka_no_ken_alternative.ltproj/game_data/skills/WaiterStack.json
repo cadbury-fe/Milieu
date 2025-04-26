@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "WaiterStack",
+        "name": "Waiting",
+        "desc": "For Godot",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        1.5
+                    ],
+                    [
+                        "MAG",
+                        1.5
+                    ],
+                    [
+                        "SKL",
+                        1.5
+                    ],
+                    [
+                        "SPD",
+                        1.5
+                    ],
+                    [
+                        "LCK",
+                        1.5
+                    ],
+                    [
+                        "DEF",
+                        1.5
+                    ],
+                    [
+                        "RES",
+                        1.5
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                999
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

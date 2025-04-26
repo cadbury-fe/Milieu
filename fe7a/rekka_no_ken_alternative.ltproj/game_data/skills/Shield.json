@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Shield",
+        "name": "<indigo>Shield</>",
+        "desc": "Unit grants a shield which gives the ally immunity to all damage for one combat engagement. Usable once per chapter",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "ShieldAbility"
+            ],
+            [
+                "condition",
+                "not(has_skill(unit, 'ShieldUsed'))"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Chest1",
+        "trigger": "Chest",
+        "level_nid": "41",
+        "condition": "region.nid == 'Chest1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};AdaptabilityRing",
+            "show_layer;Chest1",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "41 Chest1"
+    }
+]

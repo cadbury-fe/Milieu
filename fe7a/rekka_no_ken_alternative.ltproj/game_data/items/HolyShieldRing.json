@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "HolyShieldRing",
+        "name": "Holy Shield",
+        "desc": "Grants a skill, which prevents effective damage against the unit",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "HolyShield"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "ArrogancePart2",
+        "name": "Arrogance",
+        "desc": "Complacent against unpromoted enemies. Stat boost against bosses and promoted enemies. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "(DB.classes.get(target.klass).tier >= 2) or ('Boss' in target.tags)"
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        2.0
+                    ],
+                    [
+                        "SKL",
+                        2.0
+                    ],
+                    [
+                        "SPD",
+                        2.0
+                    ]
+                ]
+            ]
+        ]
+    }
+]

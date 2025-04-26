@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ability_LacedUpkeep",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_skill;{unit};LacedStatus;no_banner",
+            "give_skill;{unit};Stunned;no_banner"
+        ],
+        "nid": "Global Ability_LacedUpkeep"
+    }
+]

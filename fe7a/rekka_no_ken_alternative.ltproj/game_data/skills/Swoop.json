@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Swoop",
+        "name": "<red>Swoop</>",
+        "desc": "Attack, then fly into the sky. Unit comes down afterwards",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "SwoopAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Marathon",
+        "name": "Marathon",
+        "desc": "+1 to movement every turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "MOV",
+                        "(1 * game.turncount) - 1"
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

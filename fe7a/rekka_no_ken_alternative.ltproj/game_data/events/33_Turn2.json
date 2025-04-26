@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "33",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#2 Cavaliers, from the forts next to the boss at the right",
+            "# 1 Pirate, in the bottom right corner of the map",
+            "",
+            "#cavs",
+            "#9,1",
+            "#10,1",
+            "add_unit;cav_r1;9,1",
+            "add_unit;cav_r2;10,1",
+            "",
+            "#pirate",
+            "#24,18",
+            "add_unit;pirate_r1;24,18"
+        ],
+        "nid": "33 Turn2"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "EpidemicAbility",
+        "name": "<purple>Epidemic</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                5
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "enemy_blast_aoe",
+                3
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "status_on_hit",
+                "Poisoned"
+            ]
+        ]
+    }
+]

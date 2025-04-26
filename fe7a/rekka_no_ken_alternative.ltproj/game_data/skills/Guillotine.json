@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Guillotine",
+        "name": "<red>Guillotine</>",
+        "desc": "Inaccurate, but instantly kills target",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "GuillotineAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

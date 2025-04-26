@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Bunker",
+        "name": "<indigo>Bunker</>",
+        "desc": "Invulnerable to all damage, but can\u2019t attack, and can't move. Resets at the end of the chapter.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "BunkerAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

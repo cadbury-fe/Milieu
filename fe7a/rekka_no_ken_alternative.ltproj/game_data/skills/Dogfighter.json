@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "Dogfighter",
+        "name": "Dogfighter",
+        "desc": "Triples SPD, SKL, STR against opposing flying units.\nTriples DEF, RES, LUK, and adds +3 MOV to allied flying units within aura.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "Dogfighter_p",
+                    "Dogfighter_a"
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

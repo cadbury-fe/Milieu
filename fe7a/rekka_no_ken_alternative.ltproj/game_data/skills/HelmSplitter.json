@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "HelmSplitter",
+        "name": "<red>Helm Splitter</>",
+        "desc": "Effective against armored enemies ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "HelmSplitterArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

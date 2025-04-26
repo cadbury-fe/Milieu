@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "DupeProc",
+        "name": "Dupe",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_after_hit",
+                "Global Ability_Duplicate"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SwordParryAbility",
+        "name": "<purple>Sword Parry</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "self_status_on_hit",
+                "SwordParryStatus"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ]
+        ]
+    }
+]

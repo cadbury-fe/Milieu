@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "LightScreenAbility",
+        "name": "<purple>Light Screen</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "ally_blast_aoe",
+                2
+            ],
+            [
+                "status_on_hit",
+                "Forest"
+            ]
+        ]
+    }
+]

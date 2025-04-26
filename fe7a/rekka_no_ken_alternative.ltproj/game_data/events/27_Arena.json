@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Arena",
+        "trigger": "Visit",
+        "level_nid": "27",
+        "condition": "region.nid == 'Arena'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};TideRing",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "27 Arena"
+    }
+]

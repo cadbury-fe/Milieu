@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "FallenStar",
+        "name": "<indigo>Fallen Star</>",
+        "desc": "Avoids all attacks during the next round of combat ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "FallenStarStatus"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

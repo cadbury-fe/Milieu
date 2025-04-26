@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "WaryFighter",
+        "name": "Wary Fighter",
+        "desc": "Cannot double or be doubled.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            8
+        ],
+        "components": [
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "defense_speed",
+                1000
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

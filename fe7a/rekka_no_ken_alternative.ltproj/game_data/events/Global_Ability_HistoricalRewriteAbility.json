@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Ability_HistoricalRewriteAbility",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#for;ally;[unit.nid for unit in target_system.get_adj_units(game.get_unit(unit.nid))]",
+            "if;'Boss' not in target.tags",
+            "    for;x;[unit for unit in game.get_enemy_units(game.get_unit(unit.nid)) if unit.klass == unit2.klass]",
+            "        kill_unit;{x}",
+            "    endf",
+            "end"
+        ],
+        "nid": "Global Ability_HistoricalRewriteAbility"
+    }
+]

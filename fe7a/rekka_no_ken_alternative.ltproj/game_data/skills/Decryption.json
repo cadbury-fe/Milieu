@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Decryption",
+        "name": "<red>Decryption</>",
+        "desc": "Unit engages in magical trickery to disable all magic in the area",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "DecryptionAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

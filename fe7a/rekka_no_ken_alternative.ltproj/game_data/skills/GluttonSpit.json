@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "GluttonSpit",
+        "name": "<red>Spit</>",
+        "desc": "Pouh!",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "has_skill(unit, 'Inhaled')"
+            ],
+            [
+                "ability",
+                "GluttonSpit"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

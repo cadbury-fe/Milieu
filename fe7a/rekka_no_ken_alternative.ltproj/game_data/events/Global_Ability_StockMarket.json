@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Ability_StockMarket",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;stockMarketUser;game.get_random((unit.get_stat('LCK') + unit.get_stat('SKL') + 10), 100)",
+            "level_var;stockMarket;game.get_random(30, 100)",
+            "if;{v:stockMarketUser} > {v:stockMarket}",
+            "    give_money;1500;Eliwoods",
+            "end"
+        ],
+        "nid": "Global Ability_StockMarket"
+    }
+]

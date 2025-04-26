@@ -1,0 +1,16 @@
+[
+    {
+        "name": "PriscillaRavenTalk",
+        "trigger": "on_talk",
+        "level_nid": "20",
+        "condition": "check_pair('Priscilla','Raven')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_team;Raven;player",
+            "remove_talk;Priscilla;Raven"
+        ],
+        "nid": "20 PriscillaRavenTalk"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "nid": "Erk",
+        "name": "Erk",
+        "desc": "Mythed",
+        "variant": null,
+        "level": 1,
+        "klass": "Mage",
+        "tags": [],
+        "bases": {
+            "HP": 17,
+            "STR": 1,
+            "MAG": 5,
+            "SKL": 6,
+            "SPD": 7,
+            "LCK": 3,
+            "DEF": 2,
+            "RES": 4,
+            "CON": 5,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 85,
+            "STR": 25,
+            "MAG": 25,
+            "SKL": 40,
+            "SPD": 50,
+            "LCK": 20,
+            "DEF": 75,
+            "RES": 45,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "BlueBlaze",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "EmergencyExit"
+            ],
+            [
+                1,
+                "ImpWarp"
+            ],
+            [
+                5,
+                "Protect"
+            ],
+            [
+                15,
+                "Bunker"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                1,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Erk",
+        "affinity": null,
+        "fields": []
+    }
+]

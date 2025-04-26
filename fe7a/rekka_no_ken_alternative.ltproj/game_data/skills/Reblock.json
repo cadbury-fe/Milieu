@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Reblock",
+        "name": "<indigo>Reblock</>",
+        "desc": "Boosts defense by 7 points. Lasts for 3 turns. Boost decays over time.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "ReblockAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

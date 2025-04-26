@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "AdaptabilityRing",
+        "name": "Adaptability Ring",
+        "desc": "Grants a skill, which nullifies damage from the most recent source.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Adaptability"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

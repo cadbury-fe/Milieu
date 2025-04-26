@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "16",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;1,1",
+            "add_unit;Mercenary_R1;1,2;immediate;closest",
+            "add_unit;Mage_R1;0,1;immediate;closest"
+        ],
+        "nid": "16 Turn4"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Ability_WeirdSpark",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;frost_number;game.get_random(0,2)",
+            "speak;;'{v:frost_number}'",
+            "if;{v:frost_number} == 0",
+            "    give_skill;{unit2};Stunned;;no_banner",
+            "elif;{v:frost_number} == 1",
+            "    give_skill;{unit2};Poisoned;;no_banner",
+            "elif;{v:frost_number} == 2",
+            "    give_skill;{unit2};Sleep;;no_banner",
+            "end"
+        ],
+        "nid": "Global Ability_WeirdSpark"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "WishStatus",
+        "name": "Best Wishes",
+        "desc": "Unit will be healed to full HP next turn",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_on_upkeep",
+                "Global Ability_WishHeal"
+            ],
+            [
+                "end_time",
+                2
+            ]
+        ]
+    }
+]

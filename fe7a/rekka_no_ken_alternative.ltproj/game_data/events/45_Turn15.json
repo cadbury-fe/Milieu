@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Turn15",
+        "trigger": "turn_change",
+        "level_nid": "45",
+        "condition": "game.turncount == 15",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#From the previous squares and in the stairs where on of your units start 1 Berserker",
+            "#13,14",
+            "add;ber_r_23;13,14;immediate;closest",
+            "# 1 Berserker (green square)",
+            "#18,6",
+            "add;ber_r_24;18,6;immediate;closest",
+            "# 1 Berserker (yellow square)",
+            "#9,2",
+            "add;ber_r_25;9,2;immediate;closest",
+            "#1 Berserker (black square)",
+            "#2,14",
+            "add;ber_r_26;2,14;immediate;closest"
+        ],
+        "nid": "45 Turn15"
+    }
+]

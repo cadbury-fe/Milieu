@@ -1,0 +1,84 @@
+[
+    {
+        "nid": "Japararegalia",
+        "name": "Japararegalia",
+        "desc": "Eliwood only. Before combat, takes the target's highest combat stat, maximises that stat, then reduces all other stats to zero.\nEffective against dragons",
+        "icon_nid": "{LordGlenn} (ArchaneaIconProject) tile036",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                12930
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                95
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                1
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "prf_unit",
+                [
+                    "Eliwood"
+                ]
+            ],
+            [
+                "status_on_equip",
+                "ExaggerationEffect"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Dragon"
+                    ],
+                    "effective_multiplier": 4.0,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ]
+        ]
+    }
+]

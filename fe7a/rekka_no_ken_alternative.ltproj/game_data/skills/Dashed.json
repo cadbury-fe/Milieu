@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Dashed",
+        "name": "Dashed",
+        "desc": "Exhausted, and can't initiate an attack",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "lost_on_endstep",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "38",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# in the stairs where the enemy with the \"D\" start",
+            "# 1 Cavalier and 1 Nomad",
+            "#16,1",
+            "#17,1",
+            "add;cav_r_3;16,1;immediate;closest",
+            "add;nomad_r_3;17,1;immediate;closest",
+            "",
+            "# 2 Wyvern Rider",
+            "#1,17",
+            "#2,18",
+            "add;wyvern_r_3;1,17;immediate;closest",
+            "add;wyvern_r_4;2,18;immediate;closest",
+            "",
+            "# 1 Wyvern Rider, red square",
+            "# 6,18",
+            "add;wyvern_r_5;6,18;immediate;closest"
+        ],
+        "nid": "38 Turn4"
+    }
+]

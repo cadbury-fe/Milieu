@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Preps",
+        "trigger": "level_start",
+        "level_nid": "43",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "prep;t;skateboard_p_instrumental"
+        ],
+        "nid": "43 Preps"
+    }
+]

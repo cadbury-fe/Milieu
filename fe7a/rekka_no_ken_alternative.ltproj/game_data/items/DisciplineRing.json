@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "DisciplineRing",
+        "name": "Discipline Ring",
+        "desc": "Grants a skill, which doubles weapon experience gained. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Discipline"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Explosion",
+        "name": "<red>Explosion</>",
+        "desc": "Blow up",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "ExplosionAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

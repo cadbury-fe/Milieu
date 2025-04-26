@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "SoulLinkWrapper",
+        "name": "Soul Link",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "SoulLink",
+                    "SoulLinkSwitch",
+                    "SoulLinkJoin",
+                    "SoulLinkPull",
+                    "Delink"
+                ]
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

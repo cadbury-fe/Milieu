@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Turn15",
+        "trigger": "turn_change",
+        "level_nid": "36",
+        "condition": "game.turncount == 15",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#1 Wyvern Lord, in the upper left corner of the map",
+            "# 0,0",
+            "add;wyvernlord_r_4;0,0;immediate;closest",
+            "",
+            "#2 Wyvern Rider, at the sides of the two previous",
+            "# 1,0",
+            "# 0,1",
+            "add;wyvern_r_7;1,0;immediate;closest",
+            "add;wyvern_r_8;0,1;immediate;closest",
+            ""
+        ],
+        "nid": "36 Turn15"
+    }
+]

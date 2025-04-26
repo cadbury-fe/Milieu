@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Debug Setup",
+        "trigger": "level_start",
+        "level_nid": "DEBUG",
+        "condition": "cf.SETTINGS['debug']",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            ""
+        ],
+        "nid": "DEBUG Debug Setup"
+    }
+]

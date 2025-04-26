@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ability_Slide",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_unit;{unit};{eval:target_pos};normal;push",
+            "move_cursor;{unit}"
+        ],
+        "nid": "Global Ability_Slide"
+    }
+]

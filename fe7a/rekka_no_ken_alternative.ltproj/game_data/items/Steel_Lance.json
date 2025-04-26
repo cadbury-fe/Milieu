@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "Steel_Lance",
+        "name": "Steel Lance",
+        "desc": "Can't double when initiating",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                14
+            ],
+            [
+                "hit",
+                70
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "weapon_rank",
+                "D"
+            ],
+            [
+                "uses",
+                60
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "weight",
+                14
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "value",
+                5400
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "status_on_equip",
+                "SteelEffect"
+            ]
+        ]
+    }
+]

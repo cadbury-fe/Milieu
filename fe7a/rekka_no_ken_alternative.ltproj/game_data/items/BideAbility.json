@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "BideAbility",
+        "name": "<purple>Bide</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "self_status_on_hit",
+                "Biding"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ]
+        ]
+    }
+]

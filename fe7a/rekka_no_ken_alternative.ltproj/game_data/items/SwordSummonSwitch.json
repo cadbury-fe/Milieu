@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "SwordSummonSwitch",
+        "name": "<purple>Switch</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "eval_target_restrict_2",
+                "has_skill(target, 'SwordSummon')"
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global Ability_SwordSummonSwitch"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "global_range",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Turn11",
+        "trigger": "turn_change",
+        "level_nid": "38",
+        "condition": "game.turncount == 11",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 1 Cavalier, red square",
+            "# 6,18",
+            "add;cav_r_5;6,18;immediate;closest",
+            "#In the stairs above where you start",
+            "#2 Pegasus Kinght and 1 Falco Knight between them.",
+            "#At the right of the previous, 3 Pirate from the stairs",
+            "#1,1",
+            "add;falco_r_1;1,1;immediate;closest",
+            "",
+            "#0,2",
+            "#2,0",
+            "add;peg_r_1;0,2;immediate;closest",
+            "add;peg_r_2;2,0;immediate;closest",
+            "",
+            "",
+            "#7,1",
+            "#8,1",
+            "#9,1",
+            "add;pirate_r_1;7,1;immediate;closest",
+            "add;pirate_r_2;7,1;immediate;closest",
+            "add;pirate_r_3;7,1;immediate;closest"
+        ],
+        "nid": "38 Turn11"
+    }
+]

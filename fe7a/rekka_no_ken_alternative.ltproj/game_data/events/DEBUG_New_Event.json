@@ -1,0 +1,17 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "level_start",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# game.tilemap.get_terrain()",
+            "#level_var;Bungus;game.tilemap.",
+            "#speak;;{v:Bungus}"
+        ],
+        "nid": "DEBUG New Event"
+    }
+]

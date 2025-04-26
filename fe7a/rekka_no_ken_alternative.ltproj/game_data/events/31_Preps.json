@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Preps",
+        "trigger": "level_start",
+        "level_nid": "31",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_team;Wallace;other",
+            "prep;t;skateboard_p_instrumental",
+            "add_talk;Eliwood;Geitz"
+        ],
+        "nid": "31 Preps"
+    }
+]

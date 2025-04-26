@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "18",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,1",
+            "add_unit;Fighter_R3;0,1;immediate;closest",
+            "center_cursor;14,11",
+            "add_unit;Cavalier_R1;14,11;immediate;closest",
+            "add_unit;Cavalier_R4;14,9;immediate;closest",
+            "center_cursor;9,16",
+            "add_unit;Myrmidon_R1;7,16;immediate;closest",
+            "add_unit;Mercenary_R1;9,16;immediate;closest"
+        ],
+        "nid": "18 Turn4"
+    }
+]

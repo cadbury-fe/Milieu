@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "VantageStatus",
+        "name": "Vantage",
+        "desc": "Set up to attack first on enemy phase. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "vantage",
+                null
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ]
+        ]
+    }
+]

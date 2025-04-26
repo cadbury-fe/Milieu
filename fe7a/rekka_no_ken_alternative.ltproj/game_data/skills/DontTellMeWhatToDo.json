@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DontTellMeWhatToDo",
+        "name": "Don't Tell Me What To Do!",
+        "desc": "Unit refuses to listen to orders.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "change_ai",
+                "Pursue"
+            ]
+        ]
+    }
+]

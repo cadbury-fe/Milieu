@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Adaptability",
+        "name": "Adaptability",
+        "desc": "Nullifies damage from the most recent source.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_before_combat",
+                "Global Ability_Adaptability"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

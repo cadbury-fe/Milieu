@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ThunderWave",
+        "name": "<indigo>Thunder Wave</>",
+        "desc": "Halves target's SPD and MOV",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "ThunderWaveAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

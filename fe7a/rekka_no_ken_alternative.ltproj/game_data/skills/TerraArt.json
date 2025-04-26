@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "TerraArt",
+        "name": "<red>Terra</>",
+        "desc": "Critically hits if unit is on impactful terrain",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "game.tilemap.get_terrain(unit.position) in ('2','8','12','20','21','22','25','30','31','32','33','34','35','38','Ruins','Village Ruins')"
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "9999"
+            ]
+        ]
+    }
+]

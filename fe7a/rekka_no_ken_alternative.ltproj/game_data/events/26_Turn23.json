@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn23",
+        "trigger": "turn_change",
+        "level_nid": "26",
+        "condition": "game.turncount == 23",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,1",
+            "add_unit;Knight_R5;0,1;immediate;closest",
+            "add_unit;Knight_R11;0,2;immediate;closest"
+        ],
+        "nid": "26 Turn23"
+    }
+]

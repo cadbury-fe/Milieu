@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "ImaginaryTechniqueArt",
+        "name": "<red>Imaginary Technique</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_before_combat",
+                "Global Ability_ImaginaryTechniqueStart"
+            ]
+        ]
+    }
+]

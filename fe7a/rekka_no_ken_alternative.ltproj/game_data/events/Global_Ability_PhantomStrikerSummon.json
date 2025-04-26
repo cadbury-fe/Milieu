@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Ability_PhantomStrikerSummon",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;Fighter;1;player",
+            "autolevel_to;{created_unit};{eval:unit.level};hidden",
+            "add_unit;{created_unit};{unit};warp;closest",
+            "wait;200"
+        ],
+        "nid": "Global Ability_PhantomStrikerSummon"
+    }
+]

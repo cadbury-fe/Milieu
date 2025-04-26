@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Grapple",
+        "name": "<indigo>Grapple</>",
+        "desc": "Pulls the unit towards the target. Refreshes unit. Stuns target for the remainder of player phase",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "GrappleAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    }
+]

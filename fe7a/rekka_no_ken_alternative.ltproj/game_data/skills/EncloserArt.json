@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "EncloserArt",
+        "name": "<red>Encloser</>",
+        "desc": "Prevents foe from moving for 1 turn",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_after_hit",
+                "Global Ability_EncloserArt"
+            ]
+        ]
+    }
+]

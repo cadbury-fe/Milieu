@@ -1,0 +1,75 @@
+[
+    {
+        "nid": "TheNineVolumesOfNonsense9",
+        "name": "Volume 9",
+        "desc": "Uprooted Radical III",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "unit.get_stat('CON')"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        7
+                    ],
+                    [
+                        "MAG",
+                        7
+                    ],
+                    [
+                        "SKL",
+                        7
+                    ],
+                    [
+                        "SPD",
+                        7
+                    ],
+                    [
+                        "LCK",
+                        7
+                    ],
+                    [
+                        "DEF",
+                        7
+                    ],
+                    [
+                        "RES",
+                        7
+                    ],
+                    [
+                        "CON",
+                        7
+                    ],
+                    [
+                        "MOV",
+                        7
+                    ],
+                    [
+                        "LEAD",
+                        7
+                    ]
+                ]
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "event_on_upkeep",
+                "Global Ability_Nonsense9to10"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

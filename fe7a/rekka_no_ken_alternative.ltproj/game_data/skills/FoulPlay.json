@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FoulPlay",
+        "name": "<red>Foul Play</>",
+        "desc": "Unit adds target's STR to damage",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "FoulPlayArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

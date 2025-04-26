@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "LunaRing",
+        "name": "Luna Ring",
+        "desc": "Grants a skill, where every fourth attack pierces defense. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Luna"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

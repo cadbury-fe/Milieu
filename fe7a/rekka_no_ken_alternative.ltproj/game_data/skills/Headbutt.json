@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Headbutt",
+        "name": "<red>Headbutt</>",
+        "desc": "If unit's SPD is greater than target's SPD, target can't counterattack",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "HeadbuttArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

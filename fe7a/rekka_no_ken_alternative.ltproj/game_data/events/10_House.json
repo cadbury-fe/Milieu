@@ -1,0 +1,17 @@
+[
+    {
+        "name": "House",
+        "trigger": "Visit",
+        "level_nid": "10",
+        "condition": "region.nid == 'House'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};Swinch",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "10 House"
+    }
+]

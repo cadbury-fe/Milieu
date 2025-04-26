@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "HootAbility",
+        "name": "<purple>Hootananny</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global Ability_Hootananny"
+            ],
+            [
+                "attack_after_combat",
+                null
+            ]
+        ]
+    }
+]

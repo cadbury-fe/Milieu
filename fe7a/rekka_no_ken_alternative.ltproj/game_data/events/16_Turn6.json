@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn6",
+        "trigger": "turn_change",
+        "level_nid": "16",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;1,2",
+            "add_unit;Myrmidon_R3;1,2;immediate;closest",
+            "add_unit;Nomad_R4;0,1;immediate;closest"
+        ],
+        "nid": "16 Turn6"
+    }
+]

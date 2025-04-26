@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "MirrorRing",
+        "name": "Mirror Ring",
+        "desc": "Grants a skill, which reflects magic-based attacks",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Mirror"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

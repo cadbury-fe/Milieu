@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "NilsTune",
+        "name": "Lulled",
+        "desc": "Unit is protected by the music of Nils, but deals half damage",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "resist",
+                9999
+            ],
+            [
+                "ignore_damage",
+                null
+            ],
+            [
+                "damage_multiplier",
+                0.5
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    170,
+                    0,
+                    255
+                ]
+            ]
+        ]
+    }
+]

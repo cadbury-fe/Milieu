@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "RefreshCircle",
+        "name": "<indigo>Refresh Circle</>",
+        "desc": "Unit draws a magic circle beneath them. Standing in this circle refreshes the unit, allowing them to act again.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "RefreshCircleAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

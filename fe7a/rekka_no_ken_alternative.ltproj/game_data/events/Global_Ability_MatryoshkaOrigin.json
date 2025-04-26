@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Ability_MatryoshkaOrigin",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.get_unit('Matryoshka1')",
+            "    resurrect;Matryoshka1",
+            "    remove_unit;Matryoshka1;warp",
+            "    autolevel_to;Matryoshka1;{e:unit.level}",
+            "else",
+            "    make_generic;Matryoshka1;Matryoshka1;{e:unit.level};player;;;;Lightning",
+            "    set_stats;Matryoshka1;HP,1,STR,{e:unit.stats.get('STR')},MAG,{e:unit.stats.get('MAG')},SKL,{e:unit.stats.get('SKL')},SPD,{e:unit.stats.get('SPD')},DEF,{e:unit.stats.get('DEF')},RES,{e:unit.stats.get('RES')},CON,{e:unit.stats.get('CON')},MOV,{e:unit.stats.get('MOV')};immediate",
+            "end",
+            "add_unit;Matryoshka1;{eval:target_pos};warp",
+            "wait;200",
+            ""
+        ],
+        "nid": "Global Ability_MatryoshkaOrigin"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Turn9",
+        "trigger": "turn_change",
+        "level_nid": "27",
+        "condition": "game.turncount == 9",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;25,6",
+            "add_unit;Knight_R7;25,7;;closest",
+            "add_unit;Knight_R8;25,6;;closest",
+            "center_cursor;22,0",
+            "add_unit;WyvernRider_R7;22,0;;closest",
+            "center_cursor;22,14",
+            "add_unit;WyvernRider_R8;22,14;;closest",
+            "center_cursor;25,1",
+            "add_unit;WyvernRider_R7;25,1;;closest",
+            "center_cursor;25,14",
+            "add_unit;WyvernRider_R8;25,14;;closest"
+        ],
+        "nid": "27 Turn9"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "GuardianAngel",
+        "name": "<indigo>Guardian Angel</>",
+        "desc": "Grants an ally divine protection for one combat engagement",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "GuardianAngelAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

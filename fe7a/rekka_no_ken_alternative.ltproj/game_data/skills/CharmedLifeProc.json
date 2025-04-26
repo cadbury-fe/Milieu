@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "CharmedLifeProc",
+        "name": "Charmed Life",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "avoid",
+                9999
+            ]
+        ]
+    }
+]

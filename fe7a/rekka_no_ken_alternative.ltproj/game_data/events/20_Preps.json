@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Preps",
+        "trigger": "level_start",
+        "level_nid": "20",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_talk;Priscilla;Raven",
+            "prep;t;skateboard_p_instrumental"
+        ],
+        "nid": "20 Preps"
+    }
+]

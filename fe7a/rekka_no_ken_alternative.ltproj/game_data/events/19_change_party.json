@@ -1,0 +1,19 @@
+[
+    {
+        "name": "change_party",
+        "trigger": "level_end",
+        "level_nid": "19",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_party;Lyn;Eliwoods",
+            "change_party;Florina;Eliwoods",
+            "change_party;Sain;Eliwoods",
+            "change_party;Kent;Eliwoods",
+            "change_party;Wil;Eliwoods"
+        ],
+        "nid": "19 change_party"
+    }
+]

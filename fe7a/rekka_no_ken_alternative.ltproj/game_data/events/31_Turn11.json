@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn11",
+        "trigger": "turn_change",
+        "level_nid": "31",
+        "condition": "game.turncount == 11",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;25,1",
+            "add_unit;WyvernRider_HR5;25,1;immediate;closest",
+            "add_unit;WyvernRider_HR6;25,3;immediate;closest"
+        ],
+        "nid": "31 Turn11"
+    }
+]

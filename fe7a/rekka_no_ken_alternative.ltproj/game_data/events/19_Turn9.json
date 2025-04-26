@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn9",
+        "trigger": "turn_change",
+        "level_nid": "19",
+        "condition": "game.turncount == 9",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,0",
+            "add_unit;Cavalier_R4;3,0;immediate;closest",
+            "add_unit;Cavalier_R9;1,0;immediate;closest"
+        ],
+        "nid": "19 Turn9"
+    }
+]

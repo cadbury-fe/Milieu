@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "TeleporterAbility",
+        "name": "<purple>Teleporter</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "target_tile",
+                null
+            ],
+            [
+                "traversable_tile_target_restrict",
+                null
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "event_on_hit",
+                "Global Ability_Teleporter"
+            ]
+        ]
+    }
+]

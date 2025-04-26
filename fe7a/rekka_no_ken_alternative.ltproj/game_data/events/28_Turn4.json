@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "28",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;10,22",
+            "add_unit;Knight_R1;10,22;immediate;closest",
+            "add_unit;Knight_R2;11,22;immediate;closest",
+            "center_cursor;18,21",
+            "add_unit;Nomad_R1;18,21;immediate;closest",
+            "center_cursor;0,16",
+            "add_unit;Archer_R1;0,16;immediate;closest",
+            "center_cursor;0,16",
+            "add_unit;Cavalier_HR2;0,16;immediate;closest",
+            "add_unit;WyvernRider_HR1;0,19;immediate;closest",
+            "center_cursor;18,21",
+            "add_unit;Nomad_HR2;18,22;immediate;closest",
+            "add_unit;WyvernRider_HR5;21,21;immediate;closest",
+            "center_cursor;10,22",
+            "add_unit;Knight_HR3;10,22;immediate;closest",
+            "add_unit;Knight_HR4;11,22;immediate;closest",
+            "add_unit;Monk_HR1;9,22;immediate;closest",
+            "add_unit;Monk_HR2;12,22;immediate;closest"
+        ],
+        "nid": "28 Turn4"
+    }
+]

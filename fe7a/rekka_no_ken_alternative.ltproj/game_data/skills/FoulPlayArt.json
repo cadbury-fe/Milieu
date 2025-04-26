@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "FoulPlayArt",
+        "name": "Foul Play",
+        "desc": "Unit adds target's STR to damage",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "target.get_stat('STR')"
+            ]
+        ]
+    }
+]

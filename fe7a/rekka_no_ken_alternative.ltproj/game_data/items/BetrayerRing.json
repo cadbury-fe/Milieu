@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "BetrayerRing",
+        "name": "Betrayer Ring",
+        "desc": "Grants a skill, which allows the unit to deal damage to allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "BetrayerRing"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

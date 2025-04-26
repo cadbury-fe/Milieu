@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "21",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_ai;264;Pursue",
+            "change_ai;265;Pursue",
+            "",
+            "center_cursor;8,13",
+            "add_unit;Nomad_R1;8,14;fade;stack",
+            "add_unit;Cavalier_R1;8,14;fade;stack",
+            "add_unit;Troubadour_R1;8,14;fade;stack",
+            "add_unit;Damian;8,14;fade;stack",
+            "move_unit;Damian;8,13;normal;closest",
+            "move_unit;Troubadour_R1;7,14;normal;closest",
+            "move_unit;Cavalier_R1;9,14;normal;closest"
+        ],
+        "nid": "21 Turn2"
+    }
+]

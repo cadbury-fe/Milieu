@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Ability_EmergencyExit",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# get the unit list, get the highest value",
+            "level_var;MostHP;max([game.get_unit(unit.nid).get_hp() for unit in game.get_player_units()])",
+            "",
+            "# iterate again, checking the unit.nid this time for matching HP value.",
+            "level_var;KenyaBee;[unit.nid for unit in game.get_player_units() if game.get_unit(unit.nid).get_hp() == {v:MostHP}]",
+            "# ",
+            "",
+            "# teleport to that unit",
+            "# {v:KenyaBee}",
+            "move_unit;{unit};{eval:game.get_unit({v:KenyaBee}[0])};warp;closest;no_block",
+            "",
+            ""
+        ],
+        "nid": "Global Ability_EmergencyExit"
+    }
+]

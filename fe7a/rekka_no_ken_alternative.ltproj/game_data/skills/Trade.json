@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Trade",
+        "name": "<purple>Trade</>",
+        "desc": "Allows long-range trading.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "TradeAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Ability_SwordSummon",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.get_unit('Sword')",
+            "    resurrect;Sword",
+            "    remove_unit;Sword;warp",
+            "    autolevel_to;Sword;{e:unit.level}",
+            "else",
+            "    make_generic;Sword;SpiritSword;{e:unit.level};player;;;;Iron_Sword",
+            "    set_stats;Sword;HP,1,STR,{e:unit.stats.get('STR')},MAG,{e:unit.stats.get('MAG')},SKL,{e:unit.stats.get('SKL')},SPD,{e:unit.stats.get('SPD')},DEF,{e:unit.stats.get('DEF')},RES,{e:unit.stats.get('RES')},CON,{e:unit.stats.get('CON')},MOV,{e:unit.stats.get('MOV')};immediate",
+            "end",
+            "add_unit;Sword;{eval:target_pos};warp",
+            "wait;200",
+            ""
+        ],
+        "nid": "Global Ability_SwordSummon"
+    }
+]

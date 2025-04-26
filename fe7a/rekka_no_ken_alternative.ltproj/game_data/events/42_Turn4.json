@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "42",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#In the upper left stair: 1 Druid",
+            "# 15,2",
+            "#In the upper right stair: 1 Sniper",
+            "# 20,2",
+            "",
+            "add;druid_r_3;15,2;immediate;closest",
+            "add;sniper_r_3;20,2;immediate;closest",
+            "",
+            "#1 Thief below Denning",
+            "#15,26",
+            "add;thief_r_3;15,26;immediate;closest",
+            "",
+            "#2 Knight and 1 General between them (in the Turn 3 and 6 is a Knight).",
+            "#general",
+            "# 15,27",
+            "add;gen_r_2;15,27;immediate;closest",
+            "",
+            "# knights",
+            "# 14,27",
+            "# 16,27",
+            "add;knight_r_6;14,27;immediate;closest",
+            "add;knight_r_7;16,27;immediate;closest",
+            "",
+            "#2 Sniper, squares with orange borders.",
+            "# 13,27",
+            "# 17,27",
+            "add;sniper_r_1;13,27;immediate;closest",
+            "add;sniper_r_2;17,27;immediate;closest"
+        ],
+        "nid": "42 Turn4"
+    }
+]

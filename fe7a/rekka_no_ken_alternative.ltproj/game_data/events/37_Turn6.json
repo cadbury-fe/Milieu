@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Turn6",
+        "trigger": "turn_change",
+        "level_nid": "37",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#1 Mage, 1 Mercenary, 1 Hero (red squares)",
+            "# mage",
+            "# 0,27",
+            "add;mage_r_3;0,27;immediate;closest",
+            "# merc",
+            "# 11,27",
+            "add;merc_r_2;11,27;immediate;closest",
+            "# hero",
+            "# 12,27",
+            "add;hero_r_2;12,27;immediate;closest",
+            "",
+            "",
+            "#1 Shaman from the stairs below Maxime.",
+            "# 8,11",
+            "add;shaman_r_4;8,11;immediate;closest"
+        ],
+        "nid": "37 Turn6"
+    }
+]

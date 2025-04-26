@@ -1,0 +1,67 @@
+[
+    {
+        "nid": "TheNineVolumesOfNonsense8",
+        "name": "Volume 8",
+        "desc": "Uprooted Radical II",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "unit.get_stat('RES')"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        44
+                    ],
+                    [
+                        "MAG",
+                        44
+                    ],
+                    [
+                        "SKL",
+                        44
+                    ],
+                    [
+                        "SPD",
+                        44
+                    ],
+                    [
+                        "LCK",
+                        44
+                    ],
+                    [
+                        "DEF",
+                        -44
+                    ],
+                    [
+                        "RES",
+                        -44
+                    ],
+                    [
+                        "HP",
+                        0
+                    ]
+                ]
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "event_on_upkeep",
+                "Global Ability_Nonsense8to9"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

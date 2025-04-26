@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "BoonAbility",
+        "name": "BoonAbility",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "restore",
+                null
+            ]
+        ]
+    }
+]

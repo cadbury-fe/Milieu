@@ -1,0 +1,17 @@
+[
+    {
+        "name": "LynSerraTalk",
+        "trigger": "on_talk",
+        "level_nid": "5",
+        "condition": "check_pair('Lyn', 'Serra')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_team;Erk;player",
+            "change_team;Serra;player",
+            "remove_talk;Lyn;Serra"
+        ],
+        "nid": "5 LynSerraTalk"
+    }
+]

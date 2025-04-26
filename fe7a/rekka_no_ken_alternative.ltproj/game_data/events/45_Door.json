@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Door",
+        "trigger": "Door",
+        "level_nid": "45",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "show_layer;Door",
+            "add;ber_r_45;9,11;swoosh;closest",
+            "add;ber_r_46;9,12;swoosh;closest",
+            "add;ber_r_47;11,11;swoosh;closest",
+            "add;ber_r_48;11,12;swoosh;closest"
+        ],
+        "nid": "45 Door"
+    }
+]

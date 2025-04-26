@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "CrashOut",
+        "name": "Crash Out",
+        "desc": "At full momentum, next attack causes a critical hit that ignores defense, and also damages enemies adjacent to target. Momentum is lost in the process.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "4 == item_funcs.num_stacks(unit, \"MomentumStack\")"
+            ],
+            [
+                "dynamic_damage",
+                "combat_calcs.defense(unit, target, None, item)"
+            ],
+            [
+                "event_after_hit",
+                "Global Ability_LoseMomentum"
+            ],
+            [
+                "crit",
+                9999
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ],
+            [
+                "enemy_oversplash",
+                3
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

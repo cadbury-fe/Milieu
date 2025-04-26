@@ -1,0 +1,16 @@
+[
+    {
+        "name": "win",
+        "trigger": "Talk",
+        "level_nid": "21",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_team;Dart;player",
+            "win_game"
+        ],
+        "nid": "21 win"
+    }
+]

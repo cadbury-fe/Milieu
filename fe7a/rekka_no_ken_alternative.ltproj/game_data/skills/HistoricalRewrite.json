@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "HistoricalRewrite",
+        "name": "<indigo>Historical Rewrite</>",
+        "desc": "Rewrite an enemy type out of history",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "HistoricalRewriteAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

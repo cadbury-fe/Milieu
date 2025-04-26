@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Arena",
+        "trigger": "Visit",
+        "level_nid": "31",
+        "condition": "region.nid == 'Arena'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};White_Gem",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "31 Arena"
+    }
+]

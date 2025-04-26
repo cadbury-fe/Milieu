@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Turn6",
+        "trigger": "turn_change",
+        "level_nid": "9",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_ai;Yogi;Pursue",
+            "change_ai;Soldier_3;FollowBoss",
+            "change_ai;Brigand_2;FollowBoss",
+            "change_ai;Mercenary_2;FollowBoss"
+        ],
+        "nid": "9 Turn6"
+    }
+]

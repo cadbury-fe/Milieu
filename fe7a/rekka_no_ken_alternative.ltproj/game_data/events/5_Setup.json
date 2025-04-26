@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Setup",
+        "trigger": "level_start",
+        "level_nid": "5",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_talk;Lyn;Serra",
+            "change_team;Dorcas;player"
+        ],
+        "nid": "5 Setup"
+    }
+]

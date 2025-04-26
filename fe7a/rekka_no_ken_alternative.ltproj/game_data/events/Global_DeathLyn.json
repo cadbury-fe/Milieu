@@ -1,0 +1,16 @@
+[
+    {
+        "name": "DeathLyn",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Lyn'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lose_game",
+            ""
+        ],
+        "nid": "Global DeathLyn"
+    }
+]

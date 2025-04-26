@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "TheAgeOfReason",
+        "name": "<indigo>The Effects Of Reading The Age of Reason</>",
+        "desc": "Inflicts Iron in the Soul on the target, which halves their speed and doubles the damage they take.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "AgeOfReasonAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

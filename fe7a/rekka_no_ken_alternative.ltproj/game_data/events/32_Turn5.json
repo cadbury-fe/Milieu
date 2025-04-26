@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "32",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;6,15",
+            "add_unit;Monk_R1;6,15;immediate;closest",
+            "add_unit;Monk_R2;7,16;immediate;closest",
+            "center_cursor;4,0",
+            "add_unit;Brigand_R2;4,0;immediate;closest",
+            "center_cursor;10,5",
+            "add_unit;Monk_HR6;10,5;immediate;closest",
+            "add_unit;Myrmidon_HR12;10,6;immediate;closest"
+        ],
+        "nid": "32 Turn5"
+    }
+]

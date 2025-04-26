@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ThirdStrikeGain",
+        "name": "ThirdStrikeGain",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_after_hit",
+                "Global Ability_GainThirdStrikeStack"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

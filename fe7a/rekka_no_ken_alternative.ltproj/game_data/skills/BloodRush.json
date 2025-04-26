@@ -1,0 +1,63 @@
+[
+    {
+        "nid": "BloodRush",
+        "name": "Blood Rush",
+        "desc": "At full momentum, unit gains a stat boost and becomes uncontrollable. Unit can't die while in this state, but can lose momentum.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "4 == item_funcs.num_stacks(unit, \"MomentumStack\")"
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        2.0
+                    ],
+                    [
+                        "SPD",
+                        2.0
+                    ],
+                    [
+                        "SKL",
+                        2.0
+                    ],
+                    [
+                        "MAG",
+                        2.0
+                    ],
+                    [
+                        "DEF",
+                        2.0
+                    ],
+                    [
+                        "RES",
+                        2.0
+                    ]
+                ]
+            ],
+            [
+                "TrueMiracle",
+                null
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "change_ai",
+                "Pursue"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

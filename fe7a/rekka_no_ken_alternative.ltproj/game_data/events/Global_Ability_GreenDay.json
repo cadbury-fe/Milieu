@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ability_GreenDay",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'Boss' not in target.tags",
+            "    change_team;{unit2};other",
+            "end"
+        ],
+        "nid": "Global Ability_GreenDay"
+    }
+]

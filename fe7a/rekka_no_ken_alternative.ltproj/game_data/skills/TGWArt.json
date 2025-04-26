@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "TGWArt",
+        "name": "<red>The Golden Wonder</>",
+        "desc": "Unit tosses money in the air, blinding the target and preventing them from counterattacking.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_override",
+                "GoldenWonder"
+            ]
+        ]
+    }
+]

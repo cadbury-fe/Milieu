@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Turn20",
+        "trigger": "turn_change",
+        "level_nid": "44",
+        "condition": "game.turncount == 20",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#2 Cavaliers in the forts in the upper part of the zone 2.",
+            "#11,14",
+            "#12,15",
+            "add;cav_r_17;11,14;immediate;closest",
+            "add;cav_r_18;12,15;immediate;closest",
+            "# 2 Falco Knight, in the forts at the left of the ruins 1.",
+            "# 1,0",
+            "# 0,1",
+            "add;falco_r_1;1,0;immediate;closest",
+            "add;falco_r_2;0,1;immediate;closest",
+            "",
+            "#2 Nomad Trooper, from the forts of the zone 4.",
+            "# 27,28",
+            "#26,29",
+            "add;trooper_r_5;27,28;immediate;closest",
+            "add;trooper_r_6;26,29;immediate;closest",
+            "",
+            "#2 Wyvern Rider, from the down left part of the zone 4.",
+            "#18,29",
+            "#20,29",
+            "add;wyvern_r_17;18,29;immediate;closest",
+            "add;wyvern_r_18;20,29;immediate;closest"
+        ],
+        "nid": "44 Turn20"
+    }
+]

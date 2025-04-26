@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "BrutalSwing",
+        "name": "<red>Brutal Swing</>",
+        "desc": "Targets in a 2 tile area take 15 damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "BrutalSwingArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

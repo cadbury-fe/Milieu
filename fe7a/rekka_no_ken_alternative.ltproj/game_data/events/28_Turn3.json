@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Turn3",
+        "trigger": "turn_change",
+        "level_nid": "28",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;1,22",
+            "add_unit;Fighter_R1;1,22;immediate;closest",
+            "center_cursor;14,22",
+            "add_unit;Fighter_R2;14,22;immediate;closest",
+            "center_cursor;10,22",
+            "add_unit;Monk_R1;9,22;immediate;closest",
+            "add_unit;Monk_R2;12,22;immediate;closest",
+            "center_cursor;0,16",
+            "add_unit;Cavalier_HR1;0,16;immediate;closest",
+            "center_cursor;1,22",
+            "add_unit;Fighter_HR3;1,22;immediate;closest",
+            "center_cursor;14,22",
+            "add_unit;Fighter_HR4;14,22;immediate;closest",
+            "center_cursor;18,21",
+            "add_unit;Nomad_HR1;18,22;immediate;closest",
+            "center_cursor;10,22",
+            "add_unit;Knight_HR1;10,22;immediate;closest",
+            "add_unit;Knight_HR2;11,22;immediate;closest"
+        ],
+        "nid": "28 Turn3"
+    }
+]

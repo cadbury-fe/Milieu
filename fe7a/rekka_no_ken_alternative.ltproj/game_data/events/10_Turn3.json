@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Turn3",
+        "trigger": "turn_change",
+        "level_nid": "10",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;14,7",
+            "add_unit;Cavalier_R3;14,7;immediate;closest",
+            "center_cursor;7,5",
+            "add_unit;Brigand_R7;7,5;immediate;closest",
+            "center_cursor;1,1",
+            "add_unit;Soldier_R3;1,1;immediate;closest",
+            "center_cursor;1,14",
+            "add_unit;Brigand_R3;1,14;immediate;closest",
+            "#",
+            "level_var;_fog_of_war;1",
+            "level_var;_fog_of_war_radius;3",
+            "",
+            ""
+        ],
+        "nid": "10 Turn3"
+    }
+]

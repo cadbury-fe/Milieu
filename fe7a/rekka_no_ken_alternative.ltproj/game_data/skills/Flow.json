@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Flow",
+        "name": "Flow",
+        "desc": "+1 Momentum gain",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "(combat_calcs.compute_advantage(unit, target, item, target.get_weapon()) and combat_calcs.compute_advantage(unit, target, item, target.get_weapon()).accuracy > 0) or (combat_calcs.compute_advantage(unit, target, item, target.get_weapon(), False) and combat_calcs.compute_advantage(unit, target, item, target.get_weapon(), False).accuracy > 0)"
+            ],
+            [
+                "event_after_hit",
+                "Global Ability_MomentumGain"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

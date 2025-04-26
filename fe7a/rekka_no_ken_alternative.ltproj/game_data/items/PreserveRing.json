@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "PreserveRing",
+        "name": "Preserve Ring",
+        "desc": "Grants a skill, where weapons have a chance to gain durability ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Preserve"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

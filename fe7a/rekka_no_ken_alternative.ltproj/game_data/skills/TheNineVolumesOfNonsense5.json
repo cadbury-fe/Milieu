@@ -1,0 +1,71 @@
+[
+    {
+        "nid": "TheNineVolumesOfNonsense5",
+        "name": "Volume 5",
+        "desc": "Psycho Logical II",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "unit.get_stat('SPD')"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -11
+                    ],
+                    [
+                        "MAG",
+                        22
+                    ],
+                    [
+                        "SKL",
+                        -33
+                    ],
+                    [
+                        "SPD",
+                        44
+                    ],
+                    [
+                        "LCK",
+                        -55
+                    ],
+                    [
+                        "DEF",
+                        66
+                    ],
+                    [
+                        "RES",
+                        -77
+                    ],
+                    [
+                        "CON",
+                        88
+                    ],
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "event_on_upkeep",
+                "Global Ability_Nonsense5to6"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

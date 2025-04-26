@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Ability_Bribe",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# get unit's inventory",
+            "# offer choices to bribe enemy with",
+            "# if successful, unit joins team as green unit",
+            "# if unsuccessful, nothing happens",
+            "if;game.get_money() >= 1000 and any([skill.nid == 'Bribe' for skill in game.get_unit('Marcel').skills])",
+            "    table;GoldDisplay;[game.get_money()];;;60;top_right;funds_display;expression",
+            "    choice;bribe;Bribe Enemy;Spend Gold, End Turn",
+            "    if;game.game_vars['bribe'] == 'Spend Gold'",
+            "        if;game.game_vars['BribeNumber'] < 1",
+            "            give_money;-1000;Marcel",
+            "            inc_game_var;BribeNumber",
+            "            change_team;{unit2};player",
+            "        else",
+            "            if;game.get_money() < {eval:2**{v:BribeNumber}*1000}",
+            "                add_portrait;Marcel;Left",
+            "                speak;Marcel;I have no money.",
+            "            else",
+            "                give_money;{eval:2**{v:BribeNumber}*-1000};Marcel",
+            "                inc_game_var;BribeNumber",
+            "                change_team;{unit2};player",
+            "            end",
+            "        end",
+            "    end",
+            "end",
+            "# bribe needs to be initialized at level start to 0.",
+            "give_money;{eval:-(game.get_money()) - game.get_money()};Marcel"
+        ],
+        "nid": "Global Ability_Bribe"
+    }
+]

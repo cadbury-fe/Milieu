@@ -1,0 +1,100 @@
+[
+    {
+        "nid": "Marcus",
+        "name": "Marcus",
+        "desc": "Jagain",
+        "variant": null,
+        "level": 1,
+        "klass": "Paladin",
+        "tags": [],
+        "bases": {
+            "HP": 39,
+            "STR": 15,
+            "MAG": 13,
+            "SKL": 12,
+            "SPD": 16,
+            "LCK": 13,
+            "DEF": 11,
+            "RES": 10,
+            "CON": 8,
+            "MOV": 8,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 90,
+            "STR": 45,
+            "MAG": 20,
+            "SKL": 65,
+            "SPD": 55,
+            "LCK": 65,
+            "DEF": 45,
+            "RES": 60,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Silver_Sword",
+                false
+            ],
+            [
+                "Spear",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Trace"
+            ],
+            [
+                1,
+                "Squadron"
+            ],
+            [
+                5,
+                "Trailblaze"
+            ],
+            [
+                15,
+                "Howl"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                181,
+                null
+            ],
+            "Sword": [
+                false,
+                181,
+                null
+            ],
+            "Axe": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Marcus",
+        "affinity": null,
+        "fields": []
+    }
+]

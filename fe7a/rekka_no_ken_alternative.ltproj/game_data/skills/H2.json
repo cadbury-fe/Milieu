@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "H2",
+        "name": "H2",
+        "desc": "5x damage multiplier",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "has_skill(unit, 'AtBat')"
+            ],
+            [
+                "damage_multiplier",
+                5.0
+            ],
+            [
+                "avoid",
+                100
+            ],
+            [
+                "crit",
+                100
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

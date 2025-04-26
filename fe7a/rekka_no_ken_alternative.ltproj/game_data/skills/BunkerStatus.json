@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "BunkerStatus",
+        "name": "Bunker",
+        "desc": "Invulnerable to all damage, but can't attack, and can't move. Resets at the end of the chapter.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -999
+                    ]
+                ]
+            ],
+            [
+                "resist",
+                9999
+            ],
+            [
+                "cannot_use_items_except_armor",
+                null
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

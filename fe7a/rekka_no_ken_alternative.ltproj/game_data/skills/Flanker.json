@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Flanker",
+        "name": "Flanker",
+        "desc": "If target is being flanked by an ally, boosts unit's critical hit rate",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.check_flanking()"
+            ],
+            [
+                "crit",
+                50
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

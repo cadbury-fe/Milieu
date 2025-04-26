@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "HitAndRun",
+        "name": "<red>Hit And Run</>",
+        "desc": "Move after attacking",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "HitAndRunArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Hootananny",
+        "name": "<indigo>Hootananny</>",
+        "desc": "Swaps places with a random enemy. Can act afterwards ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "HootAbility"
+            ],
+            [
+                "charges_per_turn",
+                3
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

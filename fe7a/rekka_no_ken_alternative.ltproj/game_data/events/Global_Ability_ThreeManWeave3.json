@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ability_ThreeManWeave3",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "load_unit;Marcel;player",
+            "add;Marcel;{unit};warp;stack",
+            "remove;{unit};warp"
+        ],
+        "nid": "Global Ability_ThreeManWeave3"
+    }
+]

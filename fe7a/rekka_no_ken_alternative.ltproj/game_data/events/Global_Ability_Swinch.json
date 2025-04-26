@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ability_Swinch",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "level_var;temp;unit.get_hp()",
+            "set_current_hp;{unit};{e:target.get_hp}",
+            "set_current_hp;{target};{v:temp}"
+        ],
+        "nid": "Global Ability_Swinch"
+    }
+]

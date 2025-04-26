@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FiresweepRing",
+        "name": "Firesweep Ring",
+        "desc": "Grants a skill, which disables the unit and target's ability to counterattack. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Firesweep"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

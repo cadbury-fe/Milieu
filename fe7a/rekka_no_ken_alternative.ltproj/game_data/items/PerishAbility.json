@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "PerishAbility",
+        "name": "<purple>Perish Song</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "blast_aoe",
+                3
+            ],
+            [
+                "status_on_hit",
+                "PerishSongStatus"
+            ]
+        ]
+    }
+]

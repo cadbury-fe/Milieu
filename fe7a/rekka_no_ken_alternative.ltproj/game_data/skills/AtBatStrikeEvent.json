@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "AtBatStrikeEvent",
+        "name": "Strikes",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "3 == item_funcs.num_stacks(unit, \"AtBatStrike\")"
+            ],
+            [
+                "event_after_combat",
+                "Global Ability_AtBatStruckOut"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

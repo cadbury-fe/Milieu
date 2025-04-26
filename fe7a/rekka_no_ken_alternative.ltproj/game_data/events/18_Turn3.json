@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Turn3",
+        "trigger": "turn_change",
+        "level_nid": "18",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,1",
+            "add_unit;Fighter_R2;0,1;immediate;closest",
+            "add_unit;Fighter_R4;1,0;immediate;closest",
+            "add_unit;Fighter_R6;0,2;immediate;closest",
+            "center_cursor;9,16",
+            "add_unit;Myrmidon_R1;7,16;immediate;closest",
+            "add_unit;Mercenary_R1;9,16;immediate;closest"
+        ],
+        "nid": "18 Turn3"
+    }
+]

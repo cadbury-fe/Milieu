@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Ability_Imitate",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_class;{unit};{e:unit2.klass};silent",
+            "set_stats;{unit};HP,{e:unit2.stats.get('HP')},STR,{e:unit2.stats.get('STR')},MAG,{e:unit2.stats.get('MAG')},SKL,{e:unit2.stats.get('SKL')},SPD,{e:unit2.stats.get('SPD')},DEF,{e:unit2.stats.get('DEF')},RES,{e:unit2.stats.get('RES')},CON,{e:unit2.stats.get('CON')},MOV,{e:unit2.stats.get('MOV')};immediate",
+            "give_skill;{unit};Imitate;no_banner",
+            "give_wexp;{unit};Sword;999;no_banner",
+            "give_wexp;{unit};Lance;999;no_banner",
+            "give_wexp;{unit};Axe;999;no_banner",
+            "give_wexp;{unit};Bow;999;no_banner",
+            "give_wexp;{unit};Staff;999;no_banner",
+            "give_wexp;{unit};Light;999;no_banner",
+            "give_wexp;{unit};Anima;999;no_banner",
+            "give_wexp;{unit};Dark;999;no_banner"
+        ],
+        "nid": "Global Ability_Imitate"
+    }
+]

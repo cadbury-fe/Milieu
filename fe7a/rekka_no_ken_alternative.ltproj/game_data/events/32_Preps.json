@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Preps",
+        "trigger": "level_start",
+        "level_nid": "32",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "prep;t;skateboard_p_instrumental",
+            "add_talk;Lyn;Wallace"
+        ],
+        "nid": "32 Preps"
+    }
+]

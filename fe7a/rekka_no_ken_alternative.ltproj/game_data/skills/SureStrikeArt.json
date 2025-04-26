@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "SureStrikeArt",
+        "name": "<red>Sure Strike</>",
+        "desc": "Attack can\u2019t miss ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hit",
+                999
+            ]
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "SoulLinkJoin",
+        "name": "<indigo>Join</>",
+        "desc": "Unit can move next to their soulmate\nregardless of how far away they are",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "has_skill(unit, 'Soullinked')"
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "witch_warp_expression",
+                "has_skill(unit, 'Soullinked')"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

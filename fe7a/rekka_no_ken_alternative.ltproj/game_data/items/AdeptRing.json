@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "AdeptRing",
+        "name": "Adept Ring",
+        "desc": "Grants a skill, where every fourth attack adds an extra attack",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Adept"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

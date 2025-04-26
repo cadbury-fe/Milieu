@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ability_Bided",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "has_skill(unit, 'Bided')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "reset;{unit}",
+            "remove_skill;{unit};Bided;1;no_banner"
+        ],
+        "nid": "Global Ability_Bided"
+    }
+]

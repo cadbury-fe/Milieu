@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "ThirdStrike",
+        "name": "Third Strike",
+        "desc": "The unit's third attack is tripled in damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "ThirdStrikeCrit",
+                    "ThirdStrikeGain"
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

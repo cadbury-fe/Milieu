@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Mantle",
+        "name": "Mantle",
+        "desc": "Halves damage",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Ability_DancingLight",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.get_unit('Light')",
+            "    resurrect;Light",
+            "    remove_unit;Light;warp",
+            "    autolevel_to;Light;{e:unit.level}",
+            "else",
+            "    make_generic;Light;DancingLight;{e:unit.level};player;;;;Lightning",
+            "    set_stats;Light;HP,1,STR,{e:unit.stats.get('STR')},MAG,{e:unit.stats.get('MAG')},SKL,{e:unit.stats.get('SKL')},SPD,{e:unit.stats.get('SPD')},DEF,{e:unit.stats.get('DEF')},RES,{e:unit.stats.get('RES')},CON,{e:unit.stats.get('CON')},MOV,{e:unit.stats.get('MOV')};immediate",
+            "end",
+            "add_unit;Light;{eval:target_pos};warp",
+            "wait;200",
+            ""
+        ],
+        "nid": "Global Ability_DancingLight"
+    }
+]

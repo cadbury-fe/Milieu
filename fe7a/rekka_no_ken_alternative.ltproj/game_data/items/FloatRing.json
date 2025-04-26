@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FloatRing",
+        "name": "Float Ring",
+        "desc": "Grants a skill, which grants flight, and flight weaknesses ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Float"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

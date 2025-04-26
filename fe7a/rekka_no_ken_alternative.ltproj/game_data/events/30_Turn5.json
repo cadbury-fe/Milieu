@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "30",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# do something to remove kishuna",
+            "remove_unit;Kishuna_Genesis;warp;fade"
+        ],
+        "nid": "30 Turn5"
+    }
+]

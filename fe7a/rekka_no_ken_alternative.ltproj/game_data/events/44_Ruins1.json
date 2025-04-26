@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Ruins1",
+        "trigger": "Visit",
+        "level_nid": "44",
+        "condition": "region.nid == 'Ruins1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};Ariel",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}",
+            "change_team;Claude;player",
+            "add_unit;Claude;{unit};warp;closest"
+        ],
+        "nid": "44 Ruins1"
+    }
+]

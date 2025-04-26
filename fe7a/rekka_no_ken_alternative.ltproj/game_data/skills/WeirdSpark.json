@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "WeirdSpark",
+        "name": "<indigo>Weird Spark</>",
+        "desc": "Shoots a spark that inflicts random status effects in a radius",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "WeirdSparkAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

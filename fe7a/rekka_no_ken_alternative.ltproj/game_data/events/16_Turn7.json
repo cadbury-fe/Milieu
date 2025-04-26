@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Turn7",
+        "trigger": "turn_change",
+        "level_nid": "16",
+        "condition": "game.turncount == 7",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_objective_simple;Defend: last turn!"
+        ],
+        "nid": "16 Turn7"
+    }
+]

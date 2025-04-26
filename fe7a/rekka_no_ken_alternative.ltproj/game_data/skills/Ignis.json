@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Ignis",
+        "name": "<red>Ignis</>",
+        "desc": "Shoot a flame in a line",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "IgnisAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

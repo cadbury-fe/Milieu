@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Impacted",
+        "name": "Impacted",
+        "desc": "Unit attack is multiplied by their magic stat. Magic stat is reduced to 0 afterwards. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "MAG",
+                        0
+                    ]
+                ]
+            ]
+        ]
+    }
+]

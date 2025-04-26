@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "PogoBounce",
+        "name": "<red>Pogo Bounce</>",
+        "desc": "Unit bounces on target. Refreshes unit after use",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "PogoAbility"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

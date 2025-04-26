@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "BounceAbility",
+        "name": "BounceAbility",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "shove_on_end_combat",
+                1
+            ]
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "name": "level_start",
+        "trigger": "level_start",
+        "level_nid": "45",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "prep;t;skateboard_p_instrumental"
+        ],
+        "nid": "45 level_start"
+    }
+]

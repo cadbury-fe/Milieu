@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Turn9",
+        "trigger": "turn_change",
+        "level_nid": "34",
+        "condition": "game.turncount == 9",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 4 Wyvern Rider (squares with blue borders",
+            "# 0,25",
+            "# 1,26",
+            "# 19,26",
+            "# 20,25",
+            "add_unit;wyvern_r29;0,25;immediate;closest",
+            "add_unit;wyvern_r30;1,26;immediate;closest",
+            "add_unit;wyvern_r31;19,26;immediate;closest",
+            "add_unit;wyvern_r32;20,25;immediate;closest",
+            "",
+            "#  4 Wyvern Rider (squares with white borders)",
+            "# 16,2",
+            "# 17,1",
+            "# 15,1",
+            "# 16,0",
+            "add_unit;wyvern_r33;0,25;immediate;closest",
+            "add_unit;wyvern_r34;1,26;immediate;closest",
+            "add_unit;wyvern_r35;19,26;immediate;closest",
+            "add_unit;wyvern_r36;20,25;immediate;closest",
+            ""
+        ],
+        "nid": "34 Turn9"
+    }
+]

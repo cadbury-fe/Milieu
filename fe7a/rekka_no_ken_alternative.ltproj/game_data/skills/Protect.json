@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Protect",
+        "name": "<indigo>Protect</>",
+        "desc": "Unit shields themselves in a protective barrier which halves damage taken and damage given. Works for 4 turns. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "ProtectAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "PivotPlus",
+        "name": "<purple>Pivot+</>",
+        "desc": "Allows the unit to use Pivot+ ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "PivotAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

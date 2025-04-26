@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Reversal",
+        "name": "<red>Reversal</>",
+        "desc": "Adds unit's missing HP to damage dealt",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "ReversalArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

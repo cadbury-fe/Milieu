@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "BearAxe",
+        "name": "Bear Axe",
+        "desc": "Unit's STR minus target's STR is added to damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "game.get_unit(unit.nid).get_stat('STR') - game.get_unit(target.nid).get_stat('STR')"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

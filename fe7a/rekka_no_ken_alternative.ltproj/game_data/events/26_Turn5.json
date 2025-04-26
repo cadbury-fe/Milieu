@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "26",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;1,18",
+            "add_unit;Archer_R5;1,18;immediate;closest",
+            "center_cursor;4,13",
+            "add_unit;Mage_R2;4,13;immediate;closest",
+            "center_cursor;14,12",
+            "add_unit;Mercenary_R2;14,12;immediate;closest",
+            "center_cursor;15,19",
+            "add_unit;Archer_R2;15,19;immediate;closest",
+            "center_cursor;17,19",
+            "add_unit;Fighter_R4;17,19;immediate;closest"
+        ],
+        "nid": "26 Turn5"
+    }
+]

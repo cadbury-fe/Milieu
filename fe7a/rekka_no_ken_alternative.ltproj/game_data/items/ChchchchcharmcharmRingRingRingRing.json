@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ChchchchcharmcharmRingRingRingRing",
+        "name": "Ch-ch-ch-ch-charm charm Ring Ring Ring Ring",
+        "desc": "Grants ring, which grants ring, which grants ring, which grants ring, which grants Charm,\nwhich gives a +30 boost to hit and avoid of units within the aura",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "CCCRRRRR"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

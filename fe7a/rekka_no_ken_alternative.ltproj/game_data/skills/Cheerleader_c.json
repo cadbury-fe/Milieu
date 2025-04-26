@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Cheerleader_c",
+        "name": "Cheerleader",
+        "desc": "Unit will be able to act again after an action",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "eval_galeforce",
+                "True"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    }
+]

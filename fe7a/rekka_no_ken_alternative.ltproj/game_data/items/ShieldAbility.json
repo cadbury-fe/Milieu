@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "ShieldAbility",
+        "name": "<purple>Shield</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "self_status_on_hit",
+                "ShieldUsed"
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global Ability_ShieldStatus"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Defaulting",
+        "name": "Defaulting",
+        "desc": "Damage reduced by half, but can't counterattack. Wears off next turn",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ]
+        ]
+    }
+]

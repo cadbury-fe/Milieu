@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Ability_SoulLinkStarter",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;{unit2};Soullinked;;no_banner",
+            "give_skill;{unit2};SoulLinkWrapper;;no_banner",
+            "give_skill;{unit1};Soullinked;;no_banner",
+            "set_current_hp;{unit1};{eval:unit2.get_hp()}"
+        ],
+        "nid": "Global Ability_SoulLinkStarter"
+    }
+]

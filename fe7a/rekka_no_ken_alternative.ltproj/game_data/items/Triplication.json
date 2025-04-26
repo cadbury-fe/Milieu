@@ -1,0 +1,58 @@
+[
+    {
+        "nid": "Triplication",
+        "name": "Triplication",
+        "desc": "Axe by three.",
+        "icon_nid": "{Beansy} Crystal Axe",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                21
+            ],
+            [
+                "hit",
+                225
+            ],
+            [
+                "weight",
+                1
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weapon_rank",
+                "S"
+            ]
+        ]
+    }
+]

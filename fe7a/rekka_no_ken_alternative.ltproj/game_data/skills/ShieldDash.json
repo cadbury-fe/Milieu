@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "ShieldDash",
+        "name": "<indigo>Shield Dash</>",
+        "desc": "Dash two tiles forward. Refreshes unit after use. When colliding with another unit, unit pushes the target back. Usable if unit has not yet moved",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "ShieldDashAbility"
+            ],
+            [
+                "charges_per_turn",
+                2
+            ],
+            [
+                "condition",
+                "max(0, utils.calculate_distance(unit.position, unit.previous_position)) == 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

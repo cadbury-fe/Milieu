@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "KnightRing",
+        "name": "Knight Ring",
+        "desc": "Grants a skill, where the unit can use the remainder\nof their movement after attacking.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "KnightRingAbility"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

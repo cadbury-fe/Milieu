@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DecapitateEffect",
+        "name": "Decapitate",
+        "desc": "Target's missing health is added to damage",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "target.get_max_hp() - target.get_hp()"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

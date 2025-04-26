@@ -1,0 +1,18 @@
+[
+    {
+        "name": "House7",
+        "trigger": "Visit",
+        "level_nid": "27",
+        "condition": "region.nid == 'House7'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};SuspiciousRing",
+            "show_layer;House7",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "27 House7"
+    }
+]

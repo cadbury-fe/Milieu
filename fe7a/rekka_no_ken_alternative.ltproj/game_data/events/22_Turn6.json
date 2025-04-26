@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Turn6",
+        "trigger": "turn_change",
+        "level_nid": "22",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,18",
+            "add_unit;Shaman_R4;0,18;immediate;closest",
+            "center_cursor;11,20",
+            "add_unit;PegasusKnight_R6;4,20;immediate;closest",
+            "add_unit;PegasusKnight_R7;8,20;immediate;closest",
+            "add_unit;PegasusKnight_R8;11,20;immediate;closest",
+            "add_unit;PegasusKnight_R9;15,20;immediate;closest",
+            "add_unit;PegasusKnight_R10;18,14;immediate;closest"
+        ],
+        "nid": "22 Turn6"
+    }
+]

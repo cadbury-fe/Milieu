@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Fimbulvetr",
+        "name": "<red>Fimbulvetr</>",
+        "desc": "Launch an icicle to anywhere",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "FimbulvetrAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

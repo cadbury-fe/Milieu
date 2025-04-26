@@ -1,0 +1,18 @@
+[
+    {
+        "name": "House5",
+        "trigger": "Visit",
+        "level_nid": "27",
+        "condition": "region.nid == 'House5'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};ReboundRing",
+            "show_layer;House5",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "27 House5"
+    }
+]

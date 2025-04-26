@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "BubbleClose",
+        "name": "Bubble Close",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "utils.calculate_distance(unit.position, target.position) == 1"
+            ],
+            [
+                "resist_multiplier",
+                2.0
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

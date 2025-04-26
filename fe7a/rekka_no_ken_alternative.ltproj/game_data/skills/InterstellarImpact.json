@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "InterstellarImpact",
+        "name": "<red>Interstellar Impact</>",
+        "desc": "Unit's attack is multiplied by their magic stat. Magic stat is reduced to 0 afterwards",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "InterstellarImpactArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

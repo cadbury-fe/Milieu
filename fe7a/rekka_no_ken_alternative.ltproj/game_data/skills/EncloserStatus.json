@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "EncloserStatus",
+        "name": "Enclosed",
+        "desc": "Can't move",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    }
+]

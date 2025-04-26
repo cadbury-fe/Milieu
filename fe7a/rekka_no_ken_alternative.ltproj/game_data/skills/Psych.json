@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Psych",
+        "name": "Psych",
+        "desc": "When initiating battle, user uses stats of target ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_before_combat",
+                "Global Ability_PsychPre"
+            ],
+            [
+                "event_after_combat",
+                "Global Ability_PsychPost"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "nid": "Master_Seal",
+        "name": "Master Seal",
+        "desc": "Promotes all normal classes. Infinite use. Can only be used once per chapter.",
+        "icon_nid": "{2WB} (Vanilla + Blitz) Master Seal",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "usable_in_base",
+                null
+            ],
+            [
+                "value",
+                20000
+            ],
+            [
+                "prf_class",
+                [
+                    "Myrmidon",
+                    "Mercenary",
+                    "Thief",
+                    "Cavalier",
+                    "Pegasus_Knight",
+                    "Knight",
+                    "Fighter",
+                    "Pirate",
+                    "Archer",
+                    "Monk",
+                    "Cleric",
+                    "Mage",
+                    "Shaman",
+                    "Troubadour",
+                    "Wyvern Rider",
+                    "SerraCleric",
+                    "NinoMage",
+                    "Nomad",
+                    "Shaman",
+                    "WyvernRiderF",
+                    "SimonePeg"
+                ]
+            ],
+            [
+                "promote",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "unit.level >= 10"
+            ],
+            [
+                "c_uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ]
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "AgilityStatus",
+        "name": "Agility",
+        "desc": "Raises speed temporarily",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stack",
+                3
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "SPD",
+                        2.0
+                    ]
+                ]
+            ],
+            [
+                "time",
+                4
+            ]
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "House2",
+        "trigger": "Visit",
+        "level_nid": "32",
+        "condition": "region.nid == 'House2'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};ChaserAxe",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "32 House2"
+    }
+]

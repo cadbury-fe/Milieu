@@ -1,0 +1,59 @@
+[
+    {
+        "nid": "TheNineVolumesOfNonsense1",
+        "name": "Volume 1",
+        "desc": "Decapitation",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        15
+                    ],
+                    [
+                        "MAG",
+                        15
+                    ],
+                    [
+                        "SPD",
+                        -15
+                    ],
+                    [
+                        "LCK",
+                        -30
+                    ],
+                    [
+                        "MOV",
+                        3
+                    ],
+                    [
+                        "SKL",
+                        30
+                    ]
+                ]
+            ],
+            [
+                "dynamic_damage",
+                "unit.get_stat('HP')"
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "event_on_upkeep",
+                "Global Ability_Nonsense1to2"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

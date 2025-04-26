@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ability_BigEgg",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "make_generic;;BigEgg;1;player",
+            "add_unit;{created_unit};{e:target_pos};warp;closest",
+            "autolevel_to;{created_unit};{eval:unit.level};hidden"
+        ],
+        "nid": "Global Ability_BigEgg"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Grudge",
+        "name": "Grudge",
+        "desc": "If the unit dies, target dies with them",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

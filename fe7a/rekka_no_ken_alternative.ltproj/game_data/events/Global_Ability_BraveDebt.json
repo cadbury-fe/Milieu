@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Ability_BraveDebt",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 50,
+        "_source": [
+            "if;item_funcs.num_stacks(unit, 'DefaultStack') == 0",
+            "    for;x;[i for i in range (item_funcs.num_stacks(unit, 'BraveStack'))]",
+            "        give_skill;{unit};Stunned",
+            "    endf",
+            "else",
+            "    for;x;[i for i in range (item_funcs.num_stacks(unit, 'BraveStack'))]",
+            "        if;item_funcs.num_stacks(unit, 'DefaultStack') > 0",
+            "            remove_skill;{unit};DefaultStack;1;no_banner",
+            "        else",
+            "            give_skill;{unit};Stunned;no_banner",
+            "        end",
+            "    endf",
+            "end",
+            "remove_skill;{unit};BraveStack;no_banner",
+            "remove_skill;{unit};Braving;no_banner"
+        ],
+        "nid": "Global Ability_BraveDebt"
+    }
+]

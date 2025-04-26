@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Wall",
+        "trigger": "unit_death",
+        "level_nid": "42",
+        "condition": "unit.nid == 'Wall'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Occurs when a SNAG is KILLED",
+            "map_anim;Snag;{position}",
+            "# Show the new layer",
+            "show_layer;Wall"
+        ],
+        "nid": "42 Wall"
+    }
+]

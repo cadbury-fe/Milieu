@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "TempHP",
+        "name": "Temp HP",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "HP",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                999
+            ],
+            [
+                "event_on_remove",
+                "Global Ability_OverdraftEnd"
+            ],
+            [
+                "time",
+                5
+            ]
+        ]
+    }
+]

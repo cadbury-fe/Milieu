@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Charm_a",
+        "name": "Charm",
+        "desc": "+30 Hit, +30 Avoid to allies within 3 tiles",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "aura",
+                "Charm_c"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

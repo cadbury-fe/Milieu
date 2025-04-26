@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "PhantomStrikerStack",
+        "name": "Phantom Striker",
+        "desc": "Summons ghosts on kill",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stack",
+                999
+            ],
+            [
+                "lost_on_kill",
+                null
+            ],
+            [
+                "event_on_remove",
+                "Global Ability_PhantomStrikerSummon"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

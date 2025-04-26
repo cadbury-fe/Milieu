@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "TrailblazeStatus",
+        "name": "Trailblaze",
+        "desc": "SPD increased",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stack",
+                6
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "SPD",
+                        1.5
+                    ]
+                ]
+            ]
+        ]
+    }
+]

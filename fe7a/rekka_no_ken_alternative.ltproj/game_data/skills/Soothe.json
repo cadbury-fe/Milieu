@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Soothe",
+        "name": "<indigo>Soothe</>",
+        "desc": "Refreshes targeted ally, and removes any of their negative status ailments.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Soothe"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

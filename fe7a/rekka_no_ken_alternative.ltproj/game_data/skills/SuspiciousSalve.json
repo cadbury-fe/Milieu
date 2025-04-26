@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "SuspiciousSalve",
+        "name": "<indigo>Suspicious Salve</>",
+        "desc": "Insta-kills poisoned enemies on use",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "SuspiciousSalve"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

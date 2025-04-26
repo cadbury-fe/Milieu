@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Preps",
+        "trigger": "level_start",
+        "level_nid": "26",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_talk;Eliwood;Legault",
+            "prep;t;skateboard_p_instrumental"
+        ],
+        "nid": "26 Preps"
+    }
+]

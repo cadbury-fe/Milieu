@@ -1,0 +1,86 @@
+[
+    {
+        "nid": "DarinMorph",
+        "name": "Darin",
+        "desc": "haha I cook pasta",
+        "variant": null,
+        "level": 20,
+        "klass": "General",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "CON": 15,
+            "HP": 80,
+            "STR": 23,
+            "MAG": 2,
+            "SKL": 18,
+            "SPD": 15,
+            "LCK": 0,
+            "DEF": 29,
+            "RES": 15,
+            "MOV": 5,
+            "LEAD": 0
+        },
+        "growths": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "RexHasta",
+                true
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "DarkGift"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                251,
+                null
+            ],
+            "Axe": [
+                false,
+                181,
+                null
+            ],
+            "Sword": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Darin Morph",
+        "affinity": null,
+        "fields": []
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Turn10",
+        "trigger": "turn_change",
+        "level_nid": "34",
+        "condition": "game.turncount == 10",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 4 Wyvern Rider (squares with blue borders",
+            "# 0,25",
+            "# 1,26",
+            "# 19,26",
+            "# 20,25",
+            "add_unit;wyvern_r37;0,25;fade;closest",
+            "add_unit;wyvern_r38;1,26;fade;closest",
+            "add_unit;wyvern_r39;19,26;fade;closest",
+            "add_unit;wyvern_r40;20,25;fade;closest"
+        ],
+        "nid": "34 Turn10"
+    }
+]

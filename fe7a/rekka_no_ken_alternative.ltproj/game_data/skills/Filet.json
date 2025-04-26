@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Filet",
+        "name": "<indigo>Filet</>",
+        "desc": "Slices an enemy into two enemies with half of their original HP.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "FiletAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

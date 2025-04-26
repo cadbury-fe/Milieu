@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "19",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;23,16",
+            "add_unit;Brigand_R4;23,16;immediate;closest",
+            "center_cursor;15,2",
+            "add_unit;Mercenary_R2;15,2;immediate;closest",
+            "add_unit;Cavalier_R2;15,4;immediate;closest"
+        ],
+        "nid": "19 Turn5"
+    }
+]

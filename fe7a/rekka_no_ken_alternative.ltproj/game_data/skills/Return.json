@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Return",
+        "name": "<indigo>Return</>",
+        "desc": "Allows user to teleport to their starting position on the battlefield. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "ReturnAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

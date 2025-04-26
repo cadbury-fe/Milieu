@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Singer",
+        "name": "Singer",
+        "desc": "Chance to move again after attacking.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "proc_rate",
+                "RE_MOVE"
+            ],
+            [
+                "attack_pre_proc",
+                "SingerProc"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

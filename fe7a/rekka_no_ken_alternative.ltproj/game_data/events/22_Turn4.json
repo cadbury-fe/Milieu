@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "22",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,18",
+            "add_unit;Shaman_R2;0,18;immediate;closest",
+            "center_cursor;11,20",
+            "add_unit;PegasusKnight_R1;4,20;immediate;closest",
+            "add_unit;PegasusKnight_R2;8,20;immediate;closest",
+            "add_unit;PegasusKnight_R3;11,20;immediate;closest",
+            "add_unit;PegasusKnight_R4;15,20;immediate;closest",
+            "add_unit;PegasusKnight_R5;18,14;immediate;closest"
+        ],
+        "nid": "22 Turn4"
+    }
+]

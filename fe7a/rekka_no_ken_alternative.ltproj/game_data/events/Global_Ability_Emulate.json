@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ability_Emulate",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "has_skill(unit, 'Emulate')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "set_stats;{unit};HP,{eval:unit2.get_hp()};immediate",
+            "#set_current_hp;{unit};{eval:target.get_hp()}"
+        ],
+        "nid": "Global Ability_Emulate"
+    }
+]

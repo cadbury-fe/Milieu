@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Grounder",
+        "name": "<red>Grounder</>",
+        "desc": "Effective against flying units",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "GrounderArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

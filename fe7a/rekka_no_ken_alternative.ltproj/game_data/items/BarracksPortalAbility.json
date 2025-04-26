@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "BarracksPortalAbility",
+        "name": "<purple>Summon</>",
+        "desc": "Summons an undeployed unit.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global Ability_BarracksPortal"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "empty_tile_target_restrict",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ArmouredStrike",
+        "name": "<red>Armoured Strike</>",
+        "desc": "Might increases based on user\u2019s defense. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "ArmouredStrikeArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

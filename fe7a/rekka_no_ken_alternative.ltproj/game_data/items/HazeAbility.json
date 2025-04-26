@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "HazeAbility",
+        "name": "<purple>Haze</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "ally_blast_aoe",
+                2
+            ],
+            [
+                "restore",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Ability_Grudge",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "has_skill(unit, 'Grudge')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "kill_unit;{unit2}"
+        ],
+        "nid": "Global Ability_Grudge"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "SwordsDance",
+        "name": "<indigo>Swords Dance</>",
+        "desc": "Boosts STR by 7. Lasts for 5 turns. Can be stacked up to three times. Stat boost decays over time.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "3 != item_funcs.num_stacks(unit, \"SwordsDanceStatus\")"
+            ],
+            [
+                "ability",
+                "SwordsDanceAbility"
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

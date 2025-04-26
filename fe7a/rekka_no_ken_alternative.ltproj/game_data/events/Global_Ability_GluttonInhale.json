@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Ability_GluttonInhale",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#change_team;{unit2};player",
+            "if;'Boss' not in target.tags",
+            "    pair_up;{unit2};{unit1}",
+            "    give_skill;{unit};Inhaled;;no_banner",
+            "end",
+            "",
+            "",
+            "#for;unit_id;[unit.nid for unit in game.units if unit.position]",
+            "#  // do something with {unit_id}",
+            "#endf",
+            ""
+        ],
+        "nid": "Global Ability_GluttonInhale"
+    }
+]

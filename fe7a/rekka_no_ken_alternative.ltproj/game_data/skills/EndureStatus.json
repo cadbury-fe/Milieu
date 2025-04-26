@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "EndureStatus",
+        "name": "Endure",
+        "desc": "Where an attack would kill, unit is left at 1 HP.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "TrueMiracle",
+                null
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "cannot_use_items_except_armor",
+                null
+            ]
+        ]
+    }
+]

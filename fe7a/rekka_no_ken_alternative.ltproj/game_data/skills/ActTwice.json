@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ActTwice",
+        "name": "Act Twice",
+        "desc": "Unit can act twice.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    }
+]

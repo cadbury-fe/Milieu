@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Blind",
+        "name": "<indigo>Blind</>",
+        "desc": "Cast a spell which causes the target to miss all attacks for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "BlindAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

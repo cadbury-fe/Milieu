@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Destruct",
+        "trigger": "Destructible",
+        "level_nid": "11",
+        "condition": "region.nid == 'Destruct'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;VillageDestroyed",
+            "show_layer;Destruct",
+            "remove_region;Village",
+            "wait;500",
+            "sound;ItemBreak",
+            "alert;The village was destroyed."
+        ],
+        "nid": "11 Destruct"
+    }
+]

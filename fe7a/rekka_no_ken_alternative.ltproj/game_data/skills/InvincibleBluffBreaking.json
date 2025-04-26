@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "InvincibleBluffBreaking",
+        "name": "Bluff Number",
+        "desc": "Number of times the unit has bluffed.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stack",
+                7
+            ]
+        ]
+    }
+]

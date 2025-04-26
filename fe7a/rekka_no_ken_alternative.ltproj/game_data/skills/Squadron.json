@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Squadron",
+        "name": "Squadron",
+        "desc": "Start with 4 cavaliers at the start of every map.\nScales with unit's level.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "game.turncount == 1"
+            ],
+            [
+                "upkeep_event",
+                "Global Ability_Squadron"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

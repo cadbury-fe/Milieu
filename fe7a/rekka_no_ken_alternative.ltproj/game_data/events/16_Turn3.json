@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn3",
+        "trigger": "turn_change",
+        "level_nid": "16",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;16,12",
+            "add_unit;Brigand_R1;1,2;immediate;closest",
+            "add_unit;Nomad_R3;0,1;immediate;closest"
+        ],
+        "nid": "16 Turn3"
+    }
+]

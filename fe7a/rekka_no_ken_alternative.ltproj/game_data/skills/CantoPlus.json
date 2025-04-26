@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CantoPlus",
+        "name": "Canto+",
+        "desc": "Unit can use the remainder of their\nmovement after attacking.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "canto_plus",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

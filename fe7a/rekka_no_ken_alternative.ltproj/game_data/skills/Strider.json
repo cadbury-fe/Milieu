@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Strider",
+        "name": "Strider",
+        "desc": "Unit gains a refresh after acting if they move six full tiles away from their previous position in any cardinal direction",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "eval_galeforce",
+                "1 if max(0, utils.calculate_distance(unit.position, unit.previous_position)) >= 6 else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    }
+]

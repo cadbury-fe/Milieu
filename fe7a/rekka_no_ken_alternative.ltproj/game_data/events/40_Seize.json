@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Seize",
+        "trigger": "Seize",
+        "level_nid": "40",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;Eliwood;Japararegalia",
+            "win_game"
+        ],
+        "nid": "40 Seize"
+    }
+]

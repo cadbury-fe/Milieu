@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "IgnoreWeaponTriangle",
+        "name": "IgnoreWeaponTriangle",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ignore_weapon_advantage",
+                null
+            ]
+        ]
+    }
+]

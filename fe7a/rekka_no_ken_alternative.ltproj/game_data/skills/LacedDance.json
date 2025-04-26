@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "LacedDance",
+        "name": "<indigo>Laced Dance</>",
+        "desc": "Refreshes the targeted ally thrice over. Target is stunned next turn",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "LacedDance"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

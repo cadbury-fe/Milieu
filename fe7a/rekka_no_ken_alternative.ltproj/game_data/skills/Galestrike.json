@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Galestrike",
+        "name": "<red>Galestrike</>",
+        "desc": "Launches an attack that refreshes the unit if the attack defeats the target.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "Galeforce"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

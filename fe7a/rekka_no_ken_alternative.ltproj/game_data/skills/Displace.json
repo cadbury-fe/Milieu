@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Displace",
+        "name": "<purple>Displace</>",
+        "desc": "Unit shoves the target in a diagonal direction",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "DisplaceAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

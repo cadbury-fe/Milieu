@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "27",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;23,0",
+            "add_unit;Brigand_R2;23,0;;closest",
+            "center_cursor;25,6",
+            "add_unit;Monk_R1;25,8;;closest",
+            "add_unit;Monk_R2;25,5;;closest"
+        ],
+        "nid": "27 Turn5"
+    }
+]

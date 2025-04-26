@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "DonutsStatus",
+        "name": "Donuts",
+        "desc": "Unit can act again after any action once every odd turn. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "eval_galeforce",
+                "game.turncount % 2 == 1"
+            ],
+            [
+                "charges_per_turn",
+                1
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ]
+        ]
+    }
+]

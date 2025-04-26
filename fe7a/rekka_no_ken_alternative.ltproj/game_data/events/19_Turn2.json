@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "19",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;6,16",
+            "add_unit;Brigand_R1;6,16;immediate;closest"
+        ],
+        "nid": "19 Turn2"
+    }
+]

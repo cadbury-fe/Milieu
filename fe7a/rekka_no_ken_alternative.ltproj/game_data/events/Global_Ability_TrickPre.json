@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Ability_TrickPre",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;target.team == 'enemy'",
+            "    game_var;uPriorStatSPD;unit.get_stat('SPD')",
+            "    game_var;tPriorStatSPD;target.get_stat('SPD')",
+            "",
+            "    if;target.get_stat('SPD') > unit.get_stat('SPD') + 3",
+            "        set_stats;{unit};SPD,{v:tPriorStatSPD};immediate",
+            "        set_stats;{unit2};SPD,{v:uPriorStatSPD};immediate",
+            "    elif;unit.get_stat('SPD') > target.get_stat('SPD') + 3",
+            "        set_stats;{unit2};SPD,{v:uPriorStatSPD};immediate",
+            "        set_stats;{unit};SPD,{v:tPriorStatSPD};immediate",
+            "    end",
+            "end"
+        ],
+        "nid": "Global Ability_TrickPre"
+    }
+]

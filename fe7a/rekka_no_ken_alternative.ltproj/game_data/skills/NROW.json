@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "NROW",
+        "name": "<red>Not Right or Wrong</>",
+        "desc": "If unit scores two critical hits, gains access to this attack. After initiating, boosts all stats. Boost decays over time. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "BlackFlashArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "condition",
+                "2 == item_funcs.num_stacks(unit, \"CritCounter\")"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

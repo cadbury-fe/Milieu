@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Hectour",
+        "name": "Hector",
+        "desc": "Jokeovic",
+        "variant": null,
+        "level": 1,
+        "klass": "GreatLord",
+        "tags": [],
+        "bases": {
+            "HP": 80,
+            "STR": 29,
+            "MAG": 20,
+            "SKL": 18,
+            "SPD": 23,
+            "LCK": 0,
+            "DEF": 22,
+            "RES": 10,
+            "CON": 15,
+            "MOV": 6
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [
+            [
+                "Armads",
+                true
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "DarkGift"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                251,
+                null
+            ],
+            "Sword": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Hector",
+        "affinity": null,
+        "fields": []
+    }
+]

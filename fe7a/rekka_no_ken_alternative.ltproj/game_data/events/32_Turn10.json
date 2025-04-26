@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Turn10",
+        "trigger": "turn_change",
+        "level_nid": "32",
+        "condition": "game.turncount == 10",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;6,15",
+            "add_unit;Monk_R3;6,15;immediate;closest",
+            "add_unit;Monk_R4;7,16;immediate;closest",
+            "center_cursor;7,2",
+            "add_unit;Myrmidon_HR5;7,2;immediate;stack",
+            "add_unit;Myrmidon_HR6;7,2;immediate;stack",
+            "move_unit;Myrmidon_HR5;7,4;;closest;no_block;no_follow",
+            "move_unit;Myrmidon_HR6;8,4;;closest;no_follow"
+        ],
+        "nid": "32 Turn10"
+    }
+]

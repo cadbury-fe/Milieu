@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Substitute",
+        "name": "<indigo>Substitute</>",
+        "desc": "Sacrifice 25% HP to construct a barrier that blocks all damage once",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "SubstituteAbility"
+            ],
+            [
+                "condition",
+                "unit.get_hp() > unit.get_max_hp() // 4"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

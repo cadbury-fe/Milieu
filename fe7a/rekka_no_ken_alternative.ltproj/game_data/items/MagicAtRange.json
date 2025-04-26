@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "MagicAtRange",
+        "name": "MagicAtRange",
+        "desc": "Magic at range. Range magic. magic at range. Magic @ Range.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "magic_at_range",
+                null
+            ]
+        ]
+    }
+]

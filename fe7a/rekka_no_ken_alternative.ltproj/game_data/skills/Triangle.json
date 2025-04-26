@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "Triangle",
+        "name": "Triangle",
+        "desc": "Doubles the effectiveness of the weapon triangle, and\nalways double with weapon triangle advantage. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "TriangleMultiplier"
+            ],
+            [
+                "multi_skill",
+                [
+                    "TriangleBrave"
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "TideRing",
+        "name": "Tide Ring",
+        "desc": "Grants a skill, which boosts STR on even turns, MAG on odd turns. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Tide"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

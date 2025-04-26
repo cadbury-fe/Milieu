@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Trip",
+        "name": "<indigo>Trip</>",
+        "desc": "Unit trips their target, stunning them for one turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "TripAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

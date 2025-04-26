@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Rally",
+        "name": "<indigo>Rally</>",
+        "desc": "Unit and allies gain 1 point of Momentum ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "RallyAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

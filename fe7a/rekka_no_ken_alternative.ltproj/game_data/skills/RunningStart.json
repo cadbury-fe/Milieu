@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "RunningStart",
+        "name": "<indigo>Running Start</>",
+        "desc": "Unit passes their momentum to the target ally.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "RunningStartAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

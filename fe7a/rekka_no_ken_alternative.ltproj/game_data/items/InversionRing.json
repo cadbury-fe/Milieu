@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "InversionRing",
+        "name": "Inversion Ring",
+        "desc": "Grants a skill, where attacks heal the user for the amount of damage dealt, but deal no actual damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Inversion"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

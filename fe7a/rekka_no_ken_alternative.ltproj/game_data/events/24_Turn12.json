@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn12",
+        "trigger": "turn_change",
+        "level_nid": "24",
+        "condition": "game.turncount == 12",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;17,3",
+            "add_unit;Mage_HR7;17,3;immediate;closest",
+            "add_unit;Mage_HR8;18,3;immediate;closest"
+        ],
+        "nid": "24 Turn12"
+    }
+]

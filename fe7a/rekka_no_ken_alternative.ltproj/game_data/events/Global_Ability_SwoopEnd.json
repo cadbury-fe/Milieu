@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ability_SwoopEnd",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:swoop_turn} + 1 == game.turncount",
+            "    add_unit;{v:swoop_unit};{v:swoop_pos};swoosh;push",
+            "end"
+        ],
+        "nid": "Global Ability_SwoopEnd"
+    }
+]

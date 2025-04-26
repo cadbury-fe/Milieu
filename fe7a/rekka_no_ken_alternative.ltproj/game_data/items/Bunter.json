@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Bunter",
+        "name": "Bunter",
+        "desc": "",
+        "icon_nid": "{2WB} (Icon Blitz 1) Heal",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "damage",
+                1
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "status_on_equip",
+                "Pinpoint"
+            ],
+            [
+                "weapon",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ]
+        ]
+    }
+]

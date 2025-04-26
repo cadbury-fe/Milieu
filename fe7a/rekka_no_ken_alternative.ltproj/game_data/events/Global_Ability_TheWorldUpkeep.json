@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Ability_TheWorldUpkeep",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.game_vars.get('TimeLockCountdown', 0) == 1",
+            "    remove_region;TimeLock;no_warn",
+            "    for;LockedUnit;[unit.nid for unit in game.get_all_units()]",
+            "        remove_skill;{LockedUnit};TheWorldEndsWithYouStatus;no_banner;no_warn",
+            "    endf",
+            "    remove_map_anim;BlueDot;{var:TimeLockLocationX},{var:TimeLockLocationY}",
+            "end"
+        ],
+        "nid": "Global Ability_TheWorldUpkeep"
+    }
+]

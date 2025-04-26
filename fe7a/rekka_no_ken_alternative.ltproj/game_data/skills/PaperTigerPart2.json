@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "PaperTigerPart2",
+        "name": "PaperTigerPart2",
+        "desc": "Number of attacks doubled above half HP,\nbut cannot double under half HP. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "game.get_unit(unit.nid).get_hp() < game.get_unit(unit.nid).get_max_hp() // 2"
+            ],
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

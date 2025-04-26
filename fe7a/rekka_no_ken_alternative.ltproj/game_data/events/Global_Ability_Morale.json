@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ability_Morale",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;ally;[unit.nid for unit in target_system.get_adj_units(game.get_unit(unit.nid))]",
+            "    reset;{ally}",
+            "endf"
+        ],
+        "nid": "Global Ability_Morale"
+    }
+]

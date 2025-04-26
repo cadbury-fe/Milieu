@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "PaviseRing",
+        "name": "Pavise Ring",
+        "desc": "Grants a skill, where every fourth attack blocks damage",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Pavise"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

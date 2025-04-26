@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "DoomStatus",
+        "name": "Doomed",
+        "desc": "Unit is doomed",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_on_upkeep",
+                "Global Ability_Doomed"
+            ],
+            [
+                "end_time",
+                2
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

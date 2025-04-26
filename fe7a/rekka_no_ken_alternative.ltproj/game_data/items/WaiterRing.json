@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "WaiterRing",
+        "name": "Waiter Ring",
+        "desc": "Grants a skill, which boots stats if the unit does not attack",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Waiter"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

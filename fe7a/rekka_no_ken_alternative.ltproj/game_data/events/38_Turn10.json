@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn10",
+        "trigger": "turn_change",
+        "level_nid": "38",
+        "condition": "game.turncount == 10",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 1 Cavalier, red square",
+            "# 6,18",
+            "add;cav_r_4;6,18;immediate;closest"
+        ],
+        "nid": "38 Turn10"
+    }
+]

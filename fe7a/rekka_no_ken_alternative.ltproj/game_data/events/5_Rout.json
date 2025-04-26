@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Rout",
+        "trigger": "combat_end",
+        "level_nid": "5",
+        "condition": "len(game.get_enemy_units()) == 0",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_team;Erk;player",
+            "change_team;Serra;player",
+            "win_game"
+        ],
+        "nid": "5 Rout"
+    }
+]

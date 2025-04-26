@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Bide",
+        "name": "<indigo>Bide</>",
+        "desc": "Unit hunkers down for a turn, and can't attack. Afterwards, unit can move as many times as they have been hit",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "BideAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Canter",
+        "name": "Canter",
+        "desc": "Unit can move 4 spaces after acting.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "canter",
+                4
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

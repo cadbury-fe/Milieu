@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BowOverride",
+        "name": "BowOverride",
+        "desc": "",
+        "icon_nid": "wexp_icons",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "ignore_weapon_advantage",
+                null
+            ]
+        ]
+    }
+]

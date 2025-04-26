@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "Glutton",
+        "name": "Glutton",
+        "desc": "Hom nom nom",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "GluttonInhale",
+                    "GluttonSpit"
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

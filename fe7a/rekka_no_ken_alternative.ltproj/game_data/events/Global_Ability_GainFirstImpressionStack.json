@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ability_GainFirstImpressionStack",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# give to whoever has FirstImpression",
+            "#give_skill;Marcel;FirstImpressionStack;no_banner;persistent"
+        ],
+        "nid": "Global Ability_GainFirstImpressionStack"
+    }
+]

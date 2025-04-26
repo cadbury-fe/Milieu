@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SubstituteStatus",
+        "name": "Substitute Barrier",
+        "desc": "Blocks all damage for one combat engagement",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "resist",
+                9999
+            ],
+            [
+                "event_after_combat_when_hit",
+                "Global Ability_SubRemove"
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

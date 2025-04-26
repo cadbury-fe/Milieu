@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "PierceRing",
+        "name": "Pierce Ring",
+        "desc": "Grants a skill, where there is Crit% chance to ignore defenses on intiated combat",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Pierce"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

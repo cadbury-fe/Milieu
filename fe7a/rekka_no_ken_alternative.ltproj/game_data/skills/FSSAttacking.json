@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FSSAttacking",
+        "name": "Fibonacci Sword Style",
+        "desc": "On turns 1, 2, 3, 5, 8, 13, 21, 34, and 55,\nunit inverts attack order and the weapon triangle",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "mode is 'attack'"
+            ],
+            [
+                "disvantage",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

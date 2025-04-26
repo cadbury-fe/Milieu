@@ -1,0 +1,33 @@
+[
+    {
+        "nid": "Pitching",
+        "name": "Pitching",
+        "desc": "Regain At Bat after getting a kill.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "PitchingPart1",
+                    "PitchingPart2"
+                ]
+            ],
+            [
+                "lost_on_kill",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

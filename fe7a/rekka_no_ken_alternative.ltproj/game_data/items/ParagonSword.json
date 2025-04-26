@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "ParagonSword",
+        "name": "Paragon Sword",
+        "desc": "Doubles experience gained while held.",
+        "icon_nid": "{2WB} (Icon Blitz 1) Imperial Blade1",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                460
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                7
+            ],
+            [
+                "hit",
+                100
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "weight",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "weapon_rank",
+                "E"
+            ],
+            [
+                "status_on_equip",
+                "Forest"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Coinflip",
+        "name": "<indigo>Coinflip</>",
+        "desc": "Flip a coin. Heads, you get to move twice per turn. Tails, you get stunned.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "CoinflipAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

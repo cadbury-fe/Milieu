@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "MantleRing",
+        "name": "Mantle Ring",
+        "desc": "Grants a skill, which halves damage taken",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Mantle"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn7",
+        "trigger": "turn_change",
+        "level_nid": "45",
+        "condition": "game.turncount == 7",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#1 Berserker (black square)",
+            "#2,14",
+            "add;ber_r_8;2,14;immediate;closest"
+        ],
+        "nid": "45 Turn7"
+    }
+]

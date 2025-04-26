@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Matryoshka",
+        "name": "<indigo>Matryoshka</>",
+        "desc": "Summons a summoner.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "MatryoshkaAbilityOrigin"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

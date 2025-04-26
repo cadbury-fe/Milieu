@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "TriangleMultiplier",
+        "name": "TriangleMultiplier",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "custom_triangle_multiplier",
+                2.0
+            ]
+        ]
+    }
+]

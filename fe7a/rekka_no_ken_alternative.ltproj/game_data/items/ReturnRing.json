@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ReturnRing",
+        "name": "Return Ring",
+        "desc": "Grants a skill, which allows the unit to teleport to their starting position on the battlefield. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Return"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

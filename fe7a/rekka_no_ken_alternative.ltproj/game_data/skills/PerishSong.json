@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "PerishSong",
+        "name": "<indigo>Perish Song</>",
+        "desc": "All units hit by this spell will die in three turns",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "PerishAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

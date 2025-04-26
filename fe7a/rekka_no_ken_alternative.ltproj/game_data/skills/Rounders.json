@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Rounders",
+        "name": "<red>Rounders</>",
+        "desc": "If attacks against or by this unit have equal to or above 50% chance to hit, they will always hit. Else, they always will miss.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "RoundersArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

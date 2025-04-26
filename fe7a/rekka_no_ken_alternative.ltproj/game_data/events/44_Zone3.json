@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Zone3",
+        "trigger": "unit_wait",
+        "level_nid": "44",
+        "condition": "any_unit_in_region('Zone3', team='player')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#7 Shaman and 1 Druid (square only with the black borders). All have Nosferatu",
+            "",
+            "# druid",
+            "# 25,5",
+            "add;druid_r_1;25,5;warp;closest",
+            "",
+            "# shamans",
+            "#24,6",
+            "#23,5",
+            "#22,6",
+            "#23,7",
+            "#24,8",
+            "#25,7",
+            "#26,6",
+            "add;shaman_r_1;24,6;warp;closest",
+            "add;shaman_r_2;23,5;warp;closest",
+            "add;shaman_r_3;22,6;warp;closest",
+            "add;shaman_r_4;23,7;warp;closest",
+            "add;shaman_r_5;24,8;warp;closest",
+            "add;shaman_r_6;25,7;warp;closest",
+            "add;shaman_r_7;26,6;warp;closest"
+        ],
+        "nid": "44 Zone3"
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "Comrade",
+        "name": "Comrade",
+        "desc": "Stat boost when adjacent to an ally",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "any(ally for ally in target_system.get_adj_units(game.get_unit(unit.nid)))"
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        1.3
+                    ],
+                    [
+                        "MAG",
+                        1.3
+                    ],
+                    [
+                        "SKL",
+                        1.3
+                    ],
+                    [
+                        "SPD",
+                        1.3
+                    ],
+                    [
+                        "LCK",
+                        1.3
+                    ],
+                    [
+                        "DEF",
+                        1.3
+                    ],
+                    [
+                        "RES",
+                        1.3
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

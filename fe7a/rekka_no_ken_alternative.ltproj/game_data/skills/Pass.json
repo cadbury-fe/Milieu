@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Pass",
+        "name": "Pass",
+        "desc": "Unit can pass through enemies",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "pass",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

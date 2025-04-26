@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Ensorcel",
+        "name": "<indigo>Ensorcel</>",
+        "desc": "Boosts a teammate\u2019s magic by 7. Boost decays over time",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "EnsorcelAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

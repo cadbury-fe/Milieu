@@ -1,0 +1,16 @@
+[
+    {
+        "name": "EliwoodLegaultTalk",
+        "trigger": "on_talk",
+        "level_nid": "26",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_team;Legault;player",
+            "remove_talk;Eliwood;Legault"
+        ],
+        "nid": "26 EliwoodLegaultTalk"
+    }
+]

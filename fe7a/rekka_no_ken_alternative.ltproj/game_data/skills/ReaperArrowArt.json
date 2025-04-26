@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "ReaperArrowArt",
+        "name": "<red>Reaper Arrow</>",
+        "desc": "An attack that deals double damage and damages enemies adjacent to the target. Unit loses 50% of their max HP afterwards",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_after_combat",
+                "Global Ability_ReaperAfter"
+            ],
+            [
+                "item_override",
+                "MagicOverride"
+            ],
+            [
+                "enemy_oversplash",
+                1
+            ],
+            [
+                "dynamic_damage_multiplier",
+                "2"
+            ]
+        ]
+    }
+]

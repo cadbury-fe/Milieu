@@ -1,0 +1,17 @@
+[
+    {
+        "name": "MarcelMadelineTalk",
+        "trigger": "on_talk",
+        "level_nid": "37",
+        "condition": "check_pair('Madeline', 'Marcel')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_team;Marcel;player",
+            "remove_talk;Nino;Marcel",
+            "remove_talk;Madeline;Marcel"
+        ],
+        "nid": "37 MarcelMadelineTalk"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ruins",
+        "trigger": "Visit",
+        "level_nid": "24",
+        "condition": "region.nid == 'Ruins'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};LongRing",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "24 Ruins"
+    }
+]

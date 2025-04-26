@@ -1,0 +1,16 @@
+[
+    {
+        "name": "VaidaEliwoodTalk",
+        "trigger": "on_talk",
+        "level_nid": "39",
+        "condition": "check_pair('Vaida','Eliwood')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_team;Vaida;player",
+            "remove_talk;Vaida;Eliwood"
+        ],
+        "nid": "39 VaidaEliwoodTalk"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ability_Rest",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "set_current_hp;{unit};{e:unit.get_max_hp()}",
+            "give_skill;{unit};Resting"
+        ],
+        "nid": "Global Ability_Rest"
+    }
+]

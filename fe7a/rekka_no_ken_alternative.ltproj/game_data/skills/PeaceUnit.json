@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "PeaceUnit",
+        "name": "Peaceful",
+        "desc": "Unit and target's attacking stats are reduced",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "skill_before_combat",
+                {
+                    "skill": "PeaceEnemy",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -15
+                    ],
+                    [
+                        "MAG",
+                        -15
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

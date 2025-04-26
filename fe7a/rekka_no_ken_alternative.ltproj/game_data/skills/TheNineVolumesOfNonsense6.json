@@ -1,0 +1,79 @@
+[
+    {
+        "nid": "TheNineVolumesOfNonsense6",
+        "name": "Volume 6",
+        "desc": "Cannibal Magic",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "unit.get_stat('LCK')"
+            ],
+            [
+                "lifelink",
+                2.0
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "HP",
+                        50
+                    ],
+                    [
+                        "STR",
+                        -50
+                    ],
+                    [
+                        "MAG",
+                        50
+                    ],
+                    [
+                        "SKL",
+                        -14
+                    ],
+                    [
+                        "SPD",
+                        -7
+                    ],
+                    [
+                        "LCK",
+                        -50
+                    ],
+                    [
+                        "DEF",
+                        4
+                    ],
+                    [
+                        "RES",
+                        6
+                    ],
+                    [
+                        "CON",
+                        10
+                    ],
+                    [
+                        "MOV",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "event_on_upkeep",
+                "Global Ability_Nonsense6to7"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

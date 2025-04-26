@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Alacrity",
+        "name": "Alacrity",
+        "desc": "Unit's attacks occur immediately. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "desperation",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

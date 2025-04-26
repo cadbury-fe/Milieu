@@ -1,0 +1,25 @@
+[
+    {
+        "name": "EnemyTurn3",
+        "trigger": "enemy_turn_change",
+        "level_nid": "24",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;6,5",
+            "add_unit;Kishuna_Aion;6,5;fade;stack",
+            "move_unit;Kishuna_Aion;6,4;normal;closest",
+            "add_unit;Knight_R1;6,5;fade;closest",
+            "add_unit;Sniper_R1;6,5;fade;stack",
+            "add_unit;Sniper_R2;6,5;fade;stack",
+            "add_unit;Knight_R2;6,5;fade;stack",
+            "move_unit;Sniper_R1;7,4;normal;closest;no_block;no_follow",
+            "move_unit;Sniper_R2;5,4;normal;closest;no_block;no_follow",
+            "move_unit;Knight_R2;6,3;normal;closest;no_block;no_follow",
+            "flicker_cursor;Kishuna_Aion"
+        ],
+        "nid": "24 EnemyTurn3"
+    }
+]

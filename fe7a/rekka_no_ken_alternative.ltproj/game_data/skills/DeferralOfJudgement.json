@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DeferralOfJudgement",
+        "name": "<indigo>Judgement</>",
+        "desc": "Unit launches an attack on the target that sets the target's HP to 1 at the start of the next turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "JudgeAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

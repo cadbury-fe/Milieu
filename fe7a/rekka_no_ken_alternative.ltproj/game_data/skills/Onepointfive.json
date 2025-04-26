@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Onepointfive",
+        "name": "Onepointfive",
+        "desc": "amine????",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "exp_multiplier",
+                1.5
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

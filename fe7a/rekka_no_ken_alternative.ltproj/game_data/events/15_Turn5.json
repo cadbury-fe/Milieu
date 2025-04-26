@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "15",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.check_alive('Guy') and game.get_unit('Guy').team == 'enemy'",
+            "change_ai;Guy;Pursue",
+            "end",
+            "center_cursor;12,16",
+            "add_unit;Soldier_R1;11,16;immediate;closest",
+            "add_unit;Archer_R1;12,16;immediate;closest"
+        ],
+        "nid": "15 Turn5"
+    }
+]

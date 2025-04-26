@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Agility",
+        "name": "<indigo>Agility</>",
+        "desc": "Doubles unit's SPD temporarily",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "AgilityAbility"
+            ],
+            [
+                "charges_per_turn",
+                3
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

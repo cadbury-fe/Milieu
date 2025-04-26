@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "9",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_unit;Soldier_R3;12,17;fade;closest",
+            "add_unit;Soldier_R4;13,17;fade;closest",
+            "wait;400"
+        ],
+        "nid": "9 Turn4"
+    }
+]

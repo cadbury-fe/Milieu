@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "35",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 2 Wyvern Rider, next to where Harken or Karel appears",
+            "",
+            "# 0,8",
+            "# 0,10",
+            "add_unit;wyvern_r_1;0,8;immediate;closest",
+            "add_unit;wyvern_r_2;0,10;immediate;closest",
+            "add_unit;Karla;0,9;immediate;closest",
+            "center_cursor;Karla"
+        ],
+        "nid": "35 Turn2"
+    }
+]

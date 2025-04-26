@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Bided",
+        "name": "Bided",
+        "desc": "Number of times unit can move after biding",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stack",
+                999
+            ]
+        ]
+    }
+]

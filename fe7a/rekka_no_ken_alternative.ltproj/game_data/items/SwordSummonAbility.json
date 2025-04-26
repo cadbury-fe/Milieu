@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "SwordSummonAbility",
+        "name": "<purple>Summon</>",
+        "desc": "Summons an orb of light.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global Ability_SwordSummon"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "empty_tile_target_restrict",
+                null
+            ],
+            [
+                "target_tile",
+                null
+            ]
+        ]
+    }
+]

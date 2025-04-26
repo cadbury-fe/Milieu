@@ -1,0 +1,71 @@
+[
+    {
+        "nid": "TheNineVolumesOfNonsense3",
+        "name": "Volume 3",
+        "desc": "Suspension",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "unit.get_stat('MAG')"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        3
+                    ],
+                    [
+                        "MAG",
+                        2
+                    ],
+                    [
+                        "SKL",
+                        -7
+                    ],
+                    [
+                        "SPD",
+                        50
+                    ],
+                    [
+                        "LCK",
+                        -10
+                    ],
+                    [
+                        "DEF",
+                        3
+                    ],
+                    [
+                        "RES",
+                        1
+                    ],
+                    [
+                        "CON",
+                        1
+                    ],
+                    [
+                        "LEAD",
+                        10
+                    ]
+                ]
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "event_on_upkeep",
+                "Global Ability_Nonsense3to4"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

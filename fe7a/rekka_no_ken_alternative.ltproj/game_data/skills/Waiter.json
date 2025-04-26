@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Waiter",
+        "name": "Waiter",
+        "desc": "Stat boost if unit does not attack",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "gain_skill_after_attack",
+                "HasAttacked"
+            ],
+            [
+                "event_on_upkeep",
+                "Global Ability_Waiter"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

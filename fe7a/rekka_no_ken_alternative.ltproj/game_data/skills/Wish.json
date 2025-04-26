@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Wish",
+        "name": "<indigo>Wish</>",
+        "desc": "Cast a spell which heals the teammate for all their HP next turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "WishAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

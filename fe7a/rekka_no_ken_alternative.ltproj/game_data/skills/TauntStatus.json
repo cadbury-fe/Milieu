@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "TauntStatus",
+        "name": "TauntStatus",
+        "desc": "Reduces target's MAG by 99",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Discipline",
+        "name": "Discipline",
+        "desc": "Doubles weapon experience gained. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "wexp_multiplier",
+                2.0
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "PressAdvantageArt",
+        "name": "<red>Press Advantage</>",
+        "desc": "Gain another action after fighting at weapon advantage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "eval_galeforce",
+                "(combat_calcs.compute_advantage(unit, target, item, target.get_weapon()) and combat_calcs.compute_advantage(unit, target, item, target.get_weapon()).accuracy > 0) or (combat_calcs.compute_advantage(unit, target, item, target.get_weapon(), False) and combat_calcs.compute_advantage(unit, target, item, target.get_weapon(), False).accuracy > 0)"
+            ]
+        ]
+    }
+]

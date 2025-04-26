@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ability_GainQuickmarchStack",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# give to whoever has Quickmarch",
+            "#give_skill;Marcel;QuickmarchStack;no_banner;persistent"
+        ],
+        "nid": "Global Ability_GainQuickmarchStack"
+    }
+]

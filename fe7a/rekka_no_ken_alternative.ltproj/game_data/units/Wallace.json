@@ -1,0 +1,98 @@
+[
+    {
+        "nid": "Wallace",
+        "name": "Wallace",
+        "desc": "Doesn't have a different hair colour because he has no hair on his head.\nHe has no hair on his head because he's bald.\nHe's a bald man. Did you notice? Baldy bald bald man. Bald.",
+        "variant": null,
+        "level": 12,
+        "klass": "Knight",
+        "tags": [],
+        "bases": {
+            "HP": 30,
+            "STR": 13,
+            "MAG": 2,
+            "SKL": 7,
+            "SPD": 5,
+            "LCK": 10,
+            "DEF": 15,
+            "RES": 2,
+            "CON": 13,
+            "MOV": 4,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 100,
+            "STR": 65,
+            "MAG": 20,
+            "SKL": 65,
+            "SPD": 0,
+            "LCK": 60,
+            "DEF": 70,
+            "RES": 50,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Lance",
+                false
+            ],
+            [
+                "Iron_Axe",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Master_Seal",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Hoarder"
+            ],
+            [
+                15,
+                "Explosion"
+            ],
+            [
+                5,
+                "Drawback"
+            ],
+            [
+                1,
+                "ShieldDash"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Wallace",
+        "affinity": null,
+        "fields": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "DazzleRing",
+        "name": "Dazzle Ring",
+        "desc": "Grants a skill, which prevents enemy counterattacks.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Dazzling"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

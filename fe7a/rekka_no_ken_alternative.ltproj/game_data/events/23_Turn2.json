@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn2",
+        "trigger": "turn_change",
+        "level_nid": "23",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;3,5",
+            "change_team;Fiora;player",
+            "add_unit;Fiora;3,0;immediate;closest",
+            "move_unit;Fiora;3,5;normal;closest",
+            "center_cursor;2,0",
+            "add_unit;Pirate_R4;2,0;immediate;closest"
+        ],
+        "nid": "23 Turn2"
+    }
+]

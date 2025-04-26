@@ -1,0 +1,90 @@
+[
+    {
+        "nid": "Oswin",
+        "name": "Oswin",
+        "desc": "ether",
+        "variant": null,
+        "level": 9,
+        "klass": "Knight",
+        "tags": [],
+        "bases": {
+            "HP": 28,
+            "STR": 13,
+            "MAG": 2,
+            "SKL": 9,
+            "SPD": 5,
+            "LCK": 3,
+            "DEF": 13,
+            "RES": 3,
+            "CON": 14,
+            "MOV": 4,
+            "LEAD": 0
+        },
+        "growths": {
+            "HP": 90,
+            "STR": 40,
+            "MAG": 30,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 35,
+            "DEF": 55,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Iron_Lance",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "KnightRingAbility"
+            ],
+            [
+                1,
+                "Smite"
+            ],
+            [
+                5,
+                "Bide"
+            ],
+            [
+                15,
+                "BravelyDefault"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Lance": [
+                false,
+                71,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Oswin",
+        "affinity": null,
+        "fields": []
+    }
+]

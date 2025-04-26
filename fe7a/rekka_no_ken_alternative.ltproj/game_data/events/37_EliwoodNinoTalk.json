@@ -1,0 +1,16 @@
+[
+    {
+        "name": "EliwoodNinoTalk",
+        "trigger": "on_talk",
+        "level_nid": "37",
+        "condition": "check_pair('Eliwood','Nino')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "change_team;Nino;player",
+            "remove_talk;Eliwood;Nino"
+        ],
+        "nid": "37 EliwoodNinoTalk"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "BestDefenseRing",
+        "name": "Best Defense Ring",
+        "desc": "Grants a skill, which gives damage resistance equal to damage dealt",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "BestDefense"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

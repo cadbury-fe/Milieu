@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "GrounderArt",
+        "name": "<red>Grounder</>",
+        "desc": "Effective against flying units",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_override",
+                "FlierEffectiveness"
+            ]
+        ]
+    }
+]

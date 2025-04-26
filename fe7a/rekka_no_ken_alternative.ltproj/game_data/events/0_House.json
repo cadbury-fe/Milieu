@@ -1,0 +1,17 @@
+[
+    {
+        "name": "House",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'House'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};Blue_Gem",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "0 House"
+    }
+]

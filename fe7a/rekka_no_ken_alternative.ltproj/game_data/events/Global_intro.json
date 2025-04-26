@@ -1,0 +1,24 @@
+[
+    {
+        "name": "intro",
+        "trigger": "on_startup",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_background;BlackBackground",
+            "music;groovin_magic_instrumental;0",
+            "wait;1400",
+            "change_background;lt_logo",
+            "wait;1900",
+            "change_background;SUDOWOODOOO",
+            "wait;1400",
+            "transition;close;650;40,40,40   ",
+            "change_background",
+            "transition;open;1"
+        ],
+        "nid": "Global intro"
+    }
+]

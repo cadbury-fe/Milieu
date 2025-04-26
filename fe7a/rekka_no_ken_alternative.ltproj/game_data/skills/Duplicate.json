@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Duplicate",
+        "name": "Duplicate",
+        "desc": "When attacking with an item, (LCK / 3)% chance to gain a copy of that item.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "proc_rate",
+                "DUPLICATE"
+            ],
+            [
+                "attack_proc",
+                "DupeProc"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

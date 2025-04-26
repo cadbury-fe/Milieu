@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Ability_AdeptStackGain",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "give_skill;{unit};AdeptStack;no_banner"
+        ],
+        "nid": "Global Ability_AdeptStackGain"
+    }
+]

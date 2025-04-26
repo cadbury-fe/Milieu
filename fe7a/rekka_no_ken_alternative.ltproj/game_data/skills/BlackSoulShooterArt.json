@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BlackSoulShooterArt",
+        "name": "<red>Black Soul Shooter</>",
+        "desc": "Adds the missing health of all allies to damage dealt ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "sum([game.get_unit(unit.nid).get_max_hp() - game.get_unit(unit.nid).get_hp() for unit in game.get_player_units()])"
+            ],
+            [
+                "cannot_double",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Turn6",
+        "trigger": "turn_change",
+        "level_nid": "32",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,1",
+            "add_unit;WyvernRider_HR3;0,1;immediate;closest",
+            "add_unit;WyvernRider_HR4;1,0;immediate;closest",
+            "center_cursor;7,2",
+            "add_unit;Myrmidon_HR3;7,2;immediate;stack",
+            "add_unit;Myrmidon_HR4;7,2;immediate;stack",
+            "move_unit;Myrmidon_HR3;7,4;;closest;no_block;no_follow",
+            "move_unit;Myrmidon_HR4;8,4;;closest;no_follow",
+            "center_cursor;4,0",
+            "add_unit;Brigand_R3;4,0;immediate;closest",
+            ""
+        ],
+        "nid": "32 Turn6"
+    }
+]

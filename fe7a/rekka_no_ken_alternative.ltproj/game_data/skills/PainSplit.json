@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "PainSplit",
+        "name": "<indigo>Pain Split</>",
+        "desc": "Shares HP of user and target equally",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "PainSplitAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

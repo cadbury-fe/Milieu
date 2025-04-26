@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "MoneyAbility",
+        "name": "MoneyAbility",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": []
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "45",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 1 Berserker (green square)",
+            "#18,6",
+            "add;ber_r_4;18,6;immediate;closest",
+            "# 1 Berserker (yellow square)",
+            "#9,2",
+            "add;ber_r_5;9,2;immediate;closest"
+        ],
+        "nid": "45 Turn4"
+    }
+]

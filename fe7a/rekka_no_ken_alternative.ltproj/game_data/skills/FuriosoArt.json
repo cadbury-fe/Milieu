@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "FuriosoArt",
+        "name": "<red>Furiosio</>",
+        "desc": "And that's that",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage_multiplier",
+                "999"
+            ],
+            [
+                "dynamic_crit_accuracy",
+                "999"
+            ],
+            [
+                "cannot_double",
+                null
+            ]
+        ]
+    }
+]

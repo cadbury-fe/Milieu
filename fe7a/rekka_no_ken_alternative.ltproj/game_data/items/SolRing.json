@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SolRing",
+        "name": "Sol Ring",
+        "desc": "Grants a skill, where every fourth attack heals. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Sol"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

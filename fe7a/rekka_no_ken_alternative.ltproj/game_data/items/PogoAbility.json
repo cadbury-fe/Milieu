@@ -1,0 +1,42 @@
+[
+    {
+        "nid": "PogoAbility",
+        "name": "<red>Pogo</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "traversable_tile_target_restrict",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global Ability_Pogo"
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global Ability_PogoRefresh"
+            ],
+            [
+                "target_enemy",
+                null
+            ]
+        ]
+    }
+]

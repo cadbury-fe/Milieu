@@ -1,0 +1,15 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "on_talk",
+        "level_nid": "21",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            ""
+        ],
+        "nid": "21 New Event"
+    }
+]

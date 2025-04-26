@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "FlameTune",
+        "name": "<indigo>Flame Tune</>",
+        "desc": "Refreshes an ally, and grants them +5 STR",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "FlameTune"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

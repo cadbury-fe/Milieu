@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Stoicism",
+        "name": "Stoicism",
+        "desc": "Damage taken is halved if target is at full HP and unit is not at full HP",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_condition",
+                "(unit.get_hp() != unit.get_max_hp()) and (target.get_hp() == target.get_max_hp())"
+            ],
+            [
+                "resist_multiplier",
+                0.5
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

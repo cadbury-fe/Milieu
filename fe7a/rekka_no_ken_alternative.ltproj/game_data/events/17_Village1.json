@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Village1",
+        "trigger": "Visit",
+        "level_nid": "17",
+        "condition": "region.nid == 'Village1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};White_Gem",
+            "show_layer;Village2",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}",
+            "add_unit;Priscilla;6,15;swoosh;closest",
+            "change_team;Priscilla;player"
+        ],
+        "nid": "17 Village1"
+    }
+]

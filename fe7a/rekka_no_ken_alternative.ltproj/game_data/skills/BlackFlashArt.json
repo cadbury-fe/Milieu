@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "BlackFlashArt",
+        "name": "<red>Black Flash</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "gain_skill_after_attack",
+                "BlackFlashStatBoost"
+            ],
+            [
+                "guaranteed_crit",
+                null
+            ],
+            [
+                "event_after_combat",
+                "Global Ability_CritCounterReset"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

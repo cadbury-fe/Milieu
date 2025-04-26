@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Turn8",
+        "trigger": "turn_change",
+        "level_nid": "32",
+        "condition": "game.turncount == 8",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;7,2",
+            "add_unit;Myrmidon_R3;7,2;immediate;stack",
+            "add_unit;Myrmidon_R4;7,2;immediate;stack",
+            "move_unit;Myrmidon_R3;7,4;;closest;no_block;no_follow",
+            "move_unit;Myrmidon_R4;8,4;;closest;no_follow",
+            "center_cursor;0,16",
+            "add_unit;Monk_R9;0,15;immediate;closest",
+            "add_unit;Myrmidon_R7;0,16;immediate;closest",
+            "add_unit;Monk_R10;0,17;immediate;closest",
+            "add_unit;Mercenary_R1;0,18;immediate;closest",
+            ""
+        ],
+        "nid": "32 Turn8"
+    }
+]

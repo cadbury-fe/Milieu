@@ -1,0 +1,17 @@
+[
+    {
+        "name": "EnemyTurn5",
+        "trigger": "enemy_turn_change",
+        "level_nid": "17",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_ai;Erik;Pursue",
+            "change_ai;Cavalier_1;Pursue",
+            "change_ai;Cavalier_2;Pursue"
+        ],
+        "nid": "17 EnemyTurn5"
+    }
+]

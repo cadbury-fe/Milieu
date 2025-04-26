@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Font",
+        "name": "Font",
+        "desc": "Adds HP/2 to damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "game.get_unit(unit.nid).get_hp() // 2"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "HolyShield",
+        "name": "Holy Shield",
+        "desc": "Prevents effective damage. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "negate",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "ShatterArt",
+        "name": "<red>Shatter</>",
+        "desc": "Reduces target defense to zero after attacking",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "give_status_after_combat",
+                "ShatterStatus"
+            ]
+        ]
+    }
+]

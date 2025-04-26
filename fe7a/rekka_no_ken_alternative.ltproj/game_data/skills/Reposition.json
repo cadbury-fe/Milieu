@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Reposition",
+        "name": "<indigo>Reposition</>",
+        "desc": "Pulls the target behind the unit",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "RepositionAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

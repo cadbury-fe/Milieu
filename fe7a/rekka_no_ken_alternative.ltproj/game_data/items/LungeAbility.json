@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "LungeAbility",
+        "name": "LungeAbility",
+        "desc": "Swaps unit and target after combat.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "swap_on_end_combat",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "17",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;17,16",
+            "add_unit;Pirate_R3;17,16;immediate;closest",
+            "add_weather;rain"
+        ],
+        "nid": "17 Turn5"
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "UhaiMorph",
+        "name": "Uhai",
+        "desc": "Mark.",
+        "variant": null,
+        "level": 20,
+        "klass": "NomadTrooper",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "CON": 10,
+            "HP": 80,
+            "STR": 25,
+            "MAG": 11,
+            "SKL": 29,
+            "SPD": 28,
+            "LCK": 0,
+            "DEF": 21,
+            "RES": 21,
+            "MOV": 8,
+            "LEAD": 0
+        },
+        "growths": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Rienfleche",
+                true
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "DarkGift"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Bow": [
+                false,
+                251,
+                null
+            ],
+            "Sword": [
+                false,
+                181,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Uhai Morph",
+        "affinity": null,
+        "fields": []
+    }
+]

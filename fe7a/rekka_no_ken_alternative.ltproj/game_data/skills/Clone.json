@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Clone",
+        "name": "Clone",
+        "desc": "Summons a clone on top of the unit that doubles the number of attacks they take and receive",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "all_brave",
+                null
+            ],
+            [
+                "skill_before_combat",
+                {
+                    "skill": "Braveheart",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

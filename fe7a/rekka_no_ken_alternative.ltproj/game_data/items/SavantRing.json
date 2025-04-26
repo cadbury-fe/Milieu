@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SavantRing",
+        "name": "Savant Ring",
+        "desc": "Grants a skill, which increases staff range. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Savant"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

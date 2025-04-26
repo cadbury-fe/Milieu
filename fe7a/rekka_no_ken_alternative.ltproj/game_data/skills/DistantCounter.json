@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "DistantCounter",
+        "name": "Distant Counter",
+        "desc": "Unit can counter from any range",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "distant_counter",
+                null
+            ]
+        ]
+    }
+]

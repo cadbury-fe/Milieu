@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Turn7",
+        "trigger": "turn_change",
+        "level_nid": "32",
+        "condition": "game.turncount == 7",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;0,1",
+            "add_unit;WyvernRider_R1;0,1;immediate;closest",
+            "add_unit;WyvernRider_R2;1,0;immediate;closest",
+            "center_cursor;10,5",
+            "add_unit;Monk_R7;10,5;immediate;closest",
+            "add_unit;Myrmidon_R5;10,6;immediate;closest",
+            "center_cursor;7,2",
+            "add_unit;Myrmidon_HR9;7,2;immediate;stack",
+            "add_unit;Myrmidon_HR10;7,2;immediate;stack",
+            "move_unit;Myrmidon_HR9;7,4;;closest;no_block;no_follow",
+            "move_unit;Myrmidon_HR10;8,4;;closest;no_follow",
+            "center_cursor;0,16",
+            "add_unit;Monk_HR7;0,15;immediate;closest",
+            "add_unit;Myrmidon_HR13;0,16;immediate;closest",
+            "add_unit;Monk_HR8;0,17;immediate;closest",
+            "add_unit;Mercenary_HR1;0,18;immediate;closest"
+        ],
+        "nid": "32 Turn7"
+    }
+]

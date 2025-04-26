@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Snag7",
+        "trigger": "unit_death",
+        "level_nid": "16",
+        "condition": "unit.nid == 'Snag7'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Occurs when a SNAG is KILLED",
+            "map_anim;Snag;{position}",
+            "# Show the new layer",
+            "show_layer;Snag7"
+        ],
+        "nid": "16 Snag7"
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "BattleCryStatus",
+        "name": "Amped",
+        "desc": "STR and SPD has been boosted by Battle Cry",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        5
+                    ],
+                    [
+                        "SPD",
+                        5
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ]
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "NullAndVoid",
+        "name": "Null And Void",
+        "desc": "Unit exudes an aura that protects allies from harm.\nUnit cannot be harmed unless the target is within their aura.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "multi_skill",
+                [
+                    "NullAndVoid_a_ally",
+                    "NullAndVoid_a_enemy"
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

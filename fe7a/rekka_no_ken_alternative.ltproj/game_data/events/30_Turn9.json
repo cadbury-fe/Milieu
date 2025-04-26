@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Turn9",
+        "trigger": "turn_change",
+        "level_nid": "30",
+        "condition": "game.turncount == 9",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;2,2",
+            "add_unit;Mage_R4;2,2;;closest",
+            "center_cursor;18,2",
+            "add_unit;Shaman_R4;18,2;;closest"
+        ],
+        "nid": "30 Turn9"
+    }
+]

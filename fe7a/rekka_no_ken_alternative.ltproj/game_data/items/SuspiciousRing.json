@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SuspiciousRing",
+        "name": "Suspicious Ring",
+        "desc": "Grants a skill, which, on use, insta-kills poisoned enemies",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "SuspiciousSalve"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

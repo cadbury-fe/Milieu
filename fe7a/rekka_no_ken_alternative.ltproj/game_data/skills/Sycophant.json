@@ -1,0 +1,51 @@
+[
+    {
+        "nid": "Sycophant",
+        "name": "Sycophant",
+        "desc": "Stat up when adjacent to lord units ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "any(ally for ally in target_system.get_adj_units(game.get_unit(unit.nid)) if ally.tags == 'Lord')"
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        1.5
+                    ],
+                    [
+                        "MAG",
+                        1.5
+                    ],
+                    [
+                        "SKL",
+                        1.5
+                    ],
+                    [
+                        "SPD",
+                        1.5
+                    ],
+                    [
+                        "DEF",
+                        1.5
+                    ],
+                    [
+                        "RES",
+                        1.5
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

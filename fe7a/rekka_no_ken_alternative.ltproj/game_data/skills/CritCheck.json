@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "CritCheck",
+        "name": "Crit Counter",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_after_crit",
+                "Global Ability_CritCounter"
+            ]
+        ]
+    }
+]

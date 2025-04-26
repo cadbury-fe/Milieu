@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Haircut",
+        "name": "<indigo>Haircut</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Haircut"
+            ]
+        ]
+    }
+]

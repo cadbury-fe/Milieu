@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SteelEffect",
+        "name": "SteelEffect",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "cannot_double",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "combat_condition",
+                "mode == 'attack'"
+            ]
+        ]
+    }
+]

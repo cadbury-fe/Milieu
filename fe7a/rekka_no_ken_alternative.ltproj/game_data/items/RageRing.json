@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "RageRing",
+        "name": "Rage Ring",
+        "desc": "Grants a skill, which doubles stats, but the unit can't be controlled. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Rage"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

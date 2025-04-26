@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BarracksPortal",
+        "name": "<indigo>Barracks Portal</>",
+        "desc": "Summons a benched unit",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "BarracksPortalAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

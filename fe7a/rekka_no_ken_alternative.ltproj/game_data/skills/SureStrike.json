@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SureStrike",
+        "name": "<red>Sure Strike</>",
+        "desc": "Attack can\u2019t miss ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "combat_art",
+                "SureStrikeArt"
+            ],
+            [
+                "allowed_weapons",
+                "item_system.is_weapon(unit, item)"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

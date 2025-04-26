@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "SwordsDanceAbility",
+        "name": "<purple>Swords Dance</>",
+        "desc": "Attack boost",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "self_status_on_hit",
+                "SwordsDanceStatus"
+            ]
+        ]
+    }
+]

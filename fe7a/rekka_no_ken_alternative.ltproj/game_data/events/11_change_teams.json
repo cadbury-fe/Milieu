@@ -1,0 +1,18 @@
+[
+    {
+        "name": "change_teams",
+        "trigger": "level_end",
+        "level_nid": "11",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_team;Erk;other",
+            "change_team;Lucius;other",
+            "change_team;Nils;other",
+            "change_team;Rath;other"
+        ],
+        "nid": "11 change_teams"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Dazzle",
+        "name": "Dazzle",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "cannot_be_countered",
+                null
+            ]
+        ]
+    }
+]

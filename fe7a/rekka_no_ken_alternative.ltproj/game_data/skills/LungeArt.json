@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "LungeArt",
+        "name": "Lunge",
+        "desc": "Unit swaps places with target after an attack",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "item_override",
+                "LungeAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

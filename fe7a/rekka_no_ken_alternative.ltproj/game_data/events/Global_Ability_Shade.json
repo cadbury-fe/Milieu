@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Ability_Shade",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "set_current_hp;{unit2};{e:unit2.get_hp() - unit.get_internal_level()}"
+        ],
+        "nid": "Global Ability_Shade"
+    }
+]

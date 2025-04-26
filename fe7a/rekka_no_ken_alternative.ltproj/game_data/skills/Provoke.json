@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Provoke",
+        "name": "Provoke",
+        "desc": "Targets will attack this unit over all other attacking options",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "modify_ai_priority",
+                99.0
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

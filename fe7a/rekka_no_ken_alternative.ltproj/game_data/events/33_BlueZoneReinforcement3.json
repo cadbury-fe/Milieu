@@ -1,0 +1,28 @@
+[
+    {
+        "name": "BlueZoneReinforcement3",
+        "trigger": "turn_change",
+        "level_nid": "33",
+        "condition": "any_unit_in_region('BlueZone', team='player')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 5 Pirates below the castle, only for 1 turn.",
+            "#1,19",
+            "#1,18",
+            "#2,18",
+            "#3,18",
+            "#3,19",
+            "if;{v:bluezone} == 0",
+            "    add_unit;pirate_r3;1,19;immediate;closest",
+            "    add_unit;pirate_r4;1,18;immediate;closest",
+            "    add_unit;pirate_r5;2,18;immediate;closest",
+            "    add_unit;pirate_r6;3,18;immediate;closest",
+            "    add_unit;pirate_r7;3,19;immediate;closest",
+            "    inc_level_var;bluezone",
+            "end"
+        ],
+        "nid": "33 BlueZoneReinforcement3"
+    }
+]

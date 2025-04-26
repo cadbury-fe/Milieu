@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Zone1",
+        "trigger": "unit_wait",
+        "level_nid": "44",
+        "condition": "any_unit_in_region('Zone1', team='player')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#4 Nmd Trooper, in the zone 1.",
+            "#2,6",
+            "#2,8",
+            "#0,6",
+            "#0,8",
+            "add;trooper_r_1;2,6;warp;closest",
+            "add;trooper_r_2;2,8;warp;closest",
+            "add;trooper_r_3;0,6;warp;closest",
+            "add;trooper_r_4;0,8;warp;closest"
+        ],
+        "nid": "44 Zone1"
+    }
+]

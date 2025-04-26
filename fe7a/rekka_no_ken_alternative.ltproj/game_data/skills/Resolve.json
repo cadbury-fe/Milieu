@@ -1,0 +1,43 @@
+[
+    {
+        "nid": "Resolve",
+        "name": "Resolve",
+        "desc": "Stat boost under half HP",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "game.get_unit(unit.nid).get_hp() <= (game.get_unit(unit.nid).get_max_hp() // 2)"
+            ],
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "STR",
+                        1.5
+                    ],
+                    [
+                        "MAG",
+                        1.5
+                    ],
+                    [
+                        "SKL",
+                        1.5
+                    ],
+                    [
+                        "SPD",
+                        1.5
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "nid": "EvilLyn",
+        "name": "Lyn",
+        "desc": "Otherwise just decent",
+        "variant": null,
+        "level": 1,
+        "klass": "BladeLord",
+        "tags": [],
+        "bases": {
+            "SPD": 29,
+            "RES": 15,
+            "DEF": 12,
+            "SKL": 27,
+            "MAG": 12,
+            "MOV": 7,
+            "STR": 25,
+            "CON": 6,
+            "LCK": 0,
+            "HP": 80,
+            "LEAD": 0
+        },
+        "growths": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Lucied",
+                true
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "DarkGift"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                251,
+                null
+            ],
+            "Bow": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Lyn",
+        "affinity": null,
+        "fields": []
+    }
+]

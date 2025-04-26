@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Ability_GoForBroke",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_money;{eval:-(game.get_money())};Marcel"
+        ],
+        "nid": "Global Ability_GoForBroke"
+    }
+]

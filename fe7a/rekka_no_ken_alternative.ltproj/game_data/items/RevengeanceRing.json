@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "RevengeanceRing",
+        "name": "Revengeance Ring",
+        "desc": "Grants a skill, where initiated attacks can't \ncritical hit, but counterattacks always crit",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_equip",
+                "Revengeance"
+            ],
+            [
+                "equippable_accessory",
+                null
+            ],
+            [
+                "value",
+                20000
+            ]
+        ]
+    }
+]

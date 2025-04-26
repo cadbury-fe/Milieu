@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Ability_SkyDropEnd",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:sd_turn} + 1 == game.turncount",
+            "    add_unit;{v:sd_unit};{v:sd_pos_unit};swoosh;push",
+            "    add_unit;{v:sd_target};{v:sd_pos_target};swoosh;push",
+            "end"
+        ],
+        "nid": "Global Ability_SkyDropEnd"
+    }
+]

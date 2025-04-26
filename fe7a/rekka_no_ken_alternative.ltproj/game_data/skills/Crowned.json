@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Crowned",
+        "name": "Crowned",
+        "desc": "Cannot be displaced. Immune to status effects\n",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "grounded",
+                null
+            ],
+            [
+                "immune_status",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Turn14",
+        "trigger": "turn_change",
+        "level_nid": "44",
+        "condition": "game.turncount == 14",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#In the zone 3; 7 Shaman and 1 Druid (square only with the black borders). All have Nos",
+            "# druid",
+            "# 25,5",
+            "add;druid_r_4;25,5;immediate;closest",
+            "",
+            "# shamans",
+            "#24,6",
+            "#23,5",
+            "#22,6",
+            "#23,7",
+            "#24,8",
+            "#25,7",
+            "#26,6",
+            "add;shaman_r_22;24,6;immediate;closest",
+            "add;shaman_r_23;23,5;immediate;closest",
+            "add;shaman_r_24;22,6;immediate;closest",
+            "add;shaman_r_25;23,7;immediate;closest",
+            "add;shaman_r_26;24,8;immediate;closest",
+            "add;shaman_r_27;25,7;immediate;closest",
+            "add;shaman_r_28;26,6;immediate;closest",
+            "",
+            "#2 Cavaliers in the forts in the upper part of the zone 2.",
+            "#11,14",
+            "#12,15",
+            "add;cav_r_15;11,14;immediate;closest",
+            "add;cav_r_16;12,15;immediate;closest"
+        ],
+        "nid": "44 Turn14"
+    }
+]

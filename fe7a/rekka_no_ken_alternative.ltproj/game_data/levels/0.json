@@ -1,0 +1,133 @@
+[
+    {
+        "nid": "0",
+        "name": "Prologue: A Girl From The Plains",
+        "tilemap": "0",
+        "bg_tilemap": null,
+        "party": "Lyns",
+        "music": {
+            "player_phase": "HamidashiCreativeTotsuOP",
+            "enemy_phase": "HamidashiCreativeTotsuOP",
+            "other_phase": null,
+            "enemy2_phase": null,
+            "player_battle": "HamidashiCreativeTotsuOP",
+            "enemy_battle": "HamidashiCreativeTotsuOP",
+            "other_battle": null,
+            "enemy2_battle": null,
+            "boss_battle": "HamidashiCreativeTotsuOP"
+        },
+        "objective": {
+            "simple": "Seize gate",
+            "win": "Seize gate",
+            "loss": "Eirika dies"
+        },
+        "roam": false,
+        "roam_unit": "Eirika",
+        "go_to_overworld": false,
+        "should_record": true,
+        "tags": [],
+        "units": [
+            {
+                "nid": "101",
+                "variant": null,
+                "level": 1,
+                "klass": "Brigand",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron_Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Pursue",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    6
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Lyn",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Batta",
+                "team": "enemy",
+                "ai": "Guard",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    2
+                ],
+                "starting_traveler": null,
+                "generic": false
+            }
+        ],
+        "regions": [
+            {
+                "nid": "Gate",
+                "region_type": "event",
+                "position": [
+                    3,
+                    2
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Seize",
+                "condition": "unit.nid == 'Lyn'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "House",
+                "region_type": "event",
+                "position": [
+                    14,
+                    9
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Visit",
+                "condition": "unit.team == 'player'",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            }
+        ],
+        "unit_groups": [
+            {
+                "nid": "Enemy1",
+                "units": [
+                    "101"
+                ],
+                "positions": {
+                    "101": [
+                        14,
+                        7
+                    ]
+                }
+            }
+        ],
+        "ai_groups": []
+    }
+]

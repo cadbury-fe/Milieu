@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Ability_ReadyStanceRemove",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_skill;{unit};ReadyStanceStatus;no_banner"
+        ],
+        "nid": "Global Ability_ReadyStanceRemove"
+    }
+]

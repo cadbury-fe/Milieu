@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "29",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;4,2",
+            "add_unit;Mage_R1;4,2;;closest",
+            "center_cursor;4,15",
+            "add_unit;WyvernRider_R3;4,15;;closest",
+            "center_cursor;0,2",
+            "add_unit;WyvernRider_R4;0,2;;closest"
+        ],
+        "nid": "29 Turn5"
+    }
+]

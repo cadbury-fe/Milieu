@@ -1,0 +1,37 @@
+[
+    {
+        "nid": "FibonacciSwordStyle",
+        "name": "Fibonacci Sword Style",
+        "desc": "On turns 1, 2, 3, 5, 8, 13, 21, 34, and 55,\nunit inverts attack order and the weapon triangle",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "game.turncount in (1,2,3,5,8,13,21,34,55)"
+            ],
+            [
+                "multi_skill",
+                [
+                    "FSSAttacking",
+                    "FSSDefending"
+                ]
+            ],
+            [
+                "item_override",
+                "ReaverOverride"
+            ],
+            [
+                "grey_if_inactive",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

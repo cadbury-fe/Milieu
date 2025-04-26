@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Turn13",
+        "trigger": "turn_change",
+        "level_nid": "36",
+        "condition": "game.turncount == 13",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 2 Cavaliers, at the ends (one has a lancereaver and other an Axereaver, the Paladin has the two weapons)",
+            "# 24,8",
+            "# 24,10",
+            "add;cav_r_1;24,8;immediate;closest",
+            "add;cav_r_2;24,10;immediate;closest",
+            "",
+            "#1 Paladin, between the two previous",
+            "# 24,9",
+            "add;pal_r_1;24,9;immediate;closest"
+        ],
+        "nid": "36 Turn13"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "TwoStep",
+        "name": "<indigo>Two-Step</>",
+        "desc": "Unit pushes an ally two spaces, then the unit moves next to the ally.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "TwoStepAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

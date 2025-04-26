@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "DrawbackAbility",
+        "name": "<purple>Drawback</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "draw_back",
+                1
+            ],
+            [
+                "draw_back_target_restrict",
+                1
+            ]
+        ]
+    }
+]

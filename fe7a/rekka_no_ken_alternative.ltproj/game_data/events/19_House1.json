@@ -1,0 +1,17 @@
+[
+    {
+        "name": "House1",
+        "trigger": "Visit",
+        "level_nid": "19",
+        "condition": "region.nid == 'House1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};DualStrikeRing",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}"
+        ],
+        "nid": "19 House1"
+    }
+]

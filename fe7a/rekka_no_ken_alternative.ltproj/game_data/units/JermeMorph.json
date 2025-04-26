@@ -1,0 +1,76 @@
+[
+    {
+        "nid": "JermeMorph",
+        "name": "Jerme",
+        "desc": "ster",
+        "variant": null,
+        "level": 20,
+        "klass": "Assassin",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "CON": 6,
+            "SPD": 30,
+            "RES": 20,
+            "DEF": 22,
+            "SKL": 22,
+            "MAG": 25,
+            "MOV": 7,
+            "STR": 25,
+            "LCK": 0,
+            "HP": 80,
+            "LEAD": 0
+        },
+        "growths": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Runesword",
+                true
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "DarkGift"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Jerme Morph",
+        "affinity": null,
+        "fields": []
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Switchblade",
+        "name": "Switchblade",
+        "desc": "If unit faces weapon triangle disadvantage, they switch to a\nweapon that has weapon triangle advantage after combat",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_before_combat",
+                "Global Ability_Switchblade"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

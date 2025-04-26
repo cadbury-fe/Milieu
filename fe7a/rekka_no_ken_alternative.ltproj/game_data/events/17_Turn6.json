@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn6",
+        "trigger": "turn_change",
+        "level_nid": "17",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "center_cursor;27,14",
+            "add_unit;PegasusKnight_R3;22,14;immediate;closest",
+            "add_unit;PegasusKnight_R4;27,14;immediate;closest"
+        ],
+        "nid": "17 Turn6"
+    }
+]

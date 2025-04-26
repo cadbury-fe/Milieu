@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "HeadsOrTailsArt",
+        "name": "<red>Heads Or Tails</>",
+        "desc": "Unit sets their HP and the target\u2019s HP to 1. Attack order is determined by a coin-flip. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_before_combat",
+                "Global Ability_HeadsOrTails"
+            ],
+            [
+                "event_after_combat",
+                "Global Ability_HeadsOrTailsEnd"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "House1",
+        "trigger": "Visit",
+        "level_nid": "27",
+        "condition": "region.nid == 'House1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;{unit};RecklessRing",
+            "show_layer;House1",
+            "# To consume an action as part of the Visit",
+            "has_attacked;{unit}",
+            "add_unit;Cindy;{unit};swoosh;closest"
+        ],
+        "nid": "27 House1"
+    }
+]

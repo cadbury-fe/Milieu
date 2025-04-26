@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Reroll",
+        "name": "<indigo>Reroll</>",
+        "desc": "Swaps the unit's skills and growths, for new skills and growths. ",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "RerollAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

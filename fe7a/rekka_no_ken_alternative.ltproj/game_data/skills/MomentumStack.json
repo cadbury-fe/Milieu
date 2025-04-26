@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "MomentumStack",
+        "name": "Momentum",
+        "desc": "+3 Damage, +15 Crit, +15 Avoid.\nGained when fighting at an advantage.\nLost after fighting at a disadvantage. \nStacks 4 times.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stack",
+                4
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "avoid",
+                15
+            ]
+        ]
+    }
+]

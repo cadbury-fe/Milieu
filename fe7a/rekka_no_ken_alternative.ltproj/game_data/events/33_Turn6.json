@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Turn6",
+        "trigger": "turn_change",
+        "level_nid": "33",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# # 2 Pegasus Knights, behind the right castle",
+            "",
+            "#pegs",
+            "#22,0",
+            "#20,0",
+            "add_unit;peg_r3;22,0",
+            "add_unit;peg_r4;20,0"
+        ],
+        "nid": "33 Turn6"
+    }
+]

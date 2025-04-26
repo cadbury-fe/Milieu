@@ -1,0 +1,75 @@
+[
+    {
+        "nid": "Limstella",
+        "name": "Limstella",
+        "desc": "Constellated",
+        "variant": null,
+        "level": 20,
+        "klass": "Sage",
+        "tags": [
+            "Boss"
+        ],
+        "bases": {
+            "HP": 80,
+            "STR": 7,
+            "MAG": 29,
+            "SKL": 24,
+            "SPD": 21,
+            "LCK": 0,
+            "DEF": 25,
+            "RES": 28,
+            "CON": 4,
+            "MOV": 6,
+            "LEAD": 0
+        },
+        "growths": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "stat_cap_modifiers": {
+            "SPD": 0,
+            "RES": 0,
+            "DEF": 0,
+            "SKL": 0,
+            "MAG": 0,
+            "MOV": 0,
+            "STR": 0,
+            "CON": 0,
+            "LCK": 0,
+            "HP": 0,
+            "LEAD": 0
+        },
+        "starting_items": [
+            [
+                "Bolting",
+                false
+            ],
+            [
+                "Fimbulvetr",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Anima": [
+                false,
+                251,
+                null
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Limstella",
+        "affinity": null,
+        "fields": []
+    }
+]

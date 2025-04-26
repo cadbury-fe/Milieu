@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Turn8",
+        "trigger": "turn_change",
+        "level_nid": "35",
+        "condition": "game.turncount == 8",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# 1 Thief, between the previous reinforcements",
+            "# 0,9",
+            "add_unit;thief_r_2;0,9;immediate;closest",
+            "# 2 Wyvern Rider, next to where you start.",
+            "# 0,21",
+            "# 0,23",
+            "add_unit;wyvern_r_13;0,21;immediate;closest",
+            "add_unit;wyvern_r_14;0,23;immediate;closest",
+            "",
+            "",
+            "# 1 Archer, next to the room with the chests, in the stairs",
+            "# 11,3",
+            "add_unit;archer_r_7;11,3;immediate;closest"
+        ],
+        "nid": "35 Turn8"
+    }
+]

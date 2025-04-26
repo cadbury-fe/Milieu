@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "ReturnAbility",
+        "name": "<purple>Return</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_unit",
+                null
+            ],
+            [
+                "event_on_hit",
+                "Global Ability_ReturnUse"
+            ]
+        ]
+    }
+]

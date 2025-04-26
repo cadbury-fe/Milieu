@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "EndlessConversationAbility",
+        "name": "<purple>Endless Conversation</>",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "spell",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "EndlesslyTalking"
+            ],
+            [
+                "self_status_on_hit",
+                "EndlesslyTalking"
+            ]
+        ]
+    }
+]

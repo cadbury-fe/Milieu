@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Smite",
+        "name": "<indigo>Smite</>",
+        "desc": "Shoves a unit 5 tiles forward",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "SmiteAbility"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

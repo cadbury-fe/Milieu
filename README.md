@@ -16,16 +16,13 @@ Claude and Claudia (twins) chase after people who kidnapped their mother.
 - Aside from the above, the game plays like a Fire Emblem game for the GameBoyAdvance
 
 ## Screenshots
-![titlescreen](https://github.com/user-attachments/assets/dfee978f-57e5-4be5-8932-ba693c828a77)
-![characterList](https://github.com/user-attachments/assets/d99b930b-dd24-45e0-a473-551b307648bc)
-![claudeSpeaks](https://github.com/user-attachments/assets/fa92ad69-6df5-4f82-a049-0c4d1ad35bfb)
-![madelineDoubleArts](https://github.com/user-attachments/assets/d271a1ad-fccd-4a7c-a966-a13433e56924)
-![combatForecast](https://github.com/user-attachments/assets/23e1a6ff-1756-43e5-97b5-10b88ef0d4aa)
-![camaraderie](https://github.com/user-attachments/assets/ee38b82a-597d-484e-a3b4-47cde24e435a)
-![marcelAtRange](https://github.com/user-attachments/assets/cd0abcb6-2d6f-486b-8270-f00a57ab6eb5)
-![spiritedDefense](https://github.com/user-attachments/assets/5b592526-b499-4b0f-9666-57d4acacda2e)
-![turnwheel](https://github.com/user-attachments/assets/cc55e614-f975-4f6b-8358-a69063f7d4bf)
-![introTextScroll](https://github.com/user-attachments/assets/0cc20e54-cb35-4fd8-86e2-26d7b510bc2a)
+| | |
+:-------------------------:|:-------------------------:
+![titlescreen](https://github.com/user-attachments/assets/dfee978f-57e5-4be5-8932-ba693c828a77) | ![characterList](https://github.com/user-attachments/assets/d99b930b-dd24-45e0-a473-551b307648bc) 
+![claudeSpeaks](https://github.com/user-attachments/assets/fa92ad69-6df5-4f82-a049-0c4d1ad35bfb) | ![madelineDoubleArts](https://github.com/user-attachments/assets/d271a1ad-fccd-4a7c-a966-a13433e56924)
+![combatForecast](https://github.com/user-attachments/assets/23e1a6ff-1756-43e5-97b5-10b88ef0d4aa)| ![camaraderie](https://github.com/user-attachments/assets/ee38b82a-597d-484e-a3b4-47cde24e435a)
+![marcelAtRange](https://github.com/user-attachments/assets/cd0abcb6-2d6f-486b-8270-f00a57ab6eb5)| ![spiritedDefense](https://github.com/user-attachments/assets/5b592526-b499-4b0f-9666-57d4acacda2e)
+![turnwheel](https://github.com/user-attachments/assets/cc55e614-f975-4f6b-8358-a69063f7d4bf)| ![introTextScroll](https://github.com/user-attachments/assets/0cc20e54-cb35-4fd8-86e2-26d7b510bc2a)
 
 ## FAQ
 

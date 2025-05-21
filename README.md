@@ -41,3 +41,5 @@ Fire Emblem is a turn-based tactical RPG developed by Intelligent Systems and pu
 
 ### [lt-maker](https://gitlab.com/rainlash/lt-maker)
 
+### [FE7-Alternative](https://github.com/cadbury-fe/FE7-Alternative)
+

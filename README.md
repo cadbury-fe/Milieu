@@ -1,7 +1,6 @@
 # Milieu
 3+ hour story-driven game made in the Lex Talionis engine. Released in March of 2024.
 
-### [FEUniverse page](https://feuniverse.us/t/lt-milieu-complete/24802)
 
 ## Synopsis
 Newlyweds Marcel and Madeline elope north to the border between Setanta (a country) and Crucible (a country).
